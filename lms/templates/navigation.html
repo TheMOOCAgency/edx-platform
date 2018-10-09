@@ -147,11 +147,6 @@ else :
 
 
 <%
-  if configuration_helpers.get_value('logo'):
-    logo_url=configuration_helpers.get_value('logo')
-  else :
-    logo_url=static.url('images/logo.png')
-
   if configuration_helpers.get_value('amundi_brand'):
     amundi_brand=True
     amundi_brand_url='/media/logo-amundiacademy_blanc.png'
@@ -176,9 +171,16 @@ else :
         <span class="icon-bar"></span>
       </button>
       %endif
-      <a class="navbar-brand ${separation_logos}" href="/dashboard" onclick="followClickEvents(this,'home','navigation')">
-        <img id="main_atp_logo" src="${logo_url}" />
-      </a>
+      %if configuration_helpers.get_value('logo'):
+        <a class="navbar-brand ${separation_logos}" href="/dashboard" onclick="followClickEvents(this,'home','navigation')">
+          <img id="main_atp_logo" src="${configuration_helpers.get_value('logo')}" />
+        </a>
+      %else :
+        <a class="navbar-brand ${separation_logos}" href="/dashboard" onclick="followClickEvents(this,'home','navigation')">
+          <img id="main_atp_logo" src="${static.url('images/logo.png')}" />
+        </a>
+      %endif
+
       % if amundi_brand :
       <a class="navbar-brand amundibrand_wrapper" href="/dashboard" onclick="followClickEvents(this,'home','navigation')">
         <img id="amundibrand_logo" src="${amundi_brand_url}" />
