@@ -1,5 +1,8 @@
 [main]
 host = https://www.transifex.com
+password = 2ZsYaPu5aHEW
+token = 1/261ca0bf90b8f73b4f120b92f429b9f621a8420f
+username = sysadmin@themoocagency.com
 
 [edx-platform.django-partial]
 file_filter = conf/locale/<lang>/LC_MESSAGES/django-partial.po

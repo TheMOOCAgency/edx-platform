@@ -1,0 +1,18 @@
+Multiple translations found for single string.
+	String "Confirm"
+	Present in files [u'lms/djangoapps/teams/static/teams/js/views/team_profile.js', u'lms/static/js/verify_student/views/reverify_view.js', u'lms/templates/verify_student/review_photos_step.underscore']
+Translations found were:
+	#-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
+Bevestigen
+#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+Bevestig
+
+Multiple translations found for single string.
+	String "Add Cohort"
+	Present in files [u'lms/static/js/groups/views/cohorts.js', u'lms/templates/instructor/instructor_dashboard_2/cohorts.underscore']
+Translations found were:
+	#-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
+Voeg cohorte toe
+#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+Voeg cohort toe
+

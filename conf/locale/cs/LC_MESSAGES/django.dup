@@ -1,0 +1,65 @@
+Multiple translations found for single string.
+	String "Discussion"
+	Present in files [u'cms/djangoapps/contentstore/views/component.py', u'lms/djangoapps/courseware/tabs.py', u'lms/djangoapps/discussion/plugins.py', u'openedx/core/lib/xblock_builtin/xblock_discussion/xblock_discussion/__init__.py', u'lms/djangoapps/discussion/templates/discussion/discussion_profile_page.html', u'lms/templates/ux/reference/bootstrap/course-skeleton.html']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+Diskuze
+#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
+Diskuse
+
+Multiple translations found for single string.
+	String "Verified"
+	Present in files [u'common/djangoapps/course_modes/helpers.py', u'lms/templates/instructor/instructor_dashboard_2/course_info.html']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+Ověřeno
+#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
+Verifikovaný
+
+Multiple translations found for single string.
+	String "Multiple Choice"
+	Present in files [u'common/lib/capa/capa/responsetypes.py', u'cms/templates/widgets/problem-edit.html']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+Výběr z variant
+#-#-#-#-#  mako-studio.po (edx-platform)  #-#-#-#-#
+Výběr z více odpovědí
+
+Multiple translations found for single string.
+	String "Submit"
+	Present in files [u'common/lib/xmodule/xmodule/capa_base.py', u'lms/templates/admin/user_api/accounts/cancel_retirement_action.html', u'cms/templates/index.html', u'cms/templates/videos_index_pagination.html', u'lms/templates/help_modal.html', u'lms/templates/manage_user_standing.html', u'lms/templates/register-shib.html', u'lms/templates/dashboard/_entitlement_reason_survey.html', u'lms/templates/dashboard/_reason_survey.html', u'lms/templates/peer_grading/peer_grading_problem.html', u'lms/templates/survey/survey.html', u'lms/templates/widgets/footer-language-selector.html', u'openedx/core/djangoapps/dark_lang/templates/dark_lang/preview-language-fragment.html', u'openedx/core/djangoapps/theming/templates/theming/theming-admin-fragment.html', u'themes/stanford-style/lms/templates/register-shib.html']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+Zaslat
+#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
+Odeslat
+
+Multiple translations found for single string.
+	String "Syllabus"
+	Present in files [u'lms/djangoapps/courseware/tabs.py', u'lms/templates/courseware/syllabus.html']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+Syllabus
+#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
+Sylabus
+
+Multiple translations found for single string.
+	String "Edit"
+	Present in files [u'lms/templates/wiki/edit.html', u'cms/templates/component.html', u'cms/templates/container.html', u'cms/templates/studio_xblock_wrapper.html', u'lms/templates/instructor/instructor_dashboard_2/e-commerce.html', u'lms/templates/wiki/includes/article_menu.html', u'wiki/templates/wiki/edit.html', u'wiki/templates/wiki/includes/article_menu.html']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+Upravit
+#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
+Upravit
+#-#-#-#-#  wiki.po (edx-platform)  #-#-#-#-#
+Editovat
+
+Multiple translations found for single string.
+	String "Email or password is incorrect."
+	Present in files [u'openedx/core/djangoapps/user_api/accounts/views.py', u'openedx/core/djangoapps/user_authn/views/login.py', u'lms/templates/provider_login.html']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+Email nebo heslo není správné.
+#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
+Email nebo heslo není správné
+

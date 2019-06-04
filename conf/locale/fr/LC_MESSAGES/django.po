@@ -22955,8 +22955,8 @@ msgid "No training modules available in this section."
 msgstr "Aucun module de formation n'est disponible dans cette section."
 
 #: lms dashboard.html
-msgid "Welcome on Amundi Academy platform"
-msgstr "Bienvenue sur la plateforme Amundi Academy "
+msgid "Welcome on Academy platform"
+msgstr "Bienvenue sur la plateforme Academy "
 
 #: lms dashboard.html
 msgid "You successfully registered"

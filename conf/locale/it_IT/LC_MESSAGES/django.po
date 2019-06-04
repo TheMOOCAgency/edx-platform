@@ -11547,8 +11547,8 @@ msgstr "Nessuna campagna di formazione è stata ancora lanciata."
 msgid "No training modules available in this section."
 msgstr "Nessun modulo di formazione disponibile in questa sezione."
 
-msgid "Welcome on Amundi Academy platform"
-msgstr "Benvenuto sulla piattaforma di Amundi Academy"
+msgid "Welcome on Academy platform"
+msgstr "Benvenuto sulla piattaforma di Academy"
 
 msgid "You successfully registered"
 msgstr "Ti sei registrato correttamente"

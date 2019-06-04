@@ -1,0 +1,27 @@
+Multiple translations found for single string.
+	String "Edit"
+	Present in files [u'common/lib/xmodule/xmodule/js/src/html/edit.js', u'cms/templates/js/certificate-details.underscore', u'cms/templates/js/course_info_handouts.underscore', u'cms/templates/js/course_info_update.underscore', u'cms/templates/js/group-configuration-details.underscore', u'cms/templates/js/partition-group-details.underscore', u'cms/templates/js/show-textbook.underscore', u'cms/templates/js/signatory-details.underscore', u'cms/templates/js/xblock-string-field-editor.underscore', u'common/static/common/templates/discussion/forum-action-edit.underscore']
+Translations found were:
+	#-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
+Editovat
+#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+Upravit
+
+Multiple translations found for single string.
+	String "Title"
+	Present in files [u'common/lib/xmodule/xmodule/js/src/html/edit.js', u'cms/templates/js/course-instructor-details.underscore', u'cms/templates/js/signatory-details.underscore', u'common/static/common/templates/discussion/new-post.underscore', u'common/static/common/templates/discussion/thread-edit.underscore']
+Translations found were:
+	#-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
+Titul
+#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+Název
+
+Multiple translations found for single string.
+	String "Check Your Email"
+	Present in files [u'lms/static/js/student_account/views/LoginView.js', u'lms/templates/verify_student/intro_step.underscore']
+Translations found were:
+	#-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
+Zkontrolujte svůj email
+#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+Zkontrolujte si Váš email
+

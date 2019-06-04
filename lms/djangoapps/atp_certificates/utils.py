@@ -34,8 +34,8 @@ def hex_to_rgb (hex) :
     return couleur_rgb
 
 def generate_html(user,score,course_img_path,template_path,course_title,categorie,certif_img_path,logo_path,amundi_academy,lang,user_name, primary_color, secondary_color):
-    font_main = ImageFont.truetype("/edx/app/edxapp/edx-platform/lms/static/fonts/arial.ttf",12)
-    font_big = ImageFont.truetype("/edx/var/edxapp/media/certificates/arialbld.ttf",15)
+    font_main = ImageFont.truetype("/edx/var/edxapp/media/certificates/OpenSans-Regular.ttf",12,  encoding="utf-8")
+    font_big = ImageFont.truetype("/edx/var/edxapp/media/certificates/OpenSans-Bold.ttf",15,  encoding="utf-8")
 
     marge_haute=30
     marge_laterale=40
@@ -95,6 +95,30 @@ def generate_html(user,score,course_img_path,template_path,course_title,categori
         "regulatory":"regulatory",
         "phrase":"The certificate of achievement for",
         "phrase2":"is attributed to"
+    },
+    "cs":{
+        "date_title":u"Datum",
+        "score_title":u"Skóre",
+        "category_label":u"Kategorie",
+        "fundamentals":u"OBECNÉ ZÁKLADY",
+        "fundamental":u"OBECNÉ ZÁKLADY",
+        "sales approach":u"OBCHODNÍ DOVEDNOSTI",
+        "our solutions":u"NAŠE ŘEŠENÍ",
+        "regulatory":u"REGULACE",
+        "phrase":u"Certfikát potvrzující",
+        "phrase2":u"úspěšně složený "
+    },
+    "nl":{
+        "date_title":u"Datum",
+        "score_title":u"Score",
+        "category_label":u"Categorie",
+        "fundamentals":u"BASISKENNIS",
+        "fundamental":u"ONZE OPLOSSINGEN",
+        "sales approach":u"ZAKELIJKE AANPAK",
+        "our solutions":u"NAŠE ŘEŠENÍ",
+        "regulatory":u"REGELGEVING",
+        "phrase":u"Het certificaat van voltooiing wordt",
+        "phrase2":u"toegekend aan"
     }
     }
 

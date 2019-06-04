@@ -1775,7 +1775,20 @@ language_setup={
             'sales approach' :'sales approach',
             'regulatory' : 'regulatory'
         }
-
+    },
+    "nl":{
+        'platform_lang' :'nl-nl',
+        'msg':'Na deze stap hebt u toegang tot de opleidingsmodule {0}.',
+        'obj':'Uitnodiging om opleidingsmodule {0} te volgen',
+        'title_mail' : [' Categorie','Duur','Wijze','Einddatum'],
+        'required':'verplicht',
+        'optional':'facultatief',
+        'categories':{
+            'fundamentals':'BASISKENNIS',
+            'our solutions':'ONZE OPLOSSINGEN',
+            'sales approach' :'ZAKELIJKE AANPAK',
+            'regulatory' : 'REGELGEVING'
+        }
     },
     'fr':{
         'platform_lang':'fr',
@@ -1814,10 +1827,24 @@ language_setup={
         'required':'obbligatorio',
         'optional':'facoltativo',
         'categories':{
-            'fundamentals':'grundlagen',
-            'our solutions':'unsere lösungen',
-            'sales approach' :'vertriebsansatz',
-            'regulatory' : 'vorschriften'
+            'fundamentals':'Fondamentali',
+            'our solutions':'Le noste soluzioni',
+            'sales approach' :'Approcio commerciale',
+            'regulatory' : 'reglomentazione'
+        }
+    },
+    'cs':{
+        'platform_lang':'cs',
+        'msg':'Po tomto kroku budete mít přístup k vzdělávacímu kurzu {0}.',
+        'obj' : ' Pozvánka k zahájení vzdělávacího kurzu  {0}',
+        'title_mail':['Kategorie','Trvání','Režim','Datum ukončení'],
+        'required':'povinné',
+        'optional':'volitelný',
+        'categories':{
+            'fundamentals':'OBECNÉ ZÁKLADY',
+            'our solutions':'NAŠE ŘEŠENÍ',
+            'sales approach' :'OBCHODNÍ DOVEDNOSTI',
+            'regulatory' : 'REGULACE'
         }
     }
 }

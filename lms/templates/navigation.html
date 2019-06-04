@@ -172,6 +172,14 @@ img.svg {
 #barre-nav-atp{
   min-height: 70px;
 }
+#cat_expert{
+  border-left:8px solid #004F9F !important;
+  display: none;
+}
+#cat_softskills{
+  border-left:8px solid #39B2B6 !important;
+  display:none
+}
 </style>
 
 <!-- import custom css script -->
@@ -252,6 +260,8 @@ else :
             <div id="cat_solu" class="submenu-item-atp" data-location="oursolutions" onclick="followClickEvents(this,my_categories-our_solutions,'navigation')">${_("Our solutions")}</div>
             <div id="cat_dem_com" class="submenu-item-atp" data-location="salesapproach" onclick="followClickEvents(this,'my_categories-sales_approach','navigation')">${_("Business approach")}</div>
             <div id="cat_reg" class="submenu-item-atp" data-location="regulatory" onclick="followClickEvents(this,'my_categories-regulatory','navigation')">${_("Regulatory")}</div>
+            <div id="cat_expert" class="submenu-item-atp" data-location="expert" onclick="followClickEvents(this,'my_categories-expert','navigation')">${_("Expert")}</div>
+            <div id="cat_softskills" class="submenu-item-atp" data-location="softskills" onclick="followClickEvents(this,'my_categories-softskills','navigation')">${_("Soft skills")}</div>            
             <div id="cat_all" class="submenu-item-atp" data-location="all" onclick="followClickEvents(this,'my_categories-all','navigation')">${_("All")}</div>
           </div>
         </li>

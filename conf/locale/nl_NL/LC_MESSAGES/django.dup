@@ -1,0 +1,29 @@
+Multiple translations found for single string.
+	String "Submit"
+	Present in files [u'common/lib/xmodule/xmodule/capa_base.py', u'lms/templates/admin/user_api/accounts/cancel_retirement_action.html', u'cms/templates/index.html', u'cms/templates/videos_index_pagination.html', u'lms/templates/help_modal.html', u'lms/templates/manage_user_standing.html', u'lms/templates/register-shib.html', u'lms/templates/dashboard/_entitlement_reason_survey.html', u'lms/templates/dashboard/_reason_survey.html', u'lms/templates/peer_grading/peer_grading_problem.html', u'lms/templates/survey/survey.html', u'lms/templates/widgets/footer-language-selector.html', u'openedx/core/djangoapps/dark_lang/templates/dark_lang/preview-language-fragment.html', u'openedx/core/djangoapps/theming/templates/theming/theming-admin-fragment.html', u'themes/stanford-style/lms/templates/register-shib.html']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+Versturen
+#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
+Verstuur
+
+Multiple translations found for single string.
+	String "Edit"
+	Present in files [u'lms/templates/wiki/edit.html', u'cms/templates/component.html', u'cms/templates/container.html', u'cms/templates/studio_xblock_wrapper.html', u'lms/templates/instructor/instructor_dashboard_2/e-commerce.html', u'lms/templates/wiki/includes/article_menu.html', u'wiki/templates/wiki/edit.html', u'wiki/templates/wiki/includes/article_menu.html']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+bewerken
+#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
+Bewerken
+#-#-#-#-#  wiki.po (edx-platform)  #-#-#-#-#
+Bewerken
+
+Multiple translations found for single string.
+	String "Replace"
+	Present in files [u'lms/templates/wiki/plugins/attachments/index.html', u'wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html', u'wiki/plugins/attachments/templates/wiki/plugins/attachments/replace.html', u'wiki/plugins/images/templates/wiki/plugins/images/sidebar.html']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+Vervang
+#-#-#-#-#  wiki.po (edx-platform)  #-#-#-#-#
+Vervangen
+
