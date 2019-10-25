@@ -1,9 +1,18 @@
 Multiple translations found for single string.
-	String "Status"
-	Present in files [u'cms/djangoapps/contentstore/views/videos.py', u'lms/djangoapps/shoppingcart/reports.py', u'lms/templates/shoppingcart/receipt.html']
+	String "Next"
+	Present in files [u'lms/templates/seq_module.html']
 Translations found were:
 	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
-Stato
+Avanti
 #-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
-Staus
+Prossimo
+
+Multiple translations found for single string.
+	String "next"
+	Present in files [u'lms/templates/sysadmin_dashboard_gitlogs.html']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+Avanti
+#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
+Successivo
 

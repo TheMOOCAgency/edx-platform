@@ -10874,7 +10874,7 @@ msgstr ""
 "Per continuare, clicca su"
 
 msgid "Proceed"
-msgstr "Procedi"
+msgstr "Avanti"
 
 msgid "COMPLETED TRAINING MODULES"
 msgstr "MODULI DI FORMAZIONE COMPLETATI"
@@ -11579,12 +11579,12 @@ msgid ""
 "\"Proceed\" to continue."
 msgstr ""
 "In questa sezione, accedi ai moduli di formazione che hai iniziato ma che "
-"non hai ancora completato. Per continuare, fare clic su \"Procedi\""
+"non hai ancora completato. Per continuare, fare clic su \"Avanti\""
 
 msgid "Below, access training modules you have yet to complete. Click"
 msgstr ""
-"In questa sezione, si accede ai moduli di formazione che si devono "
-"completare. Clicca su"
+"In questa sezione, si accede ai moduli di formazione da completare.  Clicca "
+"su"
 
 msgid "Click"
 msgstr ""
@@ -11644,3 +11644,11 @@ msgid ""
 msgstr ""
 "Sfortunatamente, non è stato raggiunto il punteggio minimo ({score}%) "
 "richiesto per convalidare il modulo di formazione."
+
+#: lms/templates/seq_module.html
+msgid "Next"
+msgstr "Avanti"
+
+#: lms/templates/sysadmin_dashboard_gitlogs.html
+msgid "next"
+msgstr "Avanti"
