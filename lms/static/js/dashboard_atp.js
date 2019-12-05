@@ -16,11 +16,6 @@ function tma_show_more() {
    $('#atp_tuto_arrow_up').removeClass('arrow-bottom');
    $('#atp_tuto_arrow_up').addClass('arrow-right');
   }
-  if(!$('#dashboard_header_atp').hasClass('border_atp_head')) {
-   $('#dashboard_header_atp').addClass('border_atp_head');
-  }else{
-   $('#dashboard_header_atp').removeClass('border_atp_head');
-  }
   var speed = 1800;
   $('#dashboard_tuto_atp').slideToggle(speed);
 

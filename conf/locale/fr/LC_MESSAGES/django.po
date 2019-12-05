@@ -23371,6 +23371,9 @@ msgstr "Couleur primaire"
 msgid "Secondary color"
 msgstr "Couleur secondaire"
 
+msgid "Header and footer color"
+msgstr "Couleur du header et du footer"
+
 msgid "No text"
 msgstr "Pas de contenu"
 

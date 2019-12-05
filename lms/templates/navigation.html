@@ -75,6 +75,10 @@ if configuration_helpers.get_value('primary_color') :
   primary_color = configuration_helpers.get_value('primary_color')
 else:
   primary_color='#05144d'
+if configuration_helpers.get_value('third_color') :
+  third_color = configuration_helpers.get_value('third_color')
+else:
+  third_color='#05144d'
 %>
 
 
@@ -114,6 +118,42 @@ else:
 }
 .secondary-color-fill{
   fill:${secondary_color}!important;
+}
+.secondary-color-bg{
+  background-color:${secondary_color}!important;
+}
+.secondary-color-text{
+  color:${secondary_color}!important;
+}
+.secondary-color-text{
+  color:${secondary_color}!important;
+}
+.secondary-color-fill{
+  fill:${secondary_color}!important;
+}
+.third-color-bg{
+  background-color:${third_color}!important;
+}
+.third-color-text{
+  color:${third_color}!important;
+}
+.third-color-text{
+  color:${third_color}!important;
+}
+.third-color-fill{
+  fill:${third_color}!important;
+}
+.third-color-bg{
+  background-color:${third_color}!important;
+}
+.third-color-text{
+  color:${third_color}!important;
+}
+.third-color-text{
+  color:${third_color}!important;
+}
+.third-color-fill{
+  fill:${third_color}!important;
 }
 .course_about_atp ul{
   color:${secondary_color}!important;
@@ -164,7 +204,7 @@ img.svg {
   }
 }
 .submenu-item-atp:hover{
-  border-top: 1px solid ${primary_color};
+  border-top: 1px solid ${third_color};
 }
 .separation-logos{
   height: 70px!important;
@@ -220,7 +260,7 @@ else :
 
 
 
-<nav id="barre-nav-atp" class="navbar navbar-default primary-color-bg primary-color-border navbar-fixed-top">
+<nav id="barre-nav-atp" class="navbar navbar-default third-color-bg third-color-border navbar-fixed-top">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -249,7 +289,7 @@ else :
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse primary-color-bg" id="bs-example-navbar-collapse-1">
+    <div class="collapse navbar-collapse third-color-bg" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
         % if "/dashboard" in request.path:
         <li class="nav-item dropdown" id="module_btn">
@@ -271,6 +311,8 @@ else :
             <div id="cat_solu" class="submenu-item-atp" data-location="oursolutions" onclick="followClickEvents(this,my_categories-our_solutions,'navigation')">${_("Our solutions")}</div>
             <div id="cat_dem_com" class="submenu-item-atp" data-location="salesapproach" onclick="followClickEvents(this,'my_categories-sales_approach','navigation')">${_("Business approach")}</div>
             <div id="cat_reg" class="submenu-item-atp" data-location="regulatory" onclick="followClickEvents(this,'my_categories-regulatory','navigation')">${_("Regulatory")}</div>
+            <div id="cat_dem_exp" class="submenu-item-atp" data-location="expert" onclick="followClickEvents(this,'my_categories-expert','navigation')">${_("Expert")}</div>
+            <div id="cat_dem_sofskil" class="submenu-item-atp" data-location="softskills" onclick="followClickEvents(this,'my_categories-soft_skills','navigation')">${_("Soft skills")}</div>
             <div id="cat_all" class="submenu-item-atp" data-location="all" onclick="followClickEvents(this,'my_categories-all','navigation')">${_("All")}</div>
           </div>
         </li>

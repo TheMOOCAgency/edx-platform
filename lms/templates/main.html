@@ -31,6 +31,10 @@ if configuration_helpers.get_value('primary_color') :
   primary_color = configuration_helpers.get_value('primary_color')
 else:
   primary_color='#05144d'
+if configuration_helpers.get_value('third_color') :
+  third_color = configuration_helpers.get_value('third_color')
+else:
+  third_color='#05144d'
 %>
 
 <!DOCTYPE html>
@@ -73,6 +77,12 @@ else:
   <style>
     #sequence-list li button.nav-item h3:before, #sequence-list li button.result-score h3:before{
       display: none!important;
+    }
+    .third-color-text{
+      color:${third_color};
+    }
+    .third-color-bg{
+      background-color: ${third_color};
     }
   </style>
 

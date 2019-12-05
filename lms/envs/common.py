@@ -2162,7 +2162,8 @@ INSTALLED_APPS = (
     'tma_grade_tracking',
     'end_courses_atp',
     'atp_task',
-    'rosetta'
+    'rosetta',
+    'import_export'
 )
 
 # Migrations which are not in the standard module "migrations"

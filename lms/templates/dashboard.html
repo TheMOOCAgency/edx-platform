@@ -37,7 +37,6 @@ url_array.append('images/3connaissance.jpg')
 url_array.append('images/4environement.jpg')
 url_image = random.choice(url_array)
 
-
 if configuration_helpers.get_value('primary_color') :
   primary_color=configuration_helpers.get_value('primary_color')
 else:
@@ -175,18 +174,18 @@ dashboard = static.get_value('css_overrides_dashboard')
         display: block;
       }
     </style>
-  %elif category.lower() =="soft skills":
-  <style>
-    #cat_softskills{
-      display: block;
-    }
-  </style>
-  %elif category.lower() =="expert":
-  <style>
-    #cat_expert{
-      display: block;
-    }
-  </style>
+  %elif category.lower() =="soft skills ":
+    <style>
+      #cat_softskills{
+        display: block;
+      }
+    </style>
+  %elif category.lower() =="expert ":
+    <style>
+      #cat_expert{
+        display: block;
+      }
+    </style>
   %elif category.lower() =="our solutions" :
     <style>
       #cat_solu{
@@ -197,6 +196,20 @@ dashboard = static.get_value('css_overrides_dashboard')
    <style>
      #cat_dem_com{
        display: block;
+     }
+   </style>
+ %elif category.lower() =="soft skills" :
+   <style>
+     #cat_dem_sofskil{
+       display: block;
+       border-left:8px solid #30B0B4!important;
+     }
+   </style>
+ %elif category.lower() =="expert" :
+   <style>
+     #cat_dem_exp{
+       display: block;
+       border-left:8px solid #006a82!important;
      }
    </style>
  %elif category.lower() =="regulatory" :

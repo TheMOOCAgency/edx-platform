@@ -3,6 +3,9 @@ from django import forms
 from django.contrib.auth import get_user_model
 from django.contrib.auth.admin import UserAdmin as BaseUserAdmin
 from django.utils.translation import ugettext_lazy as _
+
+from import_export.admin import ImportExportModelAdmin
+
 from opaque_keys import InvalidKeyError
 from opaque_keys.edx.keys import CourseKey
 from ratelimitbackend import admin
@@ -141,7 +144,7 @@ class LinkedInAddToProfileConfigurationAdmin(admin.ModelAdmin):
 
 
 @admin.register(CourseEnrollment)
-class CourseEnrollmentAdmin(admin.ModelAdmin):
+class CourseEnrollmentAdmin(ImportExportModelAdmin):
     """ Admin interface for the CourseEnrollment model. """
     list_display = ('id', 'course_id', 'mode', 'user', 'is_active',)
     list_filter = ('mode', 'is_active',)
@@ -155,7 +158,7 @@ class CourseEnrollmentAdmin(admin.ModelAdmin):
         model = CourseEnrollment
 
 @admin.register(UserPreprofile)
-class UserPreprofileAdmin(admin.ModelAdmin):
+class UserPreprofileAdmin(ImportExportModelAdmin):
     """ Admin interface for the UserPreprofile model. """
     list_display = ('email', 'last_name', 'first_name')
     search_fields = ['email'] 
@@ -171,13 +174,13 @@ class UserProfileInline(admin.StackedInline):
     verbose_name_plural = _('User profile')
 
 
-class UserAdmin(BaseUserAdmin):
+class UserAdmin(BaseUserAdmin,ImportExportModelAdmin):
     """ Admin interface for the User model. """
     inlines = (UserProfileInline,)
 
 
 @admin.register(UserAttribute)
-class UserAttributeAdmin(admin.ModelAdmin):
+class UserAttributeAdmin(ImportExportModelAdmin):
     """ Admin interface for the UserAttribute model. """
     list_display = ('user', 'name', 'value',)
     list_filter = ('name',)

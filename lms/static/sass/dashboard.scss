@@ -353,10 +353,6 @@
  font-weight: bold;
 }
 
-/* class add in JQUERY */
-#dashboard_header_atp.border_atp_head {
- border-bottom: 2px solid black;
-}
 /* course_cards css */
 .atp_course_listing {
  width: 100%;
@@ -677,6 +673,14 @@ font-size:50px !important;
 
 #dashboard_tuto_atp_3,#sub_menu #cat_solu {
  border-left-color: rgb(193,145,53) !important;
+}
+
+#dashboard_tuto_atp_3,#sub_menu #cat_dem_exp {
+ border-left-color: rgb(69,114,150) !important;
+}
+
+#dashboard_tuto_atp_3,#sub_menu #cat_dem_sofskil {
+ border-left-color: rgb(230,50,94) !important;
 }
 
 #dashboard_tuto_atp_4,#sub_menu #cat_reg {

@@ -1011,7 +1011,10 @@ INSTALLED_APPS = (
     'microsite_manager',
 
     # Rosetta
-    'rosetta'
+    'rosetta',
+
+    # CSV EXPORT IMPORT
+    'import_export'
 
 )
 
