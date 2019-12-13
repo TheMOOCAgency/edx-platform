@@ -1768,7 +1768,9 @@ language_setup={
             'fundamentals':'fundamentals',
             'our solutions':'our solutions',
             'sales approach' :'sales approach',
-            'regulatory' : 'regulatory'
+            'regulatory' : 'regulatory',
+            'expert':'expert',
+            'soft skills':'soft skills'
         }
     },
     "nl":{
@@ -1799,6 +1801,8 @@ language_setup={
             'our solutions':'nos solutions',
             'sales approach' :'démarche commerciale',
             'regulatory' : 'réglementaire'
+            'expert':'experts',
+            'soft skills':'Démarche commerciale'
         }
 
     },
@@ -1842,9 +1846,11 @@ language_setup={
         'optional':'volitelný',
         'categories':{
             'fundamentals':'OBECNÉ ZÁKLADY',
-            'our solutions':'NAŠE ŘEŠENÍ',
+            'our solutions':'ZÁKLADNÍ ŘEŠENÍ',
             'sales approach' :'OBCHODNÍ DOVEDNOSTI',
-            'regulatory' : 'REGULACE'
+            'regulatory' : 'REGULACE',
+            'expert':'DOPLŇKOVÁ ŘEŠENÍ',
+            'soft skills':'PRODEJNÍ DOVEDNOSTI'
         }
     }
 }
