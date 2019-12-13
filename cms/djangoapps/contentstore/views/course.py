@@ -1785,7 +1785,9 @@ language_setup={
             'fundamentals':'BASISKENNIS',
             'our solutions':'ONZE OPLOSSINGEN',
             'sales approach' :'ZAKELIJKE AANPAK',
-            'regulatory' : 'REGELGEVING'
+            'regulatory' : 'REGELGEVING',
+            'expert':'expert',
+            'soft skills':'soft skills'
         }
     },
     'fr':{
@@ -1800,7 +1802,7 @@ language_setup={
             'fundamentals':'fondamentaux',
             'our solutions':'nos solutions',
             'sales approach' :'démarche commerciale',
-            'regulatory' : 'réglementaire'
+            'regulatory' : 'réglementaire',
             'expert':'experts',
             'soft skills':'Démarche commerciale'
         }
@@ -1818,7 +1820,9 @@ language_setup={
             'fundamentals':'grundlagen',
             'our solutions':'unsere lösungen',
             'sales approach' :'vertriebsansatz',
-            'regulatory' : 'vorschriften'
+            'regulatory' : 'vorschriften',
+            'expert':'experten',
+            'soft skills':'Kommerzieller Ansatz'
         }
     },
     'it':{
@@ -1833,7 +1837,9 @@ language_setup={
             'fundamentals':'Fondamentali',
             'our solutions':'Le noste soluzioni',
             'sales approach' :'Approcio commerciale',
-            'regulatory' : 'reglomentazione'
+            'regulatory' : 'reglomentazione',
+            'expert':'esperti',
+            'soft skills':'Approccio commerciale'
         }
     },
     'cs':{
