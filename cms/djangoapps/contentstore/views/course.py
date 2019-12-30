@@ -1853,10 +1853,10 @@ language_setup={
         'categories':{
             'fundamentals':'OBECNÉ ZÁKLADY',
             'our solutions':'ZÁKLADNÍ ŘEŠENÍ',
-            'sales approach' :'OBCHODNÍ DOVEDNOSTI',
+            'sales approach' :'PRODEJNÍ PŘÍSTUP',
             'regulatory' : 'REGULACE',
-            'expert':'DOPLŇKOVÁ ŘEŠENÍ',
-            'soft skills':'PRODEJNÍ DOVEDNOSTI'
+            'expert':'OBCHODNÍ DOVEDNOSTI',
+            'soft skills':'KOMERČNÍ PŘÍSTUP'
         }
     }
 }

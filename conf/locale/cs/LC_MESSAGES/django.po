@@ -24659,34 +24659,34 @@ msgid "categories"
 msgstr "kategorie"
 
 msgid "FUNDAMENTALS"
-msgstr "OBECNĚ K TRHŮM"
+msgstr "OBECNÉ ZÁKLADY"
 
 msgid "Fundamentals"
-msgstr "Obecně k trhům"
+msgstr "Obecné Základy
 
 msgid "fundamentals"
-msgstr "obecně k trhům"
+msgstr "Obecné Základy"
 
 msgid "FUNDAMENTAL"
-msgstr "OBECNĚ K TRHŮM"
+msgstr "OBECNÉ ZÁKLADY"
 
 msgid "Fundamental"
-msgstr "Obecně k trhům"
+msgstr "Obecné Základy"
 
 msgid "fundamental"
-msgstr "obecně k trhům"
+msgstr "Obecné Základy"
 
 msgid "BUSINESS APPROACH"
-msgstr "OBCHODNÍ PŘÍSTUP"
+msgstr "PRODEJNÍ PŘÍSTUP"
 
 msgid "Business approach"
-msgstr "Obchodní přístup"
+msgstr "Prodejní přístup"
 
 msgid "SALES APPROACH"
-msgstr "PRODEJNÍ DOVEDNOSTI"
+msgstr "PRODEJNÍ PŘÍSTUP"
 
 msgid "Sales approach"
-msgstr "Prodejní dovednosti"
+msgstr "Prodejní přístup"
 
 msgid "REGULATORY"
 msgstr "REGULACE"
@@ -25526,22 +25526,22 @@ msgid "An email invitation to participate to the training module has been sent t
 msgstr "Emailová pozvánka k vzdělávacímu kurzu byla odeslána ,účastníkům."
 
 msgid "OUR SOLUTIONS"
-msgstr "NAŠE ŘEŠENÍ"
+msgstr "ZÁKLADNÍ ŘEŠENÍ"
 
 msgid "Our solutions"
-msgstr "Naše řešení"
+msgstr "Základní řešení"
 
 msgid "our solutions"
-msgstr "Naše řešení"
+msgstr "Základní řešení"
 
 msgid "OUR SOLUTION"
-msgstr "NAŠE ŘEŠENÍ"
+msgstr "ZÁKLADNÍ ŘEŠENÍ"
 
 msgid "Our solution"
-msgstr "Naše řešení"
+msgstr "Základní řešení"
 
 msgid "our solution"
-msgstr "Naše řešení"
+msgstr "Základní řešení"
 
 msgid "To create your training campaign, you have to specify an unique ID and the target of your training campaign. Please, note that the target wording will be indicated in the statistics of this training campaign."
 msgstr "pro vytvoření kampaně je nutné zadat unikátní ID a cíl kampaně. Uvedený cíl bude zobrazen ve statistikách této vzdělávací kampaně."
@@ -25652,10 +25652,10 @@ msgid "Myself"
 msgstr "Jen mně (TEST)"
 
 msgid "soft skills"
-msgstr "Prodejní dovednosti"
+msgstr "Komerční přístup"
 
 msgid "expert"
-msgstr "Expertýza"
+msgstr "Obchodní Dovednosti"
 
 msgid "video"
 msgstr "Video"

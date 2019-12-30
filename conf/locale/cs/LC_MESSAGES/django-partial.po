@@ -11180,16 +11180,16 @@ msgid "fundamental"
 msgstr "obecně k trhům"
 
 msgid "BUSINESS APPROACH"
-msgstr "OBCHODNÍ PŘÍSTUP"
+msgstr "PRODEJNÍ PŘÍSTUP"
 
 msgid "Business approach"
-msgstr "Obchodní přístup"
+msgstr "Prodejní přístup"
 
 msgid "SALES APPROACH"
-msgstr "PRODEJNÍ DOVEDNOSTI"
+msgstr "PRODEJNÍ PŘÍSTUP"
 
 msgid "Sales approach"
-msgstr "Prodejní dovednosti"
+msgstr "Prodejní přístup"
 
 msgid "REGULATORY"
 msgstr "REGULACE"
@@ -12151,10 +12151,16 @@ msgid "Myself"
 msgstr "Jen mně (TEST)"
 
 msgid "soft skills"
-msgstr "Prodejní dovednosti"
+msgstr "Komerční přístup"
+
+msgid "SOFT SKILLS"
+msgstr "KOMERČNÍ PŘÍSTUP"
 
 msgid "expert"
-msgstr "Expertýza"
+msgstr "Obchodní Dovednosti"
+
+msgid "Expert"
+msgstr "Obchodní Dovednosti"
 
 msgid "video"
 msgstr "Video"
