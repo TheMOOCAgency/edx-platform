@@ -1897,8 +1897,10 @@ def invite_handler(request, course_key_string):
         request_type = request.POST.get('request_type')
         csv_file = request.FILES.get('file')
         regex_email = r'[\w\.-]+@[\w\.-]+(\.[\w]+)+'
+        notify_participants = json.loads(request.POST.get('notify_participants'),'true')
 
         log.info("invite_handler: start")
+        log.info("notify participants: "+pformat(notify_participants))
 
         # IF NEED ONLY TO PRE REGISTER USERS FROM AN ADRESS MAIL
         if request_type == 'register_only' and csv_file :
@@ -1951,7 +1953,7 @@ def invite_handler(request, course_key_string):
                 #Decide between SEM or ATP mail
                 if re.search(regex_email,atp_student['email']) :
                     log.info("invite_handler: email is valid")
-                    if User.objects.filter(email=atp_student['email']).exists():
+                    if User.objects.filter(email=atp_student['email']).exists() and notify_participants:
                         send_values = [
                                 {
                                  "first_name":atp_student['first_name'],
