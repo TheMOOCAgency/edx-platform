@@ -23448,3 +23448,6 @@ msgstr "Experts"
 
 msgid "Unfortunately, you haven't achieved the minimum score ({score}%) required to validate the training module."
 msgstr "Malheureusement, vous n'avez pas atteint le score minimum requis ({score}%) pour valider ce module."
+
+msgid "Notify participants"
+msgstr "Notifier les participants"
