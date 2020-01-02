@@ -12153,13 +12153,22 @@ msgstr "Jen mně (TEST)"
 msgid "soft skills"
 msgstr "Komerční přístup"
 
+msgid "Soft skills"
+msgstr "Komerční přístup"
+
+msgid "Soft Skills"
+msgstr "Komerční přístup"
+
 msgid "SOFT SKILLS"
-msgstr "KOMERČNÍ PŘÍSTUP"
+msgstr "Komerční přístup"
 
 msgid "expert"
 msgstr "Obchodní Dovednosti"
 
 msgid "Expert"
+msgstr "Obchodní Dovednosti"
+
+msgid "EXPERT"
 msgstr "Obchodní Dovednosti"
 
 msgid "video"
