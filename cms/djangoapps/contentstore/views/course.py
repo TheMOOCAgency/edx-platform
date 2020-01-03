@@ -1855,8 +1855,8 @@ language_setup={
             'our solutions':'ZÁKLADNÍ ŘEŠENÍ',
             'sales approach' :'PRODEJNÍ PŘÍSTUP',
             'regulatory' : 'REGULACE',
-            'expert':'OBCHODNÍ DOVEDNOSTI',
-            'soft skills':'KOMERČNÍ PŘÍSTUP'
+            'expert':'DOPLŇKOVÁ ŘEŠENÍ',
+            'soft skills':'OBCHODNÍ DOVEDNOSTI'
         }
     }
 }
