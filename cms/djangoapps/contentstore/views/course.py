@@ -1856,7 +1856,7 @@ language_setup={
             'sales approach' :'PRODEJNÍ PŘÍSTUP',
             'regulatory' : 'REGULACE',
             'expert':'DOPLŇKOVÁ ŘEŠENÍ',
-            'soft skills':'OBCHODNÍ DOVEDNOSTI'
+            'soft skills':'PRODEJNÍ DOVEDNOSTI'
         }
     }
 }

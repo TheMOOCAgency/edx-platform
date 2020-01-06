@@ -12160,16 +12160,16 @@ msgid "EXPERT"
 msgstr "Doplňková řešení"
 
 msgid "soft skills"
-msgstr "Obchodní Dovednosti"
+msgstr "Prodejní Dovednosti"
 
 msgid "Soft skills"
-msgstr "Obchodní Dovednosti"
+msgstr "Prodejní Dovednosti"
 
 msgid "Soft Skills"
-msgstr "Obchodní Dovednosti"
+msgstr "Prodejní Dovednosti"
 
 msgid "SOFT SKILLS"
-msgstr "Obchodní Dovednosti"
+msgstr "Prodejní Dovednosti"
 
 msgid "video"
 msgstr "Video"

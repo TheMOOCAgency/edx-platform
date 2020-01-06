@@ -115,7 +115,7 @@ def generate_html(user,score,course_img_path,template_path,course_title,categori
         "regulatory":u"Regulace",
         "phrase":u"Osvědčení o úspěšném absolvování vzdělávacího kurzu:",
         "phrase2":u"pro",
-        "soft skills":u"Obchodní dovednosti",
+        "soft skills":u"Prodejní dovednosti",
         "expert":u"Doplňková řešení",
     },
     "nl":{
