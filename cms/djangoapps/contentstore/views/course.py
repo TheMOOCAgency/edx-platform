@@ -1858,6 +1858,23 @@ language_setup={
             'expert':'DOPLŇKOVÁ ŘEŠENÍ',
             'soft skills':'PRODEJNÍ DOVEDNOSTI'
         }
+    },
+    'ro':{
+        'platform_lang':'ro',
+        'sem_lang' :'ro',
+        'msg':'Dupa ce ai trecut de acest pas, vei putea accesa modulele de training {0}.',
+        'obj' : 'Invitatie de a accesa modulul de training  {0}',
+        'title_mail':['Categoria','Durata','Modul','Data de incheiere'],
+        'required':'obligatoriu',
+        'optional':'optional',
+        'categories':{
+            'fundamentals':'PRINCIPII FUNDAMENTALE',
+            'our solutions':'SOLUTIILE NOASTRE',
+            'sales approach' :'ABORDARE DE VANZARI',
+            'regulatory' : 'ORGANISM DE REGLEMENTARE',
+            'expert':'EXPERT',
+            'soft skills':'ABILITĂȚI SOFT'
+        }
     }
 }
 
