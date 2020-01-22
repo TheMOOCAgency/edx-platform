@@ -11635,7 +11635,7 @@ msgstr "Zadejte zda-li je kampaň povinná nebo volitelná"
 
 #: cms/templates/manage_course.html
 msgid "mandatory"
-msgstr "povinné"
+msgstr "povinný"
 
 #: cms/templates/manage_course.html
 msgid "optional"
@@ -11782,7 +11782,7 @@ msgstr "V této sekci nejsou dostupné žádné vzdělávací kurzy."
 # lms dashboard.html
 
 msgid "Welcome to the Academy platform"
-msgstr "Vítejte v platformě Academy"
+msgstr "Vítejte v Investiční akademii Amundi"
 
 # lms dashboard.html
 
@@ -11797,7 +11797,7 @@ msgstr "vzdělávací kurz"
 # lms dashboard.html
 
 msgid "is available in the section"
-msgstr "je dostupný v této sekci"
+msgstr "je dostupný v sekci"
 
 # cms index.html
 
@@ -12192,4 +12192,3 @@ msgstr "kvíz"
 #DASHBOARD.HTML
 msgid "Below are training modules you have started but not yet completed. Click \"Proceed\" to continue."
 msgstr "Hier vindt u de leermodules die u bent gestart. Om ze af te werken klikt \"Doorgaan\""
-

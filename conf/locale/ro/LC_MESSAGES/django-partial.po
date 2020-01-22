@@ -9806,10 +9806,6 @@ msgstr ""
 msgid "Schedule start < course start"
 msgstr ""
 
-#: openedx/core/djangoapps/schedules/admin.py:113
-msgid "All"
-msgstr ""
-
 #: openedx/core/djangoapps/schedules/admin.py:153
 msgid "Experience"
 msgstr ""
@@ -11109,7 +11105,7 @@ msgid "Regulatory"
 msgstr "Organism de reglementare"
 
 msgid "regulatory"
-msgid "organism de reglementare"
+msgstr "organism de reglementare"
 
 msgid "Develop your knowledge and skills on asset management: financial culture and products and offers marketed"
 msgstr "Dezvolta-ti cunostintele si aptitudinile in administrarea investitiilor: cultura financiara, produsele si ofertele prezentate"
@@ -11242,9 +11238,6 @@ msgstr "Data de final"
 
 msgid "Disclaimer"
 msgstr "Disclaimer"
-
-msgid
-msgstr ""
 
 msgid "Back to course about page"
 msgstr "Inapoi la descrierea cursului"
@@ -11509,7 +11502,7 @@ msgstr "Programeaza campania de training."
 
 #: cms/templates/manage_course.html
 msgid "Time for email invitation dispatch UTC"
-msgstr ""Timpul pentru trimitrerea invitaiilor pe email"
+msgstr "Timpul pentru trimitrerea invitaiilor pe email"
 
 #: cms/templates/manage_course.html
 msgid "The day the first invitations are dispatched when launching the training campaign"
@@ -11597,7 +11590,7 @@ msgstr "Personalizeaza lista de participanti"
 
 #: cms/templates/manage_course.html
 msgid "If you want to send the invitation email to the training campaign to a customized list of participants, please copy/paste the email recipients above. Remember that invitation emails can be sent only to the participants who have been invited to participate to the training campaign in the section 1/2 PARTICIPANTS."
-msgstr "Daca doresti sa trimiti invitatii la campania de training unei liste personalizate de participnati, te rugam sa copiezi deasupra lista celor care vor primi aceste emailuri. Retine ca emailurile ce contin invitatiile pot fi trimise participantilor care au fost invitati sa participe la campania de training in sesiunea 1/2 PARTICIPANTII.""
+msgstr "Daca doresti sa trimiti invitatii la campania de training unei liste personalizate de participnati, te rugam sa copiezi deasupra lista celor care vor primi aceste emailuri. Retine ca emailurile ce contin invitatiile pot fi trimise participantilor care au fost invitati sa participe la campania de training in sesiunea 1/2 PARTICIPANTII."
 
 #: cms/templates/manage_course.html
 msgid "Object"
@@ -11739,7 +11732,7 @@ msgstr "Acceseaza interfata pentru Administrator"
 
 #lms stat.html
 msgid "editor"
-msgid "editor"
+msgstr "editor"
 
 #lms stat.html
 msgid "Results on "
@@ -11911,7 +11904,7 @@ msgstr "Personalizeaza lista de trimitere a emailurilor"
 
 #cms mail.html
 msgid "If you want to send an email to a customized mailing list, please copy/paste email addresses above. Emails will only be sent to receivers that have been invited to participate to the training campaign in the section 'Invite participants'."
-msgstr "Daca doresti sa trimiti email unei lista personalizate, te rugam sa copiezi adresele de email deasupra. Emailurile vor fi trimite numai catre cei are au fost invitati sa participe la campania de training in sectiunea "Invita participanti"."
+msgstr "Daca doresti sa trimiti email unei lista personalizate, te rugam sa copiezi adresele de email deasupra. Emailurile vor fi trimite numai catre cei are au fost invitati sa participe la campania de training in sectiunea 'Invita participanti'."
 
 #cms mail.html
 msgid "Object of the email"
@@ -11919,7 +11912,7 @@ msgstr "Subiectul emailului"
 
 #cms mail.html
 msgid "WARNING : Before clicking on 'Send', please read your text carefully and send an email to yourself. This will allow you to validate text and links are correct."
-msgstr "ATENTIE: Inainte de a apasa pe "Trimite", te rugam sa citesti textul cu atentie si sa trimiti emailul intai catre tine. Acest lucru iti va permite sa validezi textul si link-urile."
+msgstr "ATENTIE: Inainte de a apasa pe 'Trimite', te rugam sa citesti textul cu atentie si sa trimiti emailul intai catre tine. Acest lucru iti va permite sa validezi textul si link-urile."
 
 msgid "Body of the email"
 msgstr "Corpul emailului"
