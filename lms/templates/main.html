@@ -209,6 +209,141 @@ var language_at="${LANGUAGE_CODE}";
 var subdomain=window.location.host.split('.')[0];
 var level2_at = 0;
 
+var correspondingSubDomain = [
+        {
+            "subdomain": "amundi",
+            "lang": "en",
+            "level2_at": "3"
+        },
+        {
+            "subdomain": "amundi",
+            "lang": "fr",
+            "level2_at": "2"
+        },
+        {
+            "subdomain": "amundi",
+            "lang": "it",
+            "level2_at": "14"
+        },
+        {
+            "subdomain": "lcl",
+            "lang": "fr",
+            "level2_at": "4"
+        },
+        {
+            "subdomain": "canextbank",
+            "lang": "de",
+            "level2_at": "5"
+        },
+        {
+            "subdomain": "canextbank",
+            "lang": "fr",
+            "level2_at": "6"
+        },
+        {
+            "subdomain": "etoilegestion",
+            "lang": "fr",
+            "level2_at": "9"
+        },
+        {
+            "subdomain": "etf",
+            "lang": "en",
+            "level2_at": "11"
+        },
+        {
+            "subdomain": "etf",
+            "lang": "de",
+            "level2_at": "13"
+        },
+        {
+            "subdomain": "etf",
+            "lang": "fr",
+            "level2_at": "10"
+        },
+        {
+            "subdomain": "etf",
+            "lang": "it",
+            "level2_at": "12"
+        },
+        {
+            "subdomain": "bankaustria",
+            "lang": "de",
+            "level2_at": "15"
+        },
+        {
+            "subdomain": "sbi",
+            "lang": "en",
+            "level2_at": "16"
+        },
+        {
+            "subdomain": "kb",
+            "lang": "en",
+            "level2_at": "17"
+        },
+        {
+            "subdomain": "kb",
+            "lang": "cz",
+            "level2_at": "18"
+        },
+        {
+            "subdomain": "crelan",
+            "lang": "fr",
+            "level2_at": "7"
+        },
+        {
+            "subdomain": "crelan",
+            "lang": "nl",
+            "level2_at": "8"
+        },
+        {
+            "subdomain": "sgpb",
+            "lang": "fr",
+            "level2_at": "19"
+        },
+        {
+            "subdomain": "ucb-cz",
+            "lang": "cz",
+            "level2_at": "20"
+        },
+        {
+            "subdomain": "ucb-ro",
+            "lang": "ro",
+            "level2_at": "21"
+        },
+        {
+            "subdomain": "ucb-sk",
+            "lang": "sk",
+            "level2_at": "22"
+        },
+        {
+            "subdomain": "midacademy",
+            "lang": "en",
+            "level2_at": "23"
+        },
+        {
+            "subdomain": "midacademy",
+            "lang": "fr",
+            "level2_at": "24"
+        },
+        {
+            "subdomain": "ucb-hu",
+            "lang": "hu",
+            "level2_at": "25"
+        },
+        {
+            "subdomain": "myacademy",
+            "lang": "en",
+            "level2_at": "26"
+        }
+    ]
+
+
+for (let i = 0; i < correspondingSubDomain.length; i++) {
+  if(subdomain == correspondingSubDomain[i].subdomain && language_at == correspondingSubDomain[i].lang){
+      level2_at= correspondingSubDomain[i].lang2_at;
+  }
+}
+/*
 if(subdomain == 'amundi' && language_at == 'fr'){
     level2_at=2;
 }
@@ -227,7 +362,7 @@ else if(subdomain == 'canextbank' && language_at == 'de-de'){
 else if(subdomain == 'crelan' && language_at == 'fr'){
     level2_at=7;
 }
-
+*/
 if(!page_name){
   page_name="amundi_academy_page"
 }

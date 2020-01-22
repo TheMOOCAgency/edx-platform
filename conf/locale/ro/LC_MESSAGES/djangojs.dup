@@ -1,0 +1,18 @@
+Multiple translations found for single string.
+	String "Remove"
+	Present in files [u'cms/static/js/views/course_video_settings.js', u'cms/static/js/views/metadata.js', u'cms/static/js/views/previous_video_upload.js', u'cms/static/js/views/video_transcripts.js', u'lms/djangoapps/teams/static/teams/js/views/edit_team_members.js', u'lms/static/js/views/image_field.js', u'cms/templates/js/video/metadata-translations-item.underscore', u'lms/djangoapps/teams/static/teams/templates/edit-team-member.underscore']
+Translations found were:
+	#-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
+Înlătură
+#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+Inlatura
+
+Multiple translations found for single string.
+	String "Confirm"
+	Present in files [u'lms/djangoapps/teams/static/teams/js/views/team_profile.js', u'lms/static/js/verify_student/views/reverify_view.js', u'lms/templates/verify_student/review_photos_step.underscore']
+Translations found were:
+	#-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
+Confirmă
+#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+Confirmare
+
