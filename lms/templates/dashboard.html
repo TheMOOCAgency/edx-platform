@@ -233,6 +233,8 @@ dashboard = static.get_value('css_overrides_dashboard')
   <%include file='/home-intros/de-home-intro.html' args="static=static, url_image=url_image" />
 % elif LANGUAGE_CODE == 'nl-nl':
   <%include file='/home-intros/nl-home-intro.html' args="static=static, url_image=url_image" />
+% elif LANGUAGE_CODE == 'ro':
+  <%include file='/home-intros/ro-home-intro.html' args="static=static, url_image=url_image" />
 %else :
   <%include file='/home-intros/en-home-intro.html' args="static=static, url_image=url_image" />
 % endif
