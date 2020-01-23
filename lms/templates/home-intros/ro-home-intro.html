@@ -1,0 +1,73 @@
+<%page expression_filter="h" args="static, url_image"/>
+
+
+<section id="dashboard_header_atp" class="third-color-border">
+  <img src="${static.url(url_image)}" alt="" class="header-mobile">
+  <div id="dashboard_header_content">
+    <p class="primary-color-text">BINE AI VENIT PE PLATFORMA DE TRAINING</p>
+    <!--
+    <div id="logo-amundiacademy">
+      <img src="${static.url('images/logo-amundiacademy.png')}" />
+    </div>
+    -->
+    <p id="intro-phrase-header" class="primary-color-text">Acceseaza modulele tale de training</p>
+    <span class="tuto_action bouton-more primary-color-text primary-color-text" onclick="followClickEvents(this,'more','navigation')">Mai <span>▶</span></span>
+  </div>
+</section>
+      <!-- tuto  -->
+<section id="dashboard_tuto_atp" class="primary-color-border">
+  <!-- module 1 -->
+  <div class="dashboard_tuto_atp primary-color-border" id="tuto_module_1">
+    <p class="primary-color-text">Pentru a urmari modulul de training, selecteaza cardul dorit!</p>
+    <p style="margin-top: 0;margin-bottom: 0;" class="primary-color-text">Fiecare modul de training este clasificat intr-o categorie si poate sa aiba formate diferite.</p>
+  </div>
+  <!-- module 2 -->
+              <div class="dashboard_tuto_atp primary-color-border">
+    <h3 class="primary-color-text">MODULELE DE TRAINING</h3>
+    <p class="modules-subtext primary-color-text">Gaseste toate informatiile cu privire la modulele de training cotinute in cardurile de mai jos: titlul modului, categoria, timpul necesar pentru parcurgerea modulului, daca parcurgerea sa este obligatorie sau nu si formatul sau digital.</p>
+    <img src="${static.url('images/cartes.png')}" id="img_dashboard_tuto_cartes"/>
+              </div>
+  <!-- module 3 -->
+              <div class="dashboard_tuto_atp primary-color-border">
+    <h3 class="primary-color-text">CATEGORIILE MODULELOR DE TRAINING</h3>
+    <p class="primary-color-text">Modulele tale de training sunt clasificate in 4 categorii:</p>
+    <ul>
+      <li id="dashboard_tuto_atp_1">
+        <h4 class="primary-color-text">PRINCIPII FUNDAMENTALE:</h4>
+        <p class="primary-color-text">Focus pe pietele financiare, economie si investitii</p>
+      </li>
+      <li id="dashboard_tuto_atp_3">
+        <h4 class="primary-color-text">SOLUTIILE NOASTRE:</h4>
+        <p class="primary-color-text">Focus pe competenta: produse si oferte</p>
+      </li>
+      <span style="clear:left; display: block;width:100%;height:0;padding:0;margin:0;"></span>
+      <li id="dashboard_tuto_atp_2">
+        <h4 class="primary-color-text">ABORDAREA DE BUSINESS:</h4>
+        <p class="primary-color-text">Focus pe suport oferit clientilor si tehnici de vanzare</p>
+      </li>
+      <li id="dashboard_tuto_atp_4">
+        <h4 class="primary-color-text">CERINTE LEGALE:</h4>
+        <p class="primary-color-text">Focus pe cadrul legal si reglemantarile in vigoare</p>
+      </li>
+      <span style="clear:left; display: block;width:100%;height:0;padding:0;margin:0;"></span>
+    </ul>
+              </div>
+  <!-- module 4 -->
+              <div class="dashboard_tuto_atp last_tuto_atp primary-color-border" style="border-bottom: none;">
+    <h3 class="primary-color-text">FORMATURILE MODULELOR DE TRAINING</h3>
+    <p class="modules-subtext primary-color-text">Fiecare modul de training este compus din unul sau mai multe formate digitale. In cadrul unui modul, aceste formate sunt combinate: video, chestionar, jocuri,documente ale produselor, infografice, etc.</p>
+    <div class="dashboard_picto_tuto_tma">
+      <div><img src="${static.url('images/video.svg')}" class="svg primary-color-fill"/><span class="primary-color-text">VIDEO</span></div>
+      <div><img src="${static.url('images/quiz.svg')}" class="svg primary-color-fill"/><span class="primary-color-text">CHESTIONAR</span></div>
+      <div><img src="${static.url('images/seriousgame.svg')}" class="svg primary-color-fill"/><span class="primary-color-text">JOC</span></div>
+      <div><img src="${static.url('images/simulation_inv.svg')}" class="svg primary-color-fill"/><span class="primary-color-text">JOC INVESTIŢIONAL</span></div>
+      <div><img src="${static.url('images/pdf.svg')}" class="svg primary-color-fill"/><span class="primary-color-text">DOCUMENTE</span></div>
+      <div><img src="${static.url('images/testes&images.svg')}" class="svg primary-color-fill"/><span class="primary-color-text">INFOGRAPHY</span></div>
+      <span style="display:block;clear:left;"></span>
+    </div>
+              </div>
+  <!-- button close -->
+              <div class="dashboard_tuto_atp primary-color-border">
+    <button class="tuto_action primary-color-text"><span>Inchide</span> <span class="arrow-top arrow_primary"></span></button>
+              </div>
+</section>

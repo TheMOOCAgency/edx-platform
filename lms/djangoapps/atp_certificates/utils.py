@@ -131,6 +131,20 @@ def generate_html(user,score,course_img_path,template_path,course_title,categori
         "phrase2":u"toegekend aan",
         "soft skills":"soft skills",
         "expert":"expert",
+    },
+    "ro":{
+        "date_title":u"Data",
+        "score_title":u"scorul",
+        "category_label":u"Categoria",
+        "fundamentals":u"fundamentals",
+        "fundamental":u"fundamental",
+        "sales approach":u"abordarea de vanzare",
+        "our solutions":u"Solutiile noastre",
+        "regulatory":u"cerinte legale",
+        "phrase":u"Certificatul pentru",
+        "phrase2":u"este atribuit ",
+        "soft skills":"abilități moi",
+        "expert":"expert",
     }
     }
 
