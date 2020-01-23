@@ -25132,7 +25132,7 @@ msgstr "Zadejte zda-li je kampaň povinná nebo volitelná"
 
 #: cms/templates/manage_course.html
 msgid "mandatory"
-msgstr "povinné"
+msgstr "povinný"
 
 #: cms/templates/manage_course.html
 msgid "optional"
@@ -25279,7 +25279,7 @@ msgstr "V této sekci nejsou dostupné žádné vzdělávací kurzy."
 # lms dashboard.html
 
 msgid "Welcome to the Academy platform"
-msgstr "Vítejte v platformě Academy"
+msgstr "Vítejte v Investiční akademii Amundi"
 
 # lms dashboard.html
 
@@ -25294,7 +25294,7 @@ msgstr "vzdělávací kurz"
 # lms dashboard.html
 
 msgid "is available in the section"
-msgstr "je dostupný v této sekci"
+msgstr "je dostupný v sekci"
 
 # cms index.html
 

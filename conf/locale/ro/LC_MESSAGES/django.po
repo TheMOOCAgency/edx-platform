@@ -3,31 +3,31 @@
 # Copyright (C) 2017 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # EdX Team <info@edx.org>, 2017.
-# 
+#
 # #-#-#-#-#  django-studio.po (0.1a)  #-#-#-#-#
 # edX translation file.
 # Copyright (C) 2017 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # EdX Team <info@edx.org>, 2017.
-# 
+#
 # #-#-#-#-#  mako.po (0.1a)  #-#-#-#-#
 # edX translation file
 # Copyright (C) 2017 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # EdX Team <info@edx.org>, 2017.
-# 
+#
 # #-#-#-#-#  mako-studio.po (0.1a)  #-#-#-#-#
 # edX translation file
 # Copyright (C) 2017 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # EdX Team <info@edx.org>, 2017.
-# 
+#
 # #-#-#-#-#  wiki.po (0.1a)  #-#-#-#-#
 # edX translation file
 # Copyright (C) 2017 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # EdX Team <info@edx.org>, 2017.
-# 
+#
 # Translators:
 # Gabriel Furmuzachi <gabriel.furmuzachi@gmail.com>, 2017
 # rvursache <rammvee@gmail.com>, 2017
@@ -49,7 +49,7 @@
 # John Doe <skullhunter2001doc@yahoo.com>, 2017
 # Bogdan Mateescu, 2019
 # Alex Coman <itsalexcoman@gmail.com>, 2019
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
@@ -6794,7 +6794,7 @@ msgstr ""
 
 #: lms/djangoapps/shoppingcart/pdf.py
 msgid "Disclaimer"
-msgstr ""
+msgstr "Disclaimer"
 
 #: lms/djangoapps/shoppingcart/pdf.py
 msgid "TERMS AND CONDITIONS"
@@ -20616,3 +20616,993 @@ msgid ""
 "A new revision was created: Merge between Revision #%(r1)d and Revision "
 "#%(r2)d"
 msgstr ""
+
+#ATP TMA
+msgid "MY ACCOUNT"
+msgstr "Contul meu"
+
+msgid "My account"
+msgstr "Contul meu"
+
+msgid "my account"
+msgstr "contul meu"
+
+msgid "my modules"
+msgstr "modulele mele"
+
+msgid "My modules"
+msgstr "Modulele mele"
+
+msgid "IN PROGRESS"
+msgstr "In desfasurare"
+
+msgid "in progress"
+msgstr "in desfasurare"
+
+msgid "In progress"
+msgstr "In desfasurare"
+
+msgid "TO DO"
+msgstr "De parcurs"
+
+msgid "to do"
+msgstr "de parcurs"
+
+msgid "To do"
+msgstr "De parcurs"
+
+msgid "MY CATEGORIES"
+msgstr "CATEGORIILE MELE"
+
+msgid "My Categories"
+msgstr "Categoriile mele"
+
+msgid "categories"
+msgstr "categorii"
+
+msgid "FUNDAMENTALS"
+msgstr "PRINCIPII FUNDAMENTALE"
+
+msgid "Fundamentals"
+msgstr "Principii Fundamentale"
+
+msgid "fundamentals"
+msgstr "principii fundamentale"
+
+msgid "FUNDAMENTAL"
+msgstr "ESENTIAL"
+
+msgid "Fundamental"
+msgstr "Esential"
+
+msgid "fundamental"
+msgstr "esential"
+
+msgid "BUSINESS APPROACH"
+msgstr "ABORDARE DE BUSINESS"
+
+msgid "Business approach"
+msgstr "Abordare de business"
+
+msgid "SALES APPROACH"
+msgstr "ABORDARE DE VANZARI"
+
+msgid "Sales approach"
+msgstr "Abordare de vanzari"
+
+msgid "REGULATORY"
+msgstr "ORGANISM DE REGLEMENTARE"
+
+msgid "Regulatory"
+msgstr "Organism de reglementare"
+
+msgid "regulatory"
+msgstr "organism de reglementare"
+
+msgid "Develop your knowledge and skills on asset management: financial culture and products and offers marketed"
+msgstr "Dezvolta-ti cunostintele si aptitudinile in administrarea investitiilor: cultura financiara, produsele si ofertele prezentate"
+
+#: lms/templates/dashboard.html
+msgid "To follow a training module, select the thumbnail of your choice!"
+msgstr "Pentru a accesa un modul de training, selecteaza optiunea dorita"
+
+#: lms/templates/dashboard.html
+msgid "Each training module belongs to a category and can take"
+msgstr "Fiecare modul de training apartine unei categorii si poate avea"
+
+msgid "different formats"
+msgstr "diferite formate"
+
+msgid "Training modules"
+msgstr "Module de training"
+
+msgid "Find all the information related to the training on the thumbnails below"
+msgstr "Gaseste toate informatiile cu privire la training accesand fereastra de mai jos"
+
+msgid "timing of the module"
+msgstr "Timpul necesar de parcurgere al fiecarui modul"
+
+msgid "if the module is mandatory or not and formats of the module"
+msgstr "daca modulul este obligatoriu sau nu si formatul pentru fiecare modul"
+
+msgid "TRAINING MODULES CATEGORIES"
+msgstr "CATEGORIILE MODULELOR DE TRAINING"
+
+#: lms/templates/dashboard.html
+msgid "Your training modules are classified into 4 categories"
+msgstr "Modulele de training sunt impartite in 4 categorii"
+
+#: lms/templates/dashboard.html
+msgid "Know the essentials of financial markets"
+msgstr "Cunoasterea notiunilor de baza ale pietelor financiare"
+
+#: lms/templates/dashboard.html
+msgid "Improve your soft skills"
+msgstr "Imbunatateste-ti aptitudinile interpersonale (soft skills)"
+
+#: lms/templates/dashboard.html
+msgid "Learn about products and offers that are sold"
+msgstr "Invata despre produsele si serviciile oferite"
+
+#: lms/templates/dashboard.html
+msgid "Understanding regulatory decisions"
+msgstr "Intelegerea cadrului legal"
+
+#: lms/templates/dashboard.html
+msgid "FORMATS"
+msgstr "STRUCTURA"
+
+#: lms/templates/dashboard.html
+msgid "Each module is composed of different interactive formats:"
+msgstr "Fiecare modul are in componenta diferite formate interactive"
+
+#: lms/templates/dashboard.html
+msgid "texts & images"
+msgstr "texte & imaginii"
+msgid "Infography"
+msgstr "Infografic"
+
+#: lms/templates/dashboard.html
+msgid "pedagogical videos"
+msgstr "Filme educative"
+
+#: lms/templates/dashboard.html
+msgid "quizzes"
+msgstr "chestionare"
+
+#: lms/templates/dashboard.html
+msgid "pdf"
+msgstr "pdf"
+
+msgid "You have started the training module"
+msgstr "Ai inceput modulul de training"
+
+msgid "To complete your course"
+msgstr "Pentru a completa cursul"
+
+msgid "you can click on"
+msgstr "poti da un click pe"
+
+msgid "More course covers"
+msgstr "In plus cursurile acopera"
+
+msgid "You have not yet started the training course cover"
+msgstr "Nu ai inceput inca trainingul"
+
+msgid "Click on"
+msgstr "Apasa pe"
+
+msgid "Show more"
+msgstr "Arata mai mult"
+
+msgid "to discover the course cover"
+msgstr "pentru a descoperi coperta cursului"
+
+msgid "Course covers completed"
+msgstr "Coperta cursului completata"
+
+msgid "Completed"
+msgstr "Finalizat"
+
+msgid "You have completed the training course cover"
+msgstr "Ai finalizat parcurgerea copertii trainingului"
+
+msgid "to access your result"
+msgstr "pentru a accesa rezultatul tau"
+
+msgid "welcome to"
+msgstr "bine ai venit la"
+
+msgid "Restart"
+msgstr "Restart"
+
+msgid "Download the certificate"
+msgstr "Descarca certificatul"
+
+msgid "To start"
+msgstr "Pentru a incepe"
+
+msgid "Starting date"
+msgstr "Data de inceput"
+
+msgid "Ending date"
+msgstr "Data de final"
+
+
+msgid "Back to course about page"
+msgstr "Inapoi la descrierea cursului"
+
+msgid "To end this training module, you have to access every chapters and finish the validation knowledge test."
+msgstr "Pentru a finaliza modulul de training, trebuie sa accesezi fiecare capitol si sa finalizezi procesul prin testarea de validare a cunostintelor."
+
+msgid "You started the training module "
+msgstr "Ai inceput modulul de training"
+
+msgid "Congratulation"
+msgstr "Felicitari"
+
+msgid "You have acomplished the course "
+msgstr "Ai parcurs cu succes cursul"
+
+msgid "Your total score :"
+msgstr "Scorul tau total"
+
+#: lms/templates/dashboard.html
+msgid "TO DO TRAINING MODULES"
+msgstr "MODULELE DE TRAINING CE TREBUIE PARCURSE"
+
+#: lms/templates/dashboard.html
+msgid "You haven't started yet the following training modules. Click on"
+msgstr "Inca nu ai inceput urmatoarele module de training. Apasa pe"
+
+#: lms/templates/dashboard.html
+#: lms/templates/dashboard/_dashboard_course_listing.html
+msgid "More information"
+msgstr "Mai multe informatii"
+
+#: lms/templates/dashboard.html
+msgid "to access the training module description"
+msgstr "pentru a accesa descrierea modului de training"
+
+#: lms/templates/dashboard.html
+msgid "IN PROGRESS TRAINING MODULES"
+msgstr "MODULE DE TRAINING IN CURS DE DESFASURARE"
+
+#: lms/templates/dashboard.html
+msgid "You have started but haven't completed yet the following training modules. To go on, please click on"
+msgstr "Ai inceput dar inca nu ai finalizat urmatoarele module de training. Pentru a merge mai departe, apasa pe"
+
+#: lms/templates/dashboard.html
+#: lms/templates/dashboard/_dashboard_course_listing.html
+msgid "Proceed"
+msgstr "Megi mai departe"
+
+#: lms/templates/dashboard.html
+msgid "COMPLETED TRAINING MODULES"
+msgstr "MODULELE DE TRAINING FINALIZATE"
+
+#: lms/templates/dashboard.html
+msgid "You have completed the following training modules. Click on"
+msgstr "Ai finalizat urmatoarele module de training. Apasa pe"
+
+#: lms/templates/dashboard.html
+msgid "to access your results and scores"
+msgstr "pentru a accesa rezultatele si scorurile"
+
+#: lms/templates/dashboard.html
+msgid "More modules"
+msgstr "Mai multe module"
+
+#: lms/templates/dashboard.html
+msgid "Welcome on"
+msgstr "Bine ai venit la"
+
+#: lms/templates/dashboard.html
+msgid "Develop your knowledge and skills on asset management: financial culture and offers."
+msgstr "Dezvolta-ti cunostintele si aptitudinile in administrarea investitiilor: cultura financiara, produsele si ofertele prezentate"
+
+#: lms/templates/dashboard.html
+msgid "More"
+msgstr "Mai departe"
+
+#: lms/templates/navigation.html
+msgid "All"
+msgstr "Toate"
+
+#: lms/templates/courseware/course_about.html
+msgid "Download certificate"
+msgstr "Descarca certificatul"
+
+#: lms/templates/courseware/courseware.html
+msgid "Back to training module description"
+msgstr "Inapoi la descrierea modului de training"
+
+#: lms/templates/courseware/courseware.html
+msgid "The training campaign is over. You can access the training module content. However, you can't do the test to validate your knowledge."
+msgstr "Campania de training a luat sfarsit. Poti accesa continutul modului de training. Totusi, nu poti efectua testarea pentru validarea cunostintelor."
+
+#: lms/templates/courseware/courseware.html
+msgid "Go to studio"
+msgstr "Mergi la studio"
+
+#: cms/templates/index.html
+msgid "No training campaign has been set"
+msgstr "Nu a fost setata nicio campanie de training"
+
+#: cms/templates/index.html
+msgid "To create a training campaign"
+msgstr "Pentru a crea o campanie de training"
+
+#: cms/templates/index.html
+msgid "select a training module in"
+msgstr "selecteaza un modul de training in"
+
+#: cms/templates/index.html
+msgid "then click on"
+msgstr "apoi apasa pe"
+
+#: cms/templates/index.html
+msgid "Create my campaign"
+msgstr "Creeaza campania mea"
+
+#: cms/templates/index.html
+msgid "My Modules"
+msgstr "Modulele mele"
+
+#: cms/templates/index.html
+msgid "Welcome to your training modules management interface"
+msgstr "Bine ai venit la interfata de administrare a modulelor de training"
+
+#: cms/templates/index.html
+msgid "You can browse within two separate universes"
+msgstr "Poti naviga prin doua universuri diferite"
+
+#: cms/templates/index.html
+msgid "MY CAMPAIGNS"
+msgstr "CAMPANIILE MELE"
+
+#: cms/templates/index.html
+msgid "MY MODULES"
+msgstr "MODULELE MELE"
+
+#: cms/templates/index.html
+msgid "MICRO SITES"
+msgstr "MICRO SITE-URI"
+
+#: cms/templates/index.html
+msgid "SCHEDULED TRAINING CAMPAIGNS"
+msgstr "CAMPANIILE DE TRAINING PROGRAMATE"
+
+#: cms/templates/index.html
+msgid "Manage my campaign"
+msgstr "Administreaza campaniile mele"
+
+#: cms/templates/index.html
+msgid "To add new participants, please click on"
+msgstr "Pentru a adauga noi participanti, da click pe"
+
+#: cms/templates/index.html
+msgid "Invite participants"
+msgstr "Invita participanti"
+
+#: cms/templates/index.html
+msgid "In progress training campaigns"
+msgstr "Campanii de training in desfasurare"
+
+#: cms/templates/index.html
+msgid "To access statistics, please click on"
+msgstr "Pentru a accesa statisticile, apasa pe"
+
+#: cms/templates/index.html
+msgid "COMPLETED TRAINING CAMPAIGNS"
+msgstr "CAMPANII DE TRAINING INCHEIATE"
+
+#: cms/templates/index.html
+msgid "The following training campaigns have not been launched yet (starting date not exceeded).To modify starting/ending date, please click on"
+msgstr "Urmatoarele campanii de training nu au fost lansate inca (data de inceput nu a fost depasita). Pentru a modifica data de inceput / de sfarsit, apasa pe"
+
+#: cms/templates/index.html
+msgid "The following training campaigns have not been launched yet (starting date not exceeded). To modify ending date, please click on"
+msgstr "Urmatoarele campanii de training nu au fost lansate inca (data de inceput nu a fost depasita). Pentru a modifica data de sfarsit, apasa pe"
+
+#: cms/templates/index.html
+msgid "The following training campaigns are completed (ending date is exceeded).To access statistics, please click on"
+msgstr "Urmatoarele campanii de training sunt incheiate (data de incheiere a fost depasita). Pentru a accesa statisticile apasa pe"
+
+#: cms/templates/index.html
+msgid "The following training campaigns have not been launched yet (starting date not exceeded)."
+msgstr "Urmatoarele campanii de training nu au fost lansate inca (data de inceput nu a fost depasita)."
+
+#: cms/templates/index.html
+msgid "To launch your campaign, please click on "
+msgstr "Pentru lansarea campaniei, te rugam sa apesi pe"
+
+#: cms/templates/index.html
+msgid "and set up starting date at today."
+msgstr "si sa setezi ca data de start data de astazi"
+
+#: cms/templates/index.html
+msgid "To modify starting/ending date, please click on"
+msgstr "Pentru a modifica data de inceput / de sfarsit, te rugam sa apesi pe"
+
+#: cms/templates/index.html
+msgid "To modify ending date, please click on"
+msgstr "Pentru a modifica data de final te rugam sa apesi pe"
+
+#: cms/templates/index.html
+msgid "To access statistics, please click on."
+msgstr "Pentru a accesa statisticile, te rugam sa apesi pe"
+
+#: cms/templates/index.html
+msgid "The following training campaigns are completed (ending date is exceeded)."
+msgstr "Urmatoatele campanii de training au fost finalizate (data de final este depasita)."
+
+#: cms/templates/index.html
+#lms stat.html
+msgid "Statistics"
+msgstr "Statistici"
+
+#: cms/templates/index.html
+msgid "About the training module"
+msgstr "Despre modulul de training"
+
+#: cms/templates/index.html
+msgid "My campaigns"
+msgstr "Campaniile mele"
+
+#: cms/templates/index.html
+msgid "You have at your disposal a library of training modules made available by Amundi. Select the module of your choice and launch the associated training campaign."
+msgstr "Ai la dispozitie o arhiva a modulelor de training disponibila la Amundi. Selecteaza modulul la alegere si lanseaza campania de training asociata."
+
+#: cms/templates/manage_course.html
+msgid "Provide all the information required to launch your training campaign: starting/ending date, minimum percentage of success required, and campaign type."
+msgstr "Furnizeaza toate informatiile solicitate pentru lansarea campaniei de training: data de incepe / de incheiere, procentul minim necesar pentru finalizarea cu succes a modulului si tipul campaniei."
+
+#: cms/templates/manage_course.html
+msgid "campaign id"
+msgstr "id-ul campaniei"
+
+#: cms/templates/manage_course.html
+msgid "Create your campagne id"
+msgstr "Creeaza ID-ul campaniei"
+
+#: cms/templates/manage_course.html
+msgid "This id is indicated in statistic reports."
+msgstr "Acest ID este indicat in rapoartele statistice."
+
+#: cms/templates/manage_course.html
+msgid "Precise your target and/or campaign period."
+msgstr "Precizeaza tinta ta si perioada campaniei"
+
+#: cms/templates/manage_course.html
+msgid "Your id"
+msgstr "ID-ul tau"
+
+#: cms/templates/manage_course.html
+msgid "Rules to create your campaign id: no space, no  punctuation mark"
+msgstr "Reguli pentru a crea ID-ul campaniei tale: fara spatii, fara semne de punctuatie."
+
+#: cms/templates/manage_course.html
+msgid "PERIOD OF THE TRAINING CAMPAIGN"
+msgstr "PERIOADA CAMPANIEI DE TRAINING"
+
+#: cms/templates/manage_course.html
+msgid "Schedule your training campaign"
+msgstr "Programeaza campania de training."
+
+#: cms/templates/manage_course.html
+msgid "Time for email invitation dispatch UTC"
+msgstr "Timpul pentru trimitrerea invitaiilor pe email"
+
+#: cms/templates/manage_course.html
+msgid "The day the first invitations are dispatched when launching the training campaign"
+msgstr "Ziua in care primele invitatii vor fi trimise pe email in momentul lansarii campaniei de training"
+
+#: cms/templates/manage_course.html
+msgid "Ending time UTC"
+msgstr "Timpul de finalizare "
+
+#: cms/templates/manage_course.html
+msgid "Starting and ending dates of the training campaign"
+msgstr "Datele de inceput si de sfarsit ale campaniei de training"
+
+#: cms/templates/manage_course.html
+msgid "Closing day of the training campaign"
+msgstr "Ziua de final a campaniei de training"
+
+#: cms/templates/manage_course.html
+msgid "MINIMUM PERCENTAGE OF SUCCESS REQUIRED"
+msgstr "PROCENTUL MINIM PENTRU FINALIZAREA MODULULUI"
+
+#: cms/templates/manage_course.html
+msgid "Define the minimum score required to validate the training module"
+msgstr "Defineste scorul minim necesar pentru validarea modulului de training"
+
+#: cms/templates/manage_course.html
+msgid "Minimum score required to validate the training module and receive the certificate of achievement"
+msgstr "Scorul minim necesar pentru validarea modulului de training si primirea certificarii"
+
+#: cms/templates/manage_course.html
+msgid "CAMPAIGN TYPE"
+msgstr "TIPUL CAMPANIEI"
+
+#: cms/templates/manage_course.html
+msgid "Specify whether the training campaign is mandatory or optional"
+msgstr "Specifica daca campania de training este obligatorie sau optionala"
+
+#: cms/templates/manage_course.html
+msgid "mandatory"
+msgstr "obligatoriu"
+
+#: cms/templates/manage_course.html
+msgid "optional"
+msgstr "optional"
+
+#: cms/templates/manage_course.html
+msgid "Add participants to your training campaign and customize the invitation email"
+msgstr "Adauga participanti la campania de training si personalizeaza emailul ce contine invitatia"
+
+#: cms/templates/manage_course.html
+msgid "PARTICIPANTS"
+msgstr "PARTICIPANTII"
+
+#: cms/templates/manage_course.html
+msgid "Invite participants to your training campaign"
+msgstr "Inivita participantii la campania de training"
+
+#: cms/templates/manage_course.html
+msgid "Upload participants list"
+msgstr "Incarca lista de participanti"
+
+#: cms/templates/manage_course.html
+msgid "EMAIL TO PARTICIPANTS"
+msgstr "TRIMITE EMAIL PARTICIPANTILOR"
+
+#: cms/templates/manage_course.html
+msgid "Edit and send the invitation email to participants of your choice."
+msgstr "Modifica si trimite emailul cu invitatia participantilor alesi de tine."
+
+#: cms/templates/manage_course.html
+msgid "Send the invitation email to :"
+msgstr "Trimite invitatie pe email catre:"
+
+#: cms/templates/manage_course.html
+msgid "Admin Team"
+msgstr "Echipa de administrare"
+
+#: cms/templates/manage_course.html
+msgid "Every participants"
+msgstr "Fiecare participant"
+
+#: cms/templates/manage_course.html
+msgid "Customized list of participants"
+msgstr "Personalizeaza lista de participanti"
+
+#: cms/templates/manage_course.html
+msgid "If you want to send the invitation email to the training campaign to a customized list of participants, please copy/paste the email recipients above. Remember that invitation emails can be sent only to the participants who have been invited to participate to the training campaign in the section 1/2 PARTICIPANTS."
+msgstr "Daca doresti sa trimiti invitatii la campania de training unei liste personalizate de participnati, te rugam sa copiezi deasupra lista celor care vor primi aceste emailuri. Retine ca emailurile ce contin invitatiile pot fi trimise participantilor care au fost invitati sa participe la campania de training in sesiunea 1/2 PARTICIPANTII."
+
+#: cms/templates/manage_course.html
+msgid "Object"
+msgstr "Obiectul"
+
+#: cms/templates/manage_course.html
+msgid "128 characters maximum"
+msgstr "maxim 128 de caractere"
+
+#: cms/templates/manage_course.html
+msgid "Contenu du mail"
+msgstr "Continutul emailului"
+
+#: cms/templates/manage_course.html
+msgid "WARNING : Don’t hesitate to validate the email invitation by sending a test invitation to yourself. It will allow you to validate content and links included in the email invitation."
+msgstr "ATENTIE: Nu ezita sa validezi emailul ce contine invitatia prin trimiterea unei invitatii de test catre tine. Iti va permite sa validezi continutul si link-urile incluse in emailul de invitatie."
+
+#: cms/templates/manage_course.html
+msgid "CTA : Send"
+msgstr "CTA: Trimite"
+
+#: cms/templates/manage_course.html
+msgid "Don't hesitate to validate the email invitation by sending a test invitation to yourself. It will allow you to validate content and links included in the email invitation."
+msgstr "Nu ezia sa validezi emailul ce contine invitatia prin trimiterea unei invitatii de test catre tine. Iti va permite sa validezi continutul si link-urile incluse in emailul de invitatie."
+
+#: cms/templates/index.html
+msgid "WHAT YOU CAN DO"
+msgstr "CE POTI FACE"
+
+#: cms/templates/index.html
+msgid "Schedules training campaigns:"
+msgstr "Programeaza-ti campaniile de training:"
+
+#: cms/templates/index.html
+msgid "Update your settings: starting/ending dates, minimum percentage of success"
+msgstr "Actualizeaza-ti setarile: datale de inceput / de final, procentul minim de succes"
+
+#: cms/templates/index.html
+msgid "Add new participants"
+msgstr "Adauga noi participanti"
+
+#: cms/templates/index.html
+msgid "Update the text of the email invitation and test your email invitation"
+msgstr "Actualizeaza textul invitatiei pe email si testeaza invitatia pe email"
+
+#: cms/templates/index.html
+msgid "In progress training campaigns:"
+msgstr "Campanii de training in desfasurare"
+
+#: cms/templates/index.html
+msgid "Update ending date"
+msgstr "Actualizeaza data de finalizare"
+
+#: cms/templates/index.html
+msgid "Access statistics: participation rate, success by participant, etc."
+msgstr "Acceseaza statisticile: rata de participare, rata de succes per participant, etc."
+
+#: cms/templates/index.html
+msgid "Completed training campaigns:"
+msgstr "Campaniile de training finalizate"
+
+#: cms/templates/index.html
+msgid "Completed training campaigns"
+msgstr "Campaniile de training finalizate"
+
+#: cms/templates/index.html
+msgid "Access a training modules library provided by Amundi"
+msgstr "Acceseaza un modul de training din arhiva oferita de Amundi"
+
+#: cms/templates/index.html
+msgid "Launch a training campaign"
+msgstr "Lanseaza o campanie de training"
+
+#: cms/templates/index.html
+msgid "My modules:"
+msgstr "Modulele mele:"
+
+#log
+msgid "logout"
+msgstr "logout"
+
+#log
+msgid "login"
+msgstr "login"
+
+#cms index.html
+
+msgid "No training campaign has been launched yet."
+msgstr "Nicio campanie de training nu a fost lansata inca"
+
+# lms dashboard.html
+
+msgid "No training modules available in this section."
+msgstr "Niciun modul de training nu este disponibil in aceasta sectiune"
+
+# lms dashboard.html
+
+msgid "Welcome on Amundi Academy platform"
+msgstr "Bine ai venit pe platforma Amundi Academy"
+
+# lms dashboard.html
+
+msgid "You successfully registered"
+msgstr "Te-ai inregistrat cu succes"
+
+# lms dashboard.html
+
+msgid "The training module"
+msgstr "Modulul de training"
+
+# lms dashboard.html
+
+msgid "is available in the section"
+msgstr "este disponibil in aceasta sectiune"
+
+# cms index.html
+
+msgid "Send email to participants"
+msgstr "Trimite email participantilor"
+
+#cms send email
+
+msgid "Send"
+msgstr "Trimite"
+
+msgid "You can send a new email or go back to the page MY CAMPAIGNS"
+msgstr "Poti trimite un email nou sau poti sa mergi inapoi la pagina CAMPANIILE MELE"
+
+msgid "Your email was sent"
+msgstr "Emailul tau a fost trimis"
+
+#cms index.html
+msgid "Access Trainee interface"
+msgstr "Acceseaza interfata pentru utilizatori"
+
+#lms dashboard.html
+msgid "Access Admin interface"
+msgstr "Acceseaza interfata pentru Administrator"
+
+#lms stat.html
+msgid "editor"
+msgstr "editor"
+
+#lms stat.html
+msgid "Results on "
+msgstr "Rezultate pe"
+
+#lms stat.html
+msgid "Statistical training campaign"
+msgstr "Statisticile campaniei de training"
+
+#lms stat.html
+msgid "training campaign info"
+msgstr "informatii cu privire la campania de training"
+
+#lms stat.html
+msgid "Download participants' list"
+msgstr "Descarca lista de participanti"
+
+#lms stat.html
+msgid "starting date"
+msgstr "data de inceput"
+
+#lms stat.html
+msgid "ending date"
+msgstr "data de final"
+
+#lms stat.html
+msgid "Number of questions"
+msgstr "Numarul de intrebari"
+
+#lms stat.html
+msgid "Percentage for success"
+msgstr "Procentul de succes"
+
+#lms stat.html
+msgid "users stats"
+msgstr "statisticile utilizatorilor"
+
+#lms stat.html
+msgid "Network"
+msgstr "Reteaua"
+
+#lms stat.html
+msgid "Target"
+msgstr "Tinta"
+
+#lms stat.html
+msgid "Guests"
+msgstr "Invitatii"
+
+#lms stat.html
+msgid "Certified"
+msgstr "Certificat"
+
+#lms stat.html
+msgid "Average result"
+msgstr "Rezultatul mediu"
+
+#lms stat.html
+msgid "Average score"
+msgstr "Scorul mediu"
+
+#lms stat.html
+msgid "per question"
+msgstr "pe intrebare"
+
+#lms stat.html
+msgid "per participant"
+msgstr "pe participant"
+
+#lms stat.html
+msgid "Download all participants' detailled results"
+msgstr "Descarca rezultatele detaliate ale tuturor participantilor"
+
+#lms stat.html
+msgid "First name"
+msgstr "Prenume"
+
+#lms stat.html
+msgid "Last name"
+msgstr "Nume"
+
+#cms create_course.html
+msgid "create my campaign"
+msgstr "creeaza campania mea"
+
+#cms create_course.html
+msgid "To launch your training campaign, you have to specify an unique ID and the target of your training campaign. Please, note that the target wording will be indicated in the statistics of this training campaign."
+msgstr "Pentru a lansa campania de training, trebuie sa mentionezi ID-ul unic si tinta campaniei tale de training. Te rugam, retine faptul ca formularea folosita pentreu tinta va fi indicata si in statisticile campaniei de training."
+
+#cms create_course.html
+msgid "Specify unique ID and target"
+msgstr "Mentioneaza ID-ul unic si tinta"
+
+#cms create_course.html
+msgid "Specify an unique campaign title as long as a target for your training campaign"
+msgstr "Mentioneaza titlul unic al campaniei cat si targetul pentru campania ta de training"
+
+#cms create_course.html
+msgid "Unique ID"
+msgstr "ID-u unic"
+
+#cms create_course.html
+msgid "Campaign title (unique id)"
+msgstr "Titlul campaniei (ID-ul unic)"
+
+#cms create_course.html
+msgid "Rules for unique ID and target : no space, no punctuation, no special characters"
+msgstr "Reguli pentru ID-ul unic si pentru tinta: fara spatii, fara semne de punctuatie, fara caractere speciale"
+
+#cms create_course.html
+msgid "Create an identifier"
+msgstr "Creeaza un identificator"
+
+#cms create_course.html
+msgid "This identifier is reflected in the statistical dashboards"
+msgstr "Acest identificator este reflectat in tabloul de comanda al statisticilor"
+
+#cms create_course.html
+msgid "This allows you to specify the target and / or training period"
+msgstr "Aceasta iti permite sa specifici tinta si / sau perioada trainingului"
+
+#cms create_course.html
+msgid "identifying your campaign"
+msgstr "identifica campania ta"
+
+#cms create_course.html
+msgid "Rules for unique ID and target"
+msgstr "Reguli pentru un ID unic si pentru tinta"
+
+#cms create_course.html
+msgid "no space, no punctuation, no special characters"
+msgstr "fara spatiu, fara semne de punctuatie, fara caractere speciale"
+
+#cms invite.html
+msgid "INVITE PARTICIPANTS"
+msgstr "INVITA PARTICIPANTII"
+
+#cms invite.html
+msgid "In order to invite participants to your training campaign, it is imperative that starting date of the training session is set before the current date."
+msgstr "Pentru a invita participantii la campania ta de training, este imperativ ca data de inceput a trainingului sa fie setata dupa data curenta."
+
+#cms mail.html
+msgid "SEND EMAIL TO PARTICIPANTS"
+msgstr "TRIMITE EMAIL PARTICIPANTILOR"
+
+#cms mail.html
+msgid "During the training campaign, you can send a personalized e-mail to your participants or to targeted receivers."
+msgstr "In timpul campaniei de training, poti trimite emailuri personalizate participantilor sau celor targetati."
+
+#cms mail.html
+msgid "It can be an email to remind them the training campaign will end soon, the training campaign is mandatory, etc"
+msgstr "Poate fi un email pentru a le reaminti ca aceasta campanie de training se va finaliza curand, ca aceasta campanie este obligatorie, etc"
+
+#cms mail.html
+msgid "Send email to:"
+msgstr "Trimite email catre"
+
+#cms mail.html
+msgid "Team and administrator"
+msgstr "Echipa si administratorul"
+
+#cms mail.html
+msgid "All participants (invited and accepted)"
+msgstr "Toti participantii (invitati si care au acceptat)"
+
+#cms mail.html
+msgid "Customized mailing list"
+msgstr "Personalizeaza lista de trimitere a emailurilor"
+
+#cms mail.html
+msgid "If you want to send an email to a customized mailing list, please copy/paste email addresses above. Emails will only be sent to receivers that have been invited to participate to the training campaign in the section 'Invite participants'."
+msgstr "Daca doresti sa trimiti email unei lista personalizate, te rugam sa copiezi adresele de email deasupra. Emailurile vor fi trimite numai catre cei are au fost invitati sa participe la campania de training in sectiunea 'Invita participanti'."
+
+#cms mail.html
+msgid "Object of the email"
+msgstr "Subiectul emailului"
+
+#cms mail.html
+msgid "WARNING : Before clicking on 'Send', please read your text carefully and send an email to yourself. This will allow you to validate text and links are correct."
+msgstr "ATENTIE: Inainte de a apasa pe 'Trimite', te rugam sa citesti textul cu atentie si sa trimiti emailul intai catre tine. Acest lucru iti va permite sa validezi textul si link-urile."
+
+msgid "Body of the email"
+msgstr "Corpul emailului"
+
+msgid "We recommend sending only one message per week to learners. Before sending your e-mail, read your text carefully and send it to your email address. You will be able to verify that all the links work and that the content is good."
+msgstr "Recomandam trimiterea unui singur email pe saptamana, participantilor. Inainte de a trimite un email, citeste cu atentie textul si trimite-l intai catre adresa ta de email. Vei putea astfel sa verifici ca toate linkurile functioneaza si ca textele sunt potrivite."
+
+msgid "legal notices"
+msgstr "cerinte legale"
+
+msgid "File preview"
+msgstr "Previzualizarea fisierului"
+
+msgid "Access Trainee Interface"
+msgstr "Acceseaza platforma utilizatorilor"
+
+msgid "The participants' list is successfully uploaded."
+msgstr "Lista cu participanti a fost incarcata cu succes."
+
+msgid "An email invitation to participate to the training module has been sent to the participants."
+msgstr "Un email ce contine invitatia de a participa la modulele de training a fost trimisa catre participanti."
+
+msgid "OUR SOLUTIONS"
+msgstr "SOLUTIILE NOASTRE"
+
+msgid "Our solutions"
+msgstr "Solutiile noastre"
+
+msgid "our solutions"
+msgstr "solutiile noastre"
+
+msgid "OUR SOLUTION"
+msgstr "SOLUTIA NOASTRA"
+
+msgid "Our solution"
+msgstr "Solutia noastra"
+
+msgid "our solution"
+msgstr "solutia noastra"
+
+msgid "To create your training campaign, you have to specify an unique ID and the target of your training campaign. Please, note that the target wording will be indicated in the statistics of this training campaign."
+msgstr "Pentru a creea campania de training, trebuie sa mentionezi ID-ul unic si tinta campaniei de training. Te rugam sa retii ca formularea tintei va fi indicata in statisticile campaniei de training."
+
+msgid "To create your training campaign, you have to specify an unique campaign title as long as a target for your training campaign."
+msgstr "Pentru a creea o campanie de training, trebuie sa specifici titlul unic al campaniei cat si tinta campaniei tale de training"
+
+msgid "Please, note that these will be indicated in the statistics dashboard of this training campaign."
+msgstr "Te rugam sa retii ca acestea vor fi indicate in tabloul de comanda al statisticilor in campania de training."
+
+msgid "Created training campaigns"
+msgstr "Creeaza campania de training"
+
+msgid "The training campaign is over."
+msgstr "Campania de training a luat sfarsit."
+
+msgid "Starting time UTC"
+msgstr "Timpul de inceput (Ora locala)"
+
+msgid "Define the minimum score required to validate the training module and receive the certificate of achievement"
+msgstr "Defineste scorul minim necesar pentru validarea modulelor de training si primirea certificatelor."
+
+#cms:index.html
+msgid "To launch a training campaign"
+msgstr "Pentru a lansa o campania de training"
+
+#validate translate
+msgid "Validated"
+msgstr "Validata"
+
+msgid "Not validated"
+msgstr "Ne-validata"
+
+msgid "SEARCH IN MY MODULES"
+msgstr "CAUTA IN MODULELE MELE"
+
+msgid "Search in a module"
+msgstr "Cauta intr-un modul"
+
+msgid "SEARCH IN MY CAMPAIGNS"
+msgstr "CAUTA IN CAMPANIILE MELE"
+
+msgid "Search for a campaign"
+msgstr "Cauta o campanie"
+
+msgid "No match! Please, try a new search"
+msgstr "Niciun rezultat. Te rugam sa incerci o noua cautare"
+
+msgid "New search"
+msgstr "Cautare noua"
+
+msgid "results found in your modules"
+msgstr "rezultate gasite in modulele tale"
+
+msgid "results found in your campaigns"
+msgstr "rezultate gasite in campaniile tale"
+
+#fail cms invite.html
+msgid "The structure of the file loaded is incorrect. Please, modify your file and load it again"
+msgstr "Structura fisierului incarcat nu este corecta. Te rugam sa modifici fisierul si sa il incarci din nou."
+
+#cms manage.html
+msgid "You already have invited participants to this training campaign. Starting date can no longer be edited."
+msgstr "Deja ai invitat participantii la aceasta campanie de training. Data de inceput nu mai poate fi editata."
