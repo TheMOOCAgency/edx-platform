@@ -20618,6 +20618,34 @@ msgid ""
 msgstr ""
 
 #ATP TMA
+
+msgid "congratulations"
+msgstr "felicitări"
+
+msgid "Congratulations"
+msgstr "Felicitări"
+
+msgid "You have completed the training module"
+msgstr "Ați finalizat modulul de instruire"
+
+msgid "start"
+msgstr "lansare"
+
+msgid "soft skill"
+msgstr "abilitati moi"
+
+msgid "soft skills"
+msgstr "abilitati moi"
+
+msgid "minutes"
+msgstr "minute"
+
+msgid "minute"
+msgstr "minut"
+
+msgid "Optional"
+msgstr "Facultativ"
+
 msgid "MY ACCOUNT"
 msgstr "Contul meu"
 
@@ -21136,7 +21164,7 @@ msgstr "obligatoriu"
 
 #: cms/templates/manage_course.html
 msgid "optional"
-msgstr "optional"
+msgstr "facultativ"
 
 #: cms/templates/manage_course.html
 msgid "Add participants to your training campaign and customize the invitation email"
@@ -21260,11 +21288,11 @@ msgstr "Modulele mele:"
 
 #log
 msgid "logout"
-msgstr "logout"
+msgstr "deconectați-vă"
 
 #log
 msgid "login"
-msgstr "login"
+msgstr "Autentificare"
 
 #cms index.html
 

@@ -143,7 +143,7 @@ def generate_html(user,score,course_img_path,template_path,course_title,categori
         "regulatory":u"cerinte legale",
         "phrase":u"Certificatul pentru",
         "phrase2":u"este atribuit ",
-        "soft skills":"abilități moi",
+        "soft skills":"abilitati moi",
         "expert":"expert",
     }
     }
