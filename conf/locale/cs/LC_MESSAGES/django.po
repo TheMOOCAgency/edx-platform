@@ -25289,7 +25289,7 @@ msgstr "Registrace proběhla úspěšně"
 # lms dashboard.html
 
 msgid "The training module"
-msgstr "vzdělávací kurz"
+msgstr "Vzdělávací kurz"
 
 # lms dashboard.html
 
