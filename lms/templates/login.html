@@ -322,8 +322,18 @@ from third_party_auth import provider, pipeline
         }
     }
   };
+<% 
+django_language_code = request.LANGUAGE_CODE
+sem_language_code = "fr"
 
-    var redirect_base="/auth/login/amundi/?auth_entry=register&lang=fr&next="
+translation_lang_code = {"cs":"cz"}
+if django_language_code in translation_lang_code.keys():
+  sem_language_code = translation_lang_code[request.LANGUAGE_CODE]
+else:
+  sem_language_code = django_language_code[:2].lower()
+%>
+
+    var redirect_base="/auth/login/amundi/?auth_entry=register&lang=${sem_language_code}&next="
     var next_redirect = encodeURIComponent(getUrlParameter('next'));
     var redirect_final = redirect_base+next_redirect;
     $('#login-amundi').attr('href',redirect_final);
