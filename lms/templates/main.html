@@ -108,6 +108,7 @@ else:
   % endif
 
   <script>
+    var page_name;
     window.baseUrl = "${settings.STATIC_URL}";
     (function (require) {
       require.config({
@@ -340,30 +341,11 @@ var correspondingSubDomain = [
 
 for (let i = 0; i < correspondingSubDomain.length; i++) {
   if(subdomain == correspondingSubDomain[i].subdomain && language_at == correspondingSubDomain[i].lang){
-      level2_at= correspondingSubDomain[i].lang2_at;
+      level2_at= correspondingSubDomain[i].level2_at;
   }
 }
-/*
-if(subdomain == 'amundi' && language_at == 'fr'){
-    level2_at=2;
-}
-else if(subdomain == 'amundi' && language_at == 'en'){
-    level2_at=3;
-}
-else if(subdomain == 'lcl' && language_at == 'fr'){
-    level2_at=4;
-}
-else if(subdomain == 'canextbank' && language_at == 'fr'){
-    level2_at=5;
-}
-else if(subdomain == 'canextbank' && language_at == 'de-de'){
-    level2_at=6;
-}
-else if(subdomain == 'crelan' && language_at == 'fr'){
-    level2_at=7;
-}
-*/
-if(!page_name){
+
+if(page_name === undefined){
   page_name="amundi_academy_page"
 }
 
@@ -498,9 +480,7 @@ jQuery('img.svg').each(function(){
 $('img.svg').show();
 </script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_SVG"></script>
-<%
-session = request.session
-%>
+
 <%
 main = static.get_value('css_overrides_main')
 %>
