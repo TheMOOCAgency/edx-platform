@@ -1540,9 +1540,18 @@ def send_enroll_mail(obj,course,overview,course_details, list_email,module_store
         category = language_data['categories'][category.lower()]
     else :
         category = 'None'
+
+    ## MODE IN TEXT USED AND IMPLEMENTED IN CZECH EMAIL ONLY !!
+    ## mode in text is used for required only...
+    mode_in_text = ''
     if mode_required:
         mode = language_data['required']
+        mode_in_text = language_data['required']
+
+        if "required_in_text" in language_data.keys():
+            mode_in_text = language_data['required_in_text']
     else:
+        mode_in_text = language_data['optional']
         mode = language_data['optional']
 
     log.info('send enroll email mode {} category {}'.format(mode,category))
@@ -1555,6 +1564,7 @@ def send_enroll_mail(obj,course,overview,course_details, list_email,module_store
            'category': category,
            'duration': duration,
            'mode': mode,
+           'mode_in_text': mode_in_text,
            'content': body,
            'link': link,
            'atp_primary_color': atp_primary_color,
@@ -1848,7 +1858,8 @@ language_setup={
         'msg':'Po tomto kroku budete mít přístup k vzdělávacímu kurzu {0}.',
         'obj' : ' Pozvánka k zahájení vzdělávacího kurzu  {0}',
         'title_mail':['Kategorie','Trvání','Režim','Datum ukončení'],
-        'required':'povinný',
+        'required':'povinné',
+        'required_in_text':'povinný',
         'optional':'volitelný',
         'categories':{
             'fundamentals':'OBECNÉ ZÁKLADY',
