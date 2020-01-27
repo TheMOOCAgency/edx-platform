@@ -1848,7 +1848,7 @@ language_setup={
         'msg':'Po tomto kroku budete mít přístup k vzdělávacímu kurzu {0}.',
         'obj' : ' Pozvánka k zahájení vzdělávacího kurzu  {0}',
         'title_mail':['Kategorie','Trvání','Režim','Datum ukončení'],
-        'required':'povinné',
+        'required':'povinný',
         'optional':'volitelný',
         'categories':{
             'fundamentals':'OBECNÉ ZÁKLADY',
