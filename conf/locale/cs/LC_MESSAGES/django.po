@@ -25132,7 +25132,7 @@ msgstr "Zadejte zda-li je kampaň povinná nebo volitelná"
 
 #: cms/templates/manage_course.html
 msgid "mandatory"
-msgstr "povinný"
+msgstr "povinné"
 
 #: cms/templates/manage_course.html
 msgid "optional"

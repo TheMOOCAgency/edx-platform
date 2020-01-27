@@ -5877,7 +5877,7 @@ msgstr ""
 
 #: cms/static/js/views/course_video_settings.js
 msgid "Required"
-msgstr "Povinný"
+msgstr "Povinné"
 
 #: cms/static/js/views/course_video_settings.js
 msgid "Automatic transcripts are disabled."
