@@ -11229,7 +11229,7 @@ msgid "My modules:"
 msgstr "I miei moduli:"
 
 msgid "login"
-msgstr "login"
+msgstr "accesso"
 
 msgid "No training campaign has been launched yet."
 msgstr "Nessuna campagna di formazione è stata ancora lanciata."
