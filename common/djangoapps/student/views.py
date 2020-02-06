@@ -2707,8 +2707,6 @@ class LogoutView(TemplateView):
         # Get the list of authorized clients before we clear the session.
         self.oauth_client_ids = request.session.get(edx_oauth2_provider.constants.AUTHORIZED_CLIENTS_SESSION_KEY, [])
 
-        logout(request)
-
     	#atp access role for logout redirection => renvoi nul car pb id non communique au logout
     	atp_access = User.objects.raw("SELECT id FROM student_courseaccessrole WHERE user_id = %s",[request.user.id])
         log.info("request user id {}".format(request.user))
@@ -2745,6 +2743,8 @@ class LogoutView(TemplateView):
 
     	site_courant=request.META["HTTP_HOST"]
         self.target = logout_uri.replace("[LANG]",user_language)
+
+        logout(request)
 
         # If we don't need to deal with OIDC logouts, just redirect the user.
         if LogoutViewConfiguration.current().enabled and self.oauth_client_ids:
