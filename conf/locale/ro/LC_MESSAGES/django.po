@@ -1967,7 +1967,7 @@ msgstr "Trimite"
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Submitting"
-msgstr ""
+msgstr "Trimite rezultatele"
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Warning: The problem has been reset to its initial state!"
@@ -21635,13 +21635,45 @@ msgstr "Structura fisierului incarcat nu este corecta. Te rugam sa modifici fisi
 msgid "You already have invited participants to this training campaign. Starting date can no longer be edited."
 msgstr "Deja ai invitat participantii la aceasta campanie de training. Data de inceput nu mai poate fi editata."
 
-msgid ""
-"Unfortunately, you haven't achieved the minimum score required to validate "
-"the training module."
-msgstr "Din pacate nu ai reusit sa obtii scorul minim necesar pentru finalizarea modulului de training"
+msgid "Unfortunately, you haven't achieved the minimum score ({score}%) required to validate the training module."
+msgstr "Din pacate nu ai reusit sa obtii scorul minim ({score}%) necesar pentru finalizarea modulului de training"
 
 msgid "Start again"
 msgstr "Incepe din nou"
 
-msgid "Submitting"
-msgid "Trimite rezultatele"
+#: lms/templates/dashboard.html
+msgid "Welcome to the Academy platform"
+msgstr "Bine ai venit in platforma Amundi Academy"
+
+#: lms/templates/dashboard.html
+msgid "Your registration has been successful"
+msgstr "Inregistrarea ta a fost realizata cu succes"
+
+#: lms/templates/dashboard.html
+msgid ""
+"Below are training modules you have started but not yet completed. Click "
+"\"Proceed\" to continue."
+msgstr ""
+"Mai jos poti gasi modulele de training pe care le-ai inceput dar pe care nu le-ai finalizat inca. Apasa pe "
+"\"Continua\" pentru a merge mai departe."
+
+#: lms/templates/dashboard.html
+msgid "Below, access training modules you have yet to complete. Click"
+msgstr "Mai jos, poti accesa modulele de training pe care le-ai finalizat. Apasa pe "
+
+#: lms/templates/dashboard.html
+msgid "Click"
+msgstr "Apasa pe"
+
+#: lms/templates/dashboard.html
+msgid ""
+"to access the result of modules you passed. Below you can also find training"
+" modules you have not passed, and are no longer accessible"
+msgstr ""
+"pentru a accesa rezultatele modulelor parcurse. Mai jos poti gasi totodata si modulele de training"
+" pe care nu le-ai finalizat cu succes si care nu mai sunt disponibile"
+
+#: lms/templates/dashboard.html
+msgid "to continue"
+msgstr "pentru a continua"
+
