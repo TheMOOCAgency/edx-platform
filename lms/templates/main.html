@@ -206,7 +206,7 @@ except:
 <script type="text/javascript">
 ////////////////////////// XITI /////////////////////////////////////////
 var tag = new ATInternet.Tracker.Tag();
-var language_at="${LANGUAGE_CODE}";
+var language_at="${LANGUAGE_CODE[:2].lower()}";
 var subdomain=window.location.host.split('.')[0];
 var level2_at = 0;
 
@@ -283,7 +283,7 @@ var correspondingSubDomain = [
         },
         {
             "subdomain": "kb",
-            "lang": "cz",
+            "lang": "cs",
             "level2_at": "18"
         },
         {
@@ -303,7 +303,7 @@ var correspondingSubDomain = [
         },
         {
             "subdomain": "ucb-cz",
-            "lang": "cz",
+            "lang": "cs",
             "level2_at": "20"
         },
         {
@@ -340,8 +340,13 @@ var correspondingSubDomain = [
 
 
 for (let i = 0; i < correspondingSubDomain.length; i++) {
-  if(subdomain == correspondingSubDomain[i].subdomain && language_at == correspondingSubDomain[i].lang){
-      level2_at= correspondingSubDomain[i].level2_at;
+  if(subdomain == correspondingSubDomain[i].subdomain){
+    //if subdomain matches, use it, even if it is not yet the right language, but continue looking for a better option
+    level2_at= correspondingSubDomain[i].level2_at;
+    if(language_at == correspondingSubDomain[i].lang){
+      //if this is a full matching, subdomain and language, stop looking for a better option
+      i = correspondingSubDomain.length;
+    }
   }
 }
 
