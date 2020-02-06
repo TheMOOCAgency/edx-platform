@@ -20629,7 +20629,7 @@ msgid "You have completed the training module"
 msgstr "Ați finalizat modulul de instruire"
 
 msgid "start"
-msgstr "lansare"
+msgstr "start"
 
 msgid "soft skill"
 msgstr "abilitati moi"
@@ -20641,7 +20641,7 @@ msgid "minutes"
 msgstr "minute"
 
 msgid "minute"
-msgstr "minut"
+msgstr "minute"
 
 msgid "Optional"
 msgstr "Facultativ"
@@ -21634,3 +21634,14 @@ msgstr "Structura fisierului incarcat nu este corecta. Te rugam sa modifici fisi
 #cms manage.html
 msgid "You already have invited participants to this training campaign. Starting date can no longer be edited."
 msgstr "Deja ai invitat participantii la aceasta campanie de training. Data de inceput nu mai poate fi editata."
+
+msgid ""
+"Unfortunately, you haven't achieved the minimum score required to validate "
+"the training module."
+msgstr "Din pacate nu ai reusit sa obtii scorul minim necesar pentru finalizarea modulului de training"
+
+msgid "Start again"
+msgstr "Incepe din nou"
+
+msgid "Submitting"
+msgid "Trimite rezultatele"
