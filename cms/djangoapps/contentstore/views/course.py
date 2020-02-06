@@ -2826,7 +2826,7 @@ def invitelist_handler(request, course_key_string):
         student_enr_details={}
         student_enr_mail = student_enr.user.email
         try:
-            student_enr_preprofile=UserPreprofile.objects.get(email=student_enr_mail)
+            student_enr_preprofile=UserPreprofile.objects.get(email=student_enr_mail).first()
             student_enr_details['uuid']=student_enr_preprofile.uuid
         except:
             student_enr_details['uuid']=""
