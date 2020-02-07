@@ -345,7 +345,7 @@ else :
           </div>
           %endif
           <div class="gray-btn">
-            <a class="" id="logout-btn" href="/logout" onclick="followClickEvents(this,'logout','exit')">
+            <a class="" id="logout-btn" onclick="followClickEvents(this,'logout','exit');window.location.replace('/logout')">
               <img style="height:20px;"src="${static.url('images/poweroff.png')}" alt="">
               <span class="font-basic logout-text">${_('logout')}</span>
             </a>
