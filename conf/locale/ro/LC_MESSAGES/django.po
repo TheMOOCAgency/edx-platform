@@ -20637,6 +20637,9 @@ msgstr "abilitati moi"
 msgid "soft skills"
 msgstr "abilitati moi"
 
+msgid "Soft skills"
+msgstr "Abilitati moi"
+
 msgid "minutes"
 msgstr "minute"
 
