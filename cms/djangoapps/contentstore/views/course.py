@@ -2810,7 +2810,7 @@ def invitelist_handler(request, course_key_string):
     for student in course_enr_allowed:
         student_details={}
         try:
-            student_preprofile=UserPreprofile.objects.get(email=student.email)
+            student_preprofile=UserPreprofile.objects.get(email=student.email).first()
             student_details['uuid']=student_preprofile.uuid
         except:
             student_details['uuid']=""
