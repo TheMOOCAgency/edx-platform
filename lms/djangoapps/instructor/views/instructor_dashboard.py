@@ -879,7 +879,7 @@ def stat_dashboard_username(request, course_id, email):
         lvl_3 = ''
         lvl_4 = ''
         try:
-            preprofile = UserPreprofile.objects.get(email=user_email).first()
+            preprofile = UserPreprofile.objects.filter(email=user_email).first()
             lvl_1 = preprofile.level_1
             lvl_2 = preprofile.level_2
             lvl_3 = preprofile.level_3
@@ -1092,7 +1092,7 @@ def get_course_users(request,course_id):
     for user in users:
         try:
             email = user['email']
-            profile = UserPreprofile.objects.get(email=email).first()
+            profile = UserPreprofile.objects.filter(email=email).first()
             user['Nom'] = profile.last_name
             user['Prenom'] = profile.first_name
             user['Niveau 1'] = profile.level_1
