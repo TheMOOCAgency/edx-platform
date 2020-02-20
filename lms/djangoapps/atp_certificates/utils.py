@@ -145,6 +145,20 @@ def generate_html(user,score,course_img_path,template_path,course_title,categori
         "phrase2":u"este atribuit ",
         "soft skills":"abilitati moi",
         "expert":"expert",
+    },
+    "hu":{
+        "date_title":"Dátum",
+        "score_title":"Összpontszámod",
+        "category_label":"Kategória",
+        "fundamentals":"Alapvetõ ismeretek",
+        "fundamental":"Alapvetõ ismeretek",
+        "sales approach":"Értékesítési megközelítés",
+        "our solutions":"Megoldásaink",
+        "regulatory":"Szabályozói",
+        "phrase":"Ezen igazolás bizonyítja, hogy a",
+        "phrase2":"tréninget teljesítette",
+        "soft skills":"soft skills",
+        "expert":"expert",
     }
     }
 

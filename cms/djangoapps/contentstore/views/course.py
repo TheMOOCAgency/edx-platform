@@ -1886,6 +1886,23 @@ language_setup={
             'expert':'EXPERT',
             'soft skills':'ABILITĂȚI SOFT'
         }
+    },
+    "hu":{
+        'platform_lang' :'hu',
+        'sem_lang' :'hu',
+        'msg':'Miután teljesítetted ezt a lépést, eléred a tréning modult {0}.',
+        'obj':'Meghívás a {0} tréning modulra',
+        'title_mail' : ['Kategória','Idõigény','Mód','Határidõ'],
+        'required':'kötelezõ',
+        'optional':'opcionális',
+        'categories':{
+            'fundamentals':'ALAPVETÕ ISMERETEK',
+            'our solutions':'MEGOLDÁSAINK',
+            'sales approach' :'ÉRTÉKESÍTÉSI MEGKÖZELÍTÉS',
+            'regulatory' : 'SZABÁLYOZÓI',
+            'expert':'expert',
+            'soft skills':'soft skills'
+        }
     }
 }
 

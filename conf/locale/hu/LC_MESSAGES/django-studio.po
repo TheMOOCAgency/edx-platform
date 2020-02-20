@@ -1,0 +1,759 @@
+# edX translation file.
+# Copyright (C) 2020 EdX
+# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
+#
+# Translators:
+# Charles Nehez <knehez@gmail.com>, 2015
+# Daniel Meszaros <easimer@gmail.com>, 2016
+# ggquark <ggquark@gmail.com>, 2014
+# Keleti László <lkeleti@wininvestor.hu>, 2014
+# Lukacs Daniel <altisk@gmail.com>, 2014
+# Melinda <ghostgirl1983@gmail.com>, 2014
+# petermolnar.hu <peter@petermolnar.hu>, 2015
+msgid ""
+msgstr ""
+"Project-Id-Version: edx-platform\n"
+"Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
+"POT-Creation-Date: 2020-02-16 20:42+0000\n"
+"PO-Revision-Date: 2019-06-02 20:42+0000\n"
+"Last-Translator: edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>\n"
+"Language-Team: Hungarian (http://www.transifex.com/open-edx/edx-platform/language/hu/)\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: cms/djangoapps/api/v1/serializers/course_runs.py
+msgid "Course team user does not exist"
+msgstr ""
+
+#: cms/djangoapps/contentstore/course_group_config.py
+msgid ""
+"The groups in this configuration can be mapped to cohorts in the Instructor "
+"Dashboard."
+msgstr ""
+
+#: cms/djangoapps/contentstore/course_group_config.py
+msgid "Content Groups"
+msgstr "Tartalom csoport"
+
+#: cms/djangoapps/contentstore/course_group_config.py
+#: cms/djangoapps/contentstore/views/certificates.py
+msgid "invalid JSON"
+msgstr "érvénytelen JSON"
+
+#: cms/djangoapps/contentstore/course_group_config.py
+msgid "must have name of the configuration"
+msgstr "a konfiguráció nevét kötelező megadni"
+
+#: cms/djangoapps/contentstore/course_group_config.py
+msgid "must have at least one group"
+msgstr "legalább egy csoportnak lennie kell"
+
+#: cms/djangoapps/contentstore/course_group_config.py
+msgid "unable to load this type of group configuration"
+msgstr ""
+
+#: cms/djangoapps/contentstore/course_info_model.py
+#: cms/djangoapps/contentstore/course_info_model.py
+msgid "Invalid course update id."
+msgstr "Érvénytelen kurzus frissítés id."
+
+#: cms/djangoapps/contentstore/course_info_model.py
+msgid "Course update not found."
+msgstr "Kurzus frissítés nem található."
+
+#: cms/djangoapps/contentstore/courseware_index.py
+msgid "Could not index item: {}"
+msgstr "Hiba az elem indexelése közben: {}"
+
+#: cms/djangoapps/contentstore/courseware_index.py
+msgid "General indexing error occurred"
+msgstr "Általános indexelési hiba történt"
+
+#: cms/djangoapps/contentstore/courseware_index.py
+msgid "(Unnamed)"
+msgstr "(Névtelen)"
+
+#: cms/djangoapps/contentstore/git_export_utils.py
+#, python-brace-format
+msgid ""
+"GIT_REPO_EXPORT_DIR not set or path {0} doesn't exist, please create it, or "
+"configure a different path with GIT_REPO_EXPORT_DIR"
+msgstr ""
+"GIT_REPO_EXPORT_DIR nincs létrehozva vagy az elérési út {0} nem létezik, "
+"kérjük hozza létre, vagy állítsa be az elérési útvonalat az "
+"GIT_REPO_EXPORT_DIRval"
+
+#: cms/djangoapps/contentstore/git_export_utils.py
+msgid ""
+"Non writable git url provided. Expecting something like: "
+"git@github.com:edx/edx4edx_lite.git"
+msgstr ""
+
+#: cms/djangoapps/contentstore/git_export_utils.py
+msgid ""
+"If using http urls, you must provide the username and password in the url. "
+"Similar to https://user:pass@github.com/user/course."
+msgstr ""
+"Ha http url-t használ, gondoskodnia kell a felhasználónévről és a jelszóról "
+"az url-ben. Hasonlóan ehhez https://user:pass@github.com/user/course."
+
+#: cms/djangoapps/contentstore/git_export_utils.py
+msgid "Unable to determine branch, repo in detached HEAD mode"
+msgstr "Nem sikerült azonosítani az ágat, a repo leválasztott HEAD módjában"
+
+#: cms/djangoapps/contentstore/git_export_utils.py
+msgid "Unable to update or clone git repository."
+msgstr "Nem sikerült a  git repository frissítése, vagy klónozása."
+
+#: cms/djangoapps/contentstore/git_export_utils.py
+msgid "Unable to export course to xml."
+msgstr "Nem sikerült a kurzus XML formátumba történő exportálása."
+
+#: cms/djangoapps/contentstore/git_export_utils.py
+msgid "Unable to configure git username and password"
+msgstr "A git felhasználói név és jelszó konfigurálása sikertelen."
+
+#: cms/djangoapps/contentstore/git_export_utils.py
+msgid ""
+"Unable to commit changes. This is usually because there are no changes to be"
+" committed"
+msgstr ""
+"Nem sikerült a változásokat elmenteni. Ez általában azért történik, mert nem"
+" volt változás."
+
+#: cms/djangoapps/contentstore/git_export_utils.py
+msgid ""
+"Unable to push changes.  This is usually because the remote repository "
+"cannot be contacted"
+msgstr ""
+"Nem sikerült a változásokat elmenteni. Ez gyakran azért történik, mert nem "
+"sikerült kapcsolatot létesíteni a távoli repository-val."
+
+#: cms/djangoapps/contentstore/git_export_utils.py
+msgid "Bad course location provided"
+msgstr "Hibás kurzus hely került megadásra"
+
+#: cms/djangoapps/contentstore/git_export_utils.py
+msgid "Missing branch on fresh clone"
+msgstr "Hiányzik az ág a friss klónból"
+
+#: cms/djangoapps/contentstore/management/commands/git_export.py
+msgid ""
+"Take the specified course and attempt to export it to a git repository\n"
+". Course directory must already be a git repository. Usage:  git_export <course_loc> <git_url>"
+msgstr ""
+"Megadott kurzus exportálása git repository-ba.\n"
+"A kurzus könyvtárának már jelen kell lennie a  git repository-ban. Használata:  git_export <course_loc> <git_url>"
+
+#: cms/djangoapps/contentstore/tasks.py cms/djangoapps/contentstore/tasks.py
+#, python-brace-format
+msgid "Unknown User ID: {0}"
+msgstr ""
+
+#: cms/djangoapps/contentstore/tasks.py cms/djangoapps/contentstore/tasks.py
+msgid "Permission denied"
+msgstr ""
+
+#: cms/djangoapps/contentstore/tasks.py
+#: cms/djangoapps/contentstore/views/import_export.py
+msgid "We only support uploading a .tar.gz file."
+msgstr "Csak .tar.gz típusú fájlok feltöltését támogatjuk."
+
+#: cms/djangoapps/contentstore/tasks.py
+msgid "Tar file not found"
+msgstr ""
+
+#: cms/djangoapps/contentstore/tasks.py
+msgid "Unsafe tar file. Aborting import."
+msgstr ""
+
+#: cms/djangoapps/contentstore/tasks.py
+#, python-brace-format
+msgid "Could not find the {0} file in the package."
+msgstr "A csomagban nem található meg a {0} fájl."
+
+#: cms/djangoapps/contentstore/utils.py
+msgid "Deleted Group"
+msgstr ""
+
+#. Translators: This is building up a list of groups. It is marked for
+#. translation because of the
+#. comma, which is used as a separator between each group.
+#: cms/djangoapps/contentstore/utils.py
+#, python-brace-format
+msgid "{previous_groups}, {current_group}"
+msgstr ""
+
+#: cms/djangoapps/contentstore/video_utils.py
+msgid "The image must have name, content type, and size information."
+msgstr ""
+
+#: cms/djangoapps/contentstore/video_utils.py
+#, python-brace-format
+msgid ""
+"This image file type is not supported. Supported file types are "
+"{supported_file_formats}."
+msgstr ""
+
+#: cms/djangoapps/contentstore/video_utils.py
+#, python-brace-format
+msgid "This image file must be smaller than {image_max_size}."
+msgstr ""
+
+#: cms/djangoapps/contentstore/video_utils.py
+#, python-brace-format
+msgid "This image file must be larger than {image_min_size}."
+msgstr ""
+
+#: cms/djangoapps/contentstore/video_utils.py
+#: cms/djangoapps/contentstore/video_utils.py
+msgid ""
+"There is a problem with this image file. Try to upload a different file."
+msgstr ""
+
+#: cms/djangoapps/contentstore/video_utils.py
+#, python-brace-format
+msgid ""
+"Recommended image resolution is "
+"{image_file_max_width}x{image_file_max_height}. The minimum resolution is "
+"{image_file_min_width}x{image_file_min_height}."
+msgstr ""
+
+#: cms/djangoapps/contentstore/video_utils.py
+#, python-brace-format
+msgid ""
+"This image file must have an aspect ratio of "
+"{video_image_aspect_ratio_text}."
+msgstr ""
+
+#: cms/djangoapps/contentstore/video_utils.py
+msgid ""
+"The image file name can only contain letters, numbers, hyphens (-), and "
+"underscores (_)."
+msgstr ""
+
+#: cms/djangoapps/contentstore/views/assets.py
+msgid "Upload completed"
+msgstr "Feltöltés befejezve"
+
+#: cms/djangoapps/contentstore/views/assets.py
+#, python-brace-format
+msgid ""
+"File {filename} exceeds maximum size of {maximum_size_in_megabytes} MB."
+msgstr ""
+
+#: cms/djangoapps/contentstore/views/certificates.py
+msgid "must have name of the certificate"
+msgstr "szükség van a bizonyítvány nevére"
+
+#: cms/djangoapps/contentstore/views/certificates.py
+#, python-brace-format
+msgid "Certificate dict {0} missing value key '{1}'"
+msgstr "Bizonyítvány {0} dict-jéből hiányvik az '{1}' érték"
+
+#: cms/djangoapps/contentstore/views/certificates.py
+#: cms/djangoapps/contentstore/views/certificates.py
+#, python-brace-format
+msgid "PermissionDenied: Failed in authenticating {user}"
+msgstr "Engedély megtagadva: Hiba {user} azonosítása közben"
+
+#: cms/djangoapps/contentstore/views/component.py
+#, python-brace-format
+msgid "{platform_name} Support Levels:"
+msgstr ""
+
+#: cms/djangoapps/contentstore/views/component.py
+msgid "HTML"
+msgstr "HTML"
+
+#: cms/djangoapps/contentstore/views/component.py
+msgid "Video"
+msgstr "Videó"
+
+#: cms/djangoapps/contentstore/views/component.py
+msgid "Blank"
+msgstr "Üres"
+
+#: cms/djangoapps/contentstore/views/course.py
+msgid "Course has been successfully reindexed."
+msgstr "Kurzus sikeresen újraindexelve."
+
+#: cms/djangoapps/contentstore/views/course.py
+msgid "Set Date"
+msgstr ""
+
+#: cms/djangoapps/contentstore/views/course.py
+msgid ""
+"Special characters not allowed in organization, course number, and course "
+"run."
+msgstr ""
+"Speciális karakterek nem használhatóak intézménynél, kurzus számnál és a "
+"kurzus időszakánál."
+
+#: cms/djangoapps/contentstore/views/course.py
+msgid ""
+"There is already a course defined with the same organization and course "
+"number. Please change either organization or course number to be unique."
+msgstr ""
+"Már létezik egy kurzus ugyanazzal a szervezettel és képzés számmal. Kérlek "
+"változtasd meg a szervezetet, vagy a kurzus számát egyedire."
+
+#: cms/djangoapps/contentstore/views/course.py
+#: cms/djangoapps/contentstore/views/course.py
+msgid ""
+"Please change either the organization or course number so that it is unique."
+msgstr ""
+"Kérjük változtassa meg a szervezetet vagy a kurzus számát, hogy a kurzus "
+"egyedi legyen."
+
+#: cms/djangoapps/contentstore/views/course.py
+#, python-brace-format
+msgid ""
+"Unable to create course '{name}'.\n"
+"\n"
+"{err}"
+msgstr ""
+"A '{name}' kurzus létrehozása sikertelen.\n"
+"\n"
+"{err}"
+
+#: cms/djangoapps/contentstore/views/course.py
+msgid ""
+"You must link this course to an organization in order to continue. "
+"Organization you selected does not exist in the system, you will need to add"
+" it to the system"
+msgstr ""
+"A folytatáshoz kapcsolja össze ezt a kurzust egy szervezettel. Ha a "
+"szervezet nincs a rendszerben, akkor hozzá kell adnia."
+
+#: cms/djangoapps/contentstore/views/course.py
+msgid "Invalid prerequisite course key"
+msgstr "Érvénytelen előzetes kurzus azonosító"
+
+#: cms/djangoapps/contentstore/views/course.py
+msgid "An error occurred while trying to save your tabs"
+msgstr "Hiba történt a fülek mentése közben"
+
+#: cms/djangoapps/contentstore/views/course.py
+msgid "Tabs Exception"
+msgstr "Fülek Kivétel"
+
+#: cms/djangoapps/contentstore/views/course.py
+msgid "This group configuration is in use and cannot be deleted."
+msgstr "Ez a csoport konfiguráció használatban van, ezért nem törölhető."
+
+#: cms/djangoapps/contentstore/views/course.py
+msgid "This content group is in use and cannot be deleted."
+msgstr "Ez a tartalomcsoport használatban van, ezért nem törölhető."
+
+#: cms/djangoapps/contentstore/views/entrance_exam.py
+msgid "Entrance Exam - Subsection"
+msgstr "Felvételi Vizsga - Alfejezet"
+
+#: cms/djangoapps/contentstore/views/entrance_exam.py
+msgid "Completed Course Entrance Exam"
+msgstr "Teljesített Kurzus Felvételi Vizsga"
+
+#: cms/djangoapps/contentstore/views/export_git.py
+msgid "Course successfully exported to git repository"
+msgstr "A kurzus sikeresen exportálva lett a git repository-ba."
+
+#: cms/djangoapps/contentstore/views/helpers.py
+msgid "Vertical"
+msgstr "Függőleges"
+
+#: cms/djangoapps/contentstore/views/import_export.py
+msgid "File upload corrupted. Please try again"
+msgstr "A fájl feltöltése során hiba történt. Kérjük, próbálja újra."
+
+#: cms/djangoapps/contentstore/views/item.py
+msgid "Invalid data"
+msgstr "Érvénytelen adat"
+
+#: cms/djangoapps/contentstore/views/item.py
+#, python-brace-format
+msgid "Invalid data ({details})"
+msgstr "Érvénytelen adat ({details})"
+
+#: cms/djangoapps/contentstore/views/item.py
+#, python-brace-format
+msgid "You can not move {source_type} into {target_parent_type}."
+msgstr ""
+
+#: cms/djangoapps/contentstore/views/item.py
+msgid "Item is already present in target location."
+msgstr ""
+
+#: cms/djangoapps/contentstore/views/item.py
+msgid "You can not move an item into itself."
+msgstr ""
+
+#: cms/djangoapps/contentstore/views/item.py
+msgid "You can not move an item into it's child."
+msgstr ""
+
+#: cms/djangoapps/contentstore/views/item.py
+msgid "You can not move an item directly into content experiment."
+msgstr ""
+
+#: cms/djangoapps/contentstore/views/item.py
+#, python-brace-format
+msgid "{source_usage_key} not found in {parent_usage_key}."
+msgstr ""
+
+#: cms/djangoapps/contentstore/views/item.py
+#, python-brace-format
+msgid ""
+"You can not move {source_usage_key} at an invalid index ({target_index})."
+msgstr ""
+
+#: cms/djangoapps/contentstore/views/item.py
+#, python-brace-format
+msgid "You must provide target_index ({target_index}) as an integer."
+msgstr ""
+
+#: cms/djangoapps/contentstore/views/item.py
+#, python-brace-format
+msgid "Duplicate of {0}"
+msgstr "'{0}' duplán szerepel."
+
+#: cms/djangoapps/contentstore/views/item.py
+#, python-brace-format
+msgid "Duplicate of '{0}'"
+msgstr "'{0}' duplán szerepel."
+
+#. Translators: The {pct_sign} here represents the percent sign, i.e., '%'
+#. in many languages. This is used to avoid Transifex's misinterpreting of
+#. '% o'. The percent sign is also translatable as a standalone string.
+#: cms/djangoapps/contentstore/views/item.py
+#, python-brace-format
+msgid ""
+"Students must score {score}{pct_sign} or higher to access course materials."
+msgstr ""
+"A tanulóknak el kell érniük legalább {score}{pct_sign} pontot, hogy "
+"hozzáférhessenek a kurzus anyagaihoz."
+
+#. Translators: This is the percent sign. It will be used to represent
+#. a percent value out of 100, e.g. "58%" means "58/100".
+#: cms/djangoapps/contentstore/views/item.py
+msgid "%"
+msgstr "%"
+
+#: cms/djangoapps/contentstore/views/item.py
+#, python-brace-format
+msgid "{section_or_subsection} \"{display_name}\""
+msgstr "{section_or_subsection} \"{display_name}\""
+
+#: cms/djangoapps/contentstore/views/library.py
+#, python-brace-format
+msgid "Unable to create library - missing required field '{field}'"
+msgstr "Könyvtár létrehozása sikertelen - hiányzó mező '{field}'"
+
+#: cms/djangoapps/contentstore/views/library.py
+#, python-brace-format
+msgid ""
+"Unable to create library '{name}'.\n"
+"\n"
+"{err}"
+msgstr ""
+"Könyvtár '{name}' létrehozása sikertelen.\n"
+"\n"
+"{err}"
+
+#: cms/djangoapps/contentstore/views/library.py
+msgid ""
+"There is already a library defined with the same organization and library "
+"code. Please change your library code so that it is unique within your "
+"organization."
+msgstr ""
+"Már létezik könyvtár megegyező szervezettel és azonosító számmal. Kérjük "
+"változtassa meg az azonosító számot úgy, hogy az egyedi legyen a szervezeten"
+" belül."
+
+#: cms/djangoapps/contentstore/views/preview.py
+#, python-brace-format
+msgid "Access restricted to: {list_of_groups}"
+msgstr ""
+
+#: cms/djangoapps/contentstore/views/transcript_settings.py
+msgid "The information you entered is incorrect."
+msgstr ""
+
+#: cms/djangoapps/contentstore/views/transcripts_ajax.py
+#: cms/djangoapps/contentstore/views/transcripts_ajax.py
+msgid "Transcripts are supported only for \"video\" modules."
+msgstr "Az átiratot csak a \"videó\" modul támogatja."
+
+#: cms/djangoapps/contentstore/views/transcripts_ajax.py
+msgid "Cannot find item by locator."
+msgstr ""
+
+#: cms/djangoapps/contentstore/views/transcripts_ajax.py
+msgid "Video locator is required."
+msgstr ""
+
+#: cms/djangoapps/contentstore/views/transcripts_ajax.py
+msgid "This transcript file type is not supported."
+msgstr ""
+
+#: cms/djangoapps/contentstore/views/transcripts_ajax.py
+msgid "Video ID is required."
+msgstr ""
+
+#: cms/djangoapps/contentstore/views/transcripts_ajax.py
+#: cms/djangoapps/contentstore/views/transcripts_ajax.py
+msgid "Incoming video data is empty."
+msgstr "A bejövő videó nem tartalmaz adatot."
+
+#: cms/djangoapps/contentstore/views/transcripts_ajax.py
+msgid "Can't find item by locator."
+msgstr "Nem található elem."
+
+#: cms/djangoapps/contentstore/views/transcripts_ajax.py
+#: cms/djangoapps/contentstore/views/transcripts_ajax.py
+msgid "No such transcript."
+msgstr ""
+
+#: cms/djangoapps/contentstore/views/transcripts_ajax.py
+msgid "There is a problem with the chosen transcript file."
+msgstr ""
+
+#: cms/djangoapps/contentstore/views/transcripts_ajax.py
+msgid ""
+"There is a problem with the existing transcript file. Please upload a "
+"different file."
+msgstr ""
+
+#: cms/djangoapps/contentstore/views/transcripts_ajax.py
+msgid "YouTube ID is required."
+msgstr ""
+
+#: cms/djangoapps/contentstore/views/transcripts_ajax.py
+msgid "There is a problem with the YouTube transcript file."
+msgstr ""
+
+#: cms/djangoapps/contentstore/views/user.py
+msgid "Insufficient permissions"
+msgstr "Nincs elegendő engedély."
+
+#: cms/djangoapps/contentstore/views/user.py
+#, python-brace-format
+msgid "Could not find user by email address '{email}'."
+msgstr "Nem található felhasználó '{email}' e-mail címmel."
+
+#: cms/djangoapps/contentstore/views/user.py
+msgid "No `role` specified."
+msgstr "Nincs 'szerepkör' megadva."
+
+#: cms/djangoapps/contentstore/views/user.py
+#, python-brace-format
+msgid "User {email} has registered but has not yet activated his/her account."
+msgstr "{email} felhasználó regisztrált, de még nem erősítette meg a fiókját."
+
+#: cms/djangoapps/contentstore/views/user.py
+msgid "Invalid `role` specified."
+msgstr "Érvénytelen 'szerepkör'."
+
+#: cms/djangoapps/contentstore/views/user.py
+msgid "You may not remove the last Admin. Add another Admin first."
+msgstr ""
+"Nem távolíthatja el az utolsó adminisztrátort. Előbb adjon hozzá másikat."
+
+#. Translators: This is the status of an active video upload
+#: cms/djangoapps/contentstore/views/videos.py
+msgid "Uploading"
+msgstr "Feltöltés"
+
+#. Translators: This is the status for a video that the servers are currently
+#. processing
+#: cms/djangoapps/contentstore/views/videos.py
+msgid "In Progress"
+msgstr "Folyamatban"
+
+#. Translators: This is the status for a video that the servers have
+#. successfully processed
+#: cms/djangoapps/contentstore/views/videos.py
+msgid "Ready"
+msgstr "Kész"
+
+#. Translators: This is the status for a video that is uploaded completely
+#: cms/djangoapps/contentstore/views/videos.py
+msgid "Uploaded"
+msgstr ""
+
+#. Translators: This is the status for a video that the servers have failed to
+#. process
+#: cms/djangoapps/contentstore/views/videos.py
+msgid "Failed"
+msgstr "Nem sikerült"
+
+#. Translators: This is the status for a video that is cancelled during upload
+#. by user
+#: cms/djangoapps/contentstore/views/videos.py
+msgid "Cancelled"
+msgstr ""
+
+#. Translators: This is the status for a video which has failed
+#. due to being flagged as a duplicate by an external or internal CMS
+#: cms/djangoapps/contentstore/views/videos.py
+msgid "Failed Duplicate"
+msgstr "Már létezik"
+
+#. Translators: This is the status for a video which has duplicate token for
+#. youtube
+#: cms/djangoapps/contentstore/views/videos.py
+msgid "YouTube Duplicate"
+msgstr ""
+
+#. Translators: This is the status for a video for which an invalid
+#. processing token was provided in the course settings
+#: cms/djangoapps/contentstore/views/videos.py
+msgid "Invalid Token"
+msgstr "Érvénytelen token"
+
+#. Translators: This is the status for a video that was included in a course
+#. import
+#: cms/djangoapps/contentstore/views/videos.py
+msgid "Imported"
+msgstr "Importálva"
+
+#. Translators: This is the status for a video that is in an unknown state
+#: cms/djangoapps/contentstore/views/videos.py
+msgid "Unknown"
+msgstr "Ismeretlen"
+
+#. Translators: This is the status for a video that is having its
+#. transcription in progress on servers
+#: cms/djangoapps/contentstore/views/videos.py
+msgid "Transcription in Progress"
+msgstr ""
+
+#. Translators: This is the status for a video whose transcription is complete
+#: cms/djangoapps/contentstore/views/videos.py
+msgid "Transcript Ready"
+msgstr ""
+
+#: cms/djangoapps/contentstore/views/videos.py
+msgid "An image file is required."
+msgstr ""
+
+#. Translators: This is the header for a CSV file column
+#. containing URLs for video encodings for the named profile
+#. (e.g. desktop, mobile high quality, mobile low quality)
+#: cms/djangoapps/contentstore/views/videos.py
+#, python-brace-format
+msgid "{profile_name} URL"
+msgstr "{profile_name} URL"
+
+#: cms/djangoapps/contentstore/views/videos.py
+msgid "Duration"
+msgstr "Időtartam"
+
+#: cms/djangoapps/contentstore/views/videos.py
+msgid "Date Added"
+msgstr "Hozzáadás dátuma"
+
+#. Translators: This is the suggested filename when downloading the URL
+#. listing for videos uploaded through Studio
+#: cms/djangoapps/contentstore/views/videos.py
+#, python-brace-format
+msgid "{course}_video_urls"
+msgstr "{course}_video_linkek"
+
+#: cms/djangoapps/contentstore/views/videos.py
+msgid "A non zero positive integer is expected"
+msgstr ""
+
+#: cms/djangoapps/course_creators/models.py
+msgid "unrequested"
+msgstr "kéretlen"
+
+#: cms/djangoapps/course_creators/models.py
+msgid "pending"
+msgstr "függőben"
+
+#: cms/djangoapps/course_creators/models.py
+msgid "granted"
+msgstr "adott"
+
+#: cms/djangoapps/course_creators/models.py
+msgid "denied"
+msgstr "megtagadva"
+
+#: cms/djangoapps/course_creators/models.py
+msgid "Studio user"
+msgstr "Stúdió felhasználó"
+
+#: cms/djangoapps/course_creators/models.py
+msgid "The date when state was last updated"
+msgstr "Az a dátum, amikor az utolsó frissítés megtörtént"
+
+#: cms/djangoapps/course_creators/models.py
+msgid "Current course creator state"
+msgstr "Aktuális kurzuskészítő állapota"
+
+#: cms/djangoapps/course_creators/models.py
+msgid ""
+"Optional notes about this user (for example, why course creation access was "
+"denied)"
+msgstr ""
+"Opcionális megjegyzések a felhasználóhoz (pl.: miért tagadtuk meg a kurzus "
+"készítését számára)"
+
+#: cms/djangoapps/maintenance/views.py
+msgid "Force Publish Course"
+msgstr ""
+
+#: cms/djangoapps/maintenance/views.py
+msgid ""
+"Sometimes the draft and published branches of a course can get out of sync. "
+"Force publish course command resets the published branch of a course to "
+"point to the draft branch, effectively force publishing the course. This "
+"view dry runs the force publish command"
+msgstr ""
+
+#: cms/djangoapps/maintenance/views.py
+msgid "Edit Announcements"
+msgstr ""
+
+#: cms/djangoapps/maintenance/views.py
+msgid ""
+"This view shows the announcement editor to create or alter announcements "
+"that are shown on the rightside of the dashboard."
+msgstr ""
+
+#: cms/djangoapps/maintenance/views.py
+msgid "Please provide course id."
+msgstr ""
+
+#: cms/djangoapps/maintenance/views.py
+msgid "Invalid course key."
+msgstr ""
+
+#: cms/djangoapps/maintenance/views.py
+msgid "No matching course found."
+msgstr ""
+
+#: cms/djangoapps/maintenance/views.py
+msgid "Force publishing course is not supported with old mongo courses."
+msgstr ""
+
+#: cms/djangoapps/maintenance/views.py
+msgid "Course is already in published state."
+msgstr ""
+
+#: cms/djangoapps/models/settings/course_metadata.py
+#, python-brace-format
+msgid "Incorrect format for field '{name}'. {detailed_message}"
+msgstr "Hibás mező formátum '{name}'. {detailed_message}"
+
+#: cms/lib/xblock/tagging/tagging.py
+msgid "Dictionary with the available tags"
+msgstr "Szótár az elérhető címkékkel"
+
+#: cms/urls.py
+msgid "Studio Administration"
+msgstr ""

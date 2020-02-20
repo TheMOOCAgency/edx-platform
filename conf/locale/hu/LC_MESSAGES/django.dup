@@ -1,0 +1,9 @@
+Multiple translations found for single string.
+	String "Username"
+	Present in files [u'lms/djangoapps/class_dashboard/dashboard_data.py', u'lms/djangoapps/instructor/views/api.py', u'lms/djangoapps/instructor/views/tools.py', u'lms/djangoapps/instructor_task/tasks_helper/enrollments.py', u'openedx/core/djangoapps/schedules/admin.py', u'lms/templates/staff_problem_info.html', u'lms/templates/api_admin/catalogs/search.html', u'lms/templates/ccx/enrollment.html', u'lms/templates/instructor/instructor_dashboard_2/metrics.html']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+Felhasználónév
+#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
+Felhasználói név
+

@@ -1,0 +1,18 @@
+Multiple translations found for single string.
+	String "Close"
+	Present in files [u'cms/static/js/views/active_video_upload.js', u'cms/static/js/views/modals/edit_xblock.js', u'cms/static/js/views/video_transcripts.js', u'common/lib/xmodule/xmodule/js/src/html/edit.js', u'lms/static/js/student_account/tos_modal.js', u'cms/templates/js/course-video-settings.underscore', u'common/static/common/templates/image-modal.underscore', u'openedx/features/learner_profile/static/learner_profile/templates/share_modal.underscore']
+Translations found were:
+	#-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
+Bezárás
+#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+Bezár
+
+Multiple translations found for single string.
+	String "Username"
+	Present in files [u'lms/static/js/instructor_dashboard/membership.js', u'lms/static/js/student_account/views/account_settings_factory.js', u'openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js', u'cms/templates/js/transcript-organization-credentials.underscore', u'lms/djangoapps/support/static/support/templates/manage_user.underscore', u'lms/templates/financial-assistance/financial_assessment_form.underscore']
+Translations found were:
+	#-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
+Felhasználói név
+#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+Felhasználónév
+

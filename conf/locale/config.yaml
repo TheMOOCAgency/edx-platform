@@ -39,7 +39,7 @@ locales:
     - he  # Hebrew
     - hi  # Hindi
     # - hr  # Croatian
-    # - hu  # Hungarian
+    - hu  # Hungarian
     # - hy_AM  # Armenian (Armenia)
     # - id  # Indonesian
     - it_IT  # Italian (Italy)
