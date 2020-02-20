@@ -286,14 +286,25 @@ $('#certiticate').click(function(e){
 
 
 <script>
+    function catalogenroll(course_id_for_enroll){
+               $.ajax({
+                 type: "POST",
+                 url: "/change_enrollment",
+                 data: {"course_id": course_id_for_enroll, "enrollment_action": "enroll"},
+                 success: function(){window.location.href="/courses/"+course_id_for_enroll+"/courseware";},
+                 error: function(){window.location.href="/courses/"+course_id_for_enroll+"/courseware";}
+               });
+    }
+
   ////////////////////////////////////// XITI ///////////////////
   page_name = 'page_course_about';
+
   $(document).ready(function(){
     $('.more_info').each(function(){
       $(this).attr('onclick','followClickEvents(this,\'courseware\',\'action\')');
     });
     $('.start_module').each(function(){
-      $(this).attr('onclick','followClickEvents(this,\'start\',\'action\')');
+      $(this).attr('onclick',"followClickEvents(this,'start','action');catalogenroll('${course_about_id}');");
     });
     $('.proceed').each(function(){
       $(this).attr('onclick','followClickEvents(this,\'courseware\',\'action\')');

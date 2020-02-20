@@ -251,10 +251,8 @@ else:
   <li class="atp_course_item atp_hide_cards" data-categ="${categ.lower().replace(' ','')}">
   % endif
    <div class="atp_course_image"><span class="cateogry_text">${_(categ)}</span>
-          <a href="/courses/${course_overview.id}/courseware/">
                   <img src="${course_about_img}" />
                   <div class="img_${categ.lower().replace(' ','')}"></div>
-          </a>
    </div>
    <div class="progress_bar_status_up">
   <div class="progress_bar_status" style="width:${course_progression}%;"></div>
@@ -294,7 +292,7 @@ else:
      % endif
    </div>
    <div class="atp_course_link">
-          <a href="/courses/${course_about_id}/courseware/" class="start_module  primary-color-bg">${_("Start")}</a>
+          <a style="cursor:pointer" class="start_module  primary-color-bg">${_("Start")}</a>
    </div>
   </li>
 
