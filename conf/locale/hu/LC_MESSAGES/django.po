@@ -25289,9 +25289,5 @@ msgstr "gombra a megnyitáshoz"
 msgid "You have completed the training module"
 msgstr "Teljesítetted a kurzust"
 
-msgid ""
-"Unfortunately, you haven't achieved the minimum score required to validate "
-"the training module."
-msgstr "Sajnos nem érted el a tréning sikeres teljesítéséhez szükséges minimum pontszámot."
-
-
+msgid "Congratulations"
+msgstr "Gratuláció"
