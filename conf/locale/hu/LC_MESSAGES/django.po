@@ -2242,7 +2242,7 @@ msgstr "Küldés"
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Submitting"
-msgstr ""
+msgstr "Elküldés"
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Warning: The problem has been reset to its initial state!"
@@ -10076,10 +10076,6 @@ msgid "Schedule start < course start"
 msgstr ""
 
 #: openedx/core/djangoapps/schedules/admin.py
-msgid "All"
-msgstr ""
-
-#: openedx/core/djangoapps/schedules/admin.py
 msgid "Experience"
 msgstr ""
 
@@ -12991,11 +12987,6 @@ msgstr "Következő"
 #: lms/templates/seq_module.html
 msgid "Sequence"
 msgstr ""
-
-#: lms/templates/seq_module.html
-#: openedx/features/course_experience/templates/course_experience/course-outline-fragment.html
-msgid "Completed"
-msgstr "Kész"
 
 #: lms/templates/signup_modal.html
 msgid "Sign Up for {platform_name}"
@@ -24265,3 +24256,1042 @@ msgid ""
 msgstr ""
 "Új felülvizsgálat létrehozva: #%(r1)d és  #%(r2)d felülvizsgálatok "
 "összefűzve"
+#ATP TMA
+msgid "MY ACCOUNT"
+msgstr "SAJÁT FIÓK"
+
+msgid "My account"
+msgstr "Saját fiók"
+
+msgid "my account"
+msgstr "saját fiók"
+
+msgid "my modules"
+msgstr "moduljaim"
+
+msgid "My modules"
+msgstr "Moduljaim"
+
+msgid "IN PROGRESS"
+msgstr "FOLYAMATBAN"
+
+msgid "in progress"
+msgstr "folyamatban"
+
+msgid "In progress"
+msgstr "Folyamatban"
+
+msgid "TO DO"
+msgstr "TEENDÕK"
+
+msgid "to do"
+msgstr "teendõk"
+
+msgid "To do"
+msgstr "Teendõk"
+
+msgid "MY CATEGORIES"
+msgstr "TÉMAKÖREIM"
+
+msgid "My Categories"
+msgstr "Témaköreim"
+
+msgid "categories"
+msgstr "témakörök"
+
+msgid "FUNDAMENTALS"
+msgstr "ALAPVETÕ ISMERETEK"
+
+msgid "Fundamentals"
+msgstr "Alapvetõ ismeretek"
+
+msgid "fundamentals"
+msgstr "alapvetõ ismeretek"
+
+msgid "FUNDAMENTAL"
+msgstr "ALAPVETÕ"
+
+msgid "Fundamental"
+msgstr "Alapvetõ"
+
+msgid "fundamental"
+msgstr "alapvetõ"
+
+msgid "BUSINESS APPROACH"
+msgstr "ÜZLETI MEGKÖZELÍTÉS"
+
+msgid "Business approach"
+msgstr "Üzleti megközelítés"
+
+msgid "SALES APPROACH"
+msgstr "ÉRTÉKESÍTÉSI MEGKÖZELÍTÉS"
+
+msgid "Sales approach"
+msgstr "Értékesítési megközelítés"
+
+msgid "REGULATORY"
+msgstr "SZABÁLYOZÓI"
+
+msgid "Regulatory"
+msgstr "Szabályozói"
+
+msgid "regulatory"
+msgstr "szabályozói"
+
+msgid "Develop your knowledge and skills on asset management: financial culture and products and offers marketed"
+msgstr "Fejleszd a tudásod és jártasságod a befektetés kezelés területén: pénzügyi kultúra, termékek és ajánlatok"
+
+#: lms/templates/dashboard.html
+msgid "To follow a training module, select the thumbnail of your choice!"
+msgstr "A tréning modulok indításához válassz egy tetszõleges ikont!"
+
+#: lms/templates/dashboard.html
+msgid "Each training module belongs to a category and can take"
+msgstr "Minden egyes tréning modul egy kategóriához tartozik és különbözõ"
+
+msgid "different formats"
+msgstr "elemei lehetnek"
+
+msgid "Training modules"
+msgstr "Tréning modulok"
+
+msgid "Find all the information related to the training on the thumbnails below"
+msgstr "Minden információt megtalálsz az egyes tréningekrõl az ikonjuk alatt"
+
+msgid "timing of the module"
+msgstr "a modul idõzítését"
+
+msgid "if the module is mandatory or not and formats of the module"
+msgstr "hogy kötelezõ-e a modul és a formátumát"
+
+msgid "TRAINING MODULES CATEGORIES"
+msgstr "TRÉNING MODUL KATEGÓRIÁK"
+
+#: lms/templates/dashboard.html
+msgid "Your training modules are classified into 4 categories"
+msgstr "A tréning moduljaid 4 kategóriába vannak sorolva"
+
+#: lms/templates/dashboard.html
+msgid "Know the essentials of financial markets"
+msgstr "Ismerd meg a pénzügyi piacok legfontosabb tulajdonságait"
+
+#: lms/templates/dashboard.html
+msgid "Improve your soft skills"
+msgstr "Fejleszd a kommunikációs készséged"
+
+#: lms/templates/dashboard.html
+msgid "Learn about products and offers that are sold"
+msgstr "Tudj meg többet a termékekrõl és ajánlatokról, amiket értékesítesz"
+
+#: lms/templates/dashboard.html
+msgid "Understanding regulatory decisions"
+msgstr "Felügyeleti döntések megértése"
+
+#: lms/templates/dashboard.html
+msgid "FORMATS"
+msgstr "FORMÁTUM"
+
+#: lms/templates/dashboard.html
+msgid "Each module is composed of different interactive formats:"
+msgstr "Minden modul különbözõ interaktív formátumból áll össze:"
+
+#: lms/templates/dashboard.html
+msgid "texts & images"
+msgstr "szövegek & képek"
+msgid "Infography"
+msgstr "Infografika"
+
+#: lms/templates/dashboard.html
+msgid "pedagogical videos"
+msgstr "oktató videók"
+
+#: lms/templates/dashboard.html
+msgid "quizzes"
+msgstr "tesztek"
+
+#: lms/templates/dashboard.html
+msgid "pdf"
+msgstr "pdf"
+
+msgid "You have started the training module"
+msgstr "Elindítottad a tréning modult"
+
+msgid "To complete your course"
+msgstr "A kurzusod befejezéséhez"
+
+msgid "you can click on"
+msgstr "kattints"
+
+msgid "More course covers"
+msgstr "További kurzusok"
+
+msgid "You have not yet started the training course cover"
+msgstr "Még nem kezdted el a tréninget"
+
+msgid "Click on"
+msgstr "Kattints"
+
+msgid "Show more"
+msgstr "Mutass többet"
+
+msgid "to discover the course cover"
+msgstr "hogy megismerd kurzus összefoglalóját"
+
+msgid "Course covers completed"
+msgstr "Kurzus összefoglaló kész"
+
+msgid "Completed"
+msgstr "Kész"
+
+msgid "You have completed the training course cover"
+msgstr "Teljesítetted a kurzust"
+
+msgid "to access your result"
+msgstr "az eredményed eléréséhez"
+
+msgid "welcome to"
+msgstr "üdvözöllek"
+
+msgid "Restart"
+msgstr "Újraindítás"
+
+msgid "Download the certificate"
+msgstr "Oklevél letöltése"
+
+msgid "To start"
+msgstr "Indításhoz"
+
+msgid "Starting date"
+msgstr "Kezdõdátum"
+
+msgid "Ending date"
+msgstr "Zárás dátuma"
+
+msgid "Disclaimer"
+msgstr "Disclaimer"
+
+msgid "Back to course about page"
+msgstr "Vissza a kurzus leírásához"
+
+msgid "To end this training module, you have to access every chapters and finish the validation knowledge test."
+msgstr "Hogy befejezd ezt a modult, meg kell nyitnod minden fejezetet és ki kell töltened a tudásellenõrzõ tesztet."
+
+msgid "You started the training module "
+msgstr "Elindítottad a tréning modult"
+
+msgid "Congratulation"
+msgstr "Gratulálunk"
+
+msgid "You have acomplished the course "
+msgstr "Teljesítetted a kurzust"
+
+msgid "Your total score :"
+msgstr "Az összpontszámod:"
+
+#: lms/templates/dashboard.html
+msgid "TO DO TRAINING MODULES"
+msgstr "ELVÉGZENDÕ TRÉNING MODULOK"
+
+#: lms/templates/dashboard.html
+msgid "You haven't started yet the following training modules. Click on"
+msgstr "Még nem kezdtél bele az alábbi tréning modulokba. Kattints"
+
+#: lms/templates/dashboard.html
+#: lms/templates/dashboard/_dashboard_course_listing.html
+msgid "More information"
+msgstr "Bõvebb információ"
+
+#: lms/templates/dashboard.html
+msgid "to access the training module description"
+msgstr "a tréning modul leírásának megtekintéséhez"
+
+#: lms/templates/dashboard.html
+msgid "IN PROGRESS TRAINING MODULES"
+msgstr "FOLYAMATBAN LÉVÕ TRÉNING MODULOK"
+
+#: lms/templates/dashboard.html
+msgid "You have started but haven't completed yet the following training modules. To go on, please click on"
+msgstr "Elkezdted, de nem fejezted be az alábbi tréning modulokat. A folytatáshoz kattints"
+
+#: lms/templates/dashboard.html
+#: lms/templates/dashboard/_dashboard_course_listing.html
+msgid "Proceed"
+msgstr "Folytatás"
+
+#: lms/templates/dashboard.html
+msgid "COMPLETED TRAINING MODULES"
+msgstr "BEFEJEZETT TRÉNING MODULOK"
+
+#: lms/templates/dashboard.html
+msgid "You have completed the following training modules. Click on"
+msgstr "Befejezted az alábbi tréning modulokat. Kattints"
+
+#: lms/templates/dashboard.html
+msgid "to access your results and scores"
+msgstr "az eredményeid és pontjaid eléréséhez"
+
+#: lms/templates/dashboard.html
+msgid "More modules"
+msgstr "Több modul"
+
+#: lms/templates/dashboard.html
+msgid "Welcome on"
+msgstr "Üdvözlünk a"
+
+#: lms/templates/dashboard.html
+msgid "Develop your knowledge and skills on asset management: financial culture and offers."
+msgstr "Fejleszd a tudásod és jártasságod a befektetés kezelés területén: pénzügyi kultúra és ajánlatok."
+
+#: lms/templates/dashboard.html
+msgid "More"
+msgstr "Több"
+
+#: lms/templates/navigation.html
+msgid "All"
+msgstr "Összes"
+
+#: lms/templates/courseware/courseware.html
+msgid "Back to training module description"
+msgstr "Vissza a tréning modul leírásához"
+
+#: lms/templates/courseware/courseware.html
+msgid "The training campaign is over. You can access the training module content. However, you can't do the test to validate your knowledge."
+msgstr "A tréning kampány véget ért. A tréning modul oktatási anyagait eléred, de nem tudod tesztelni a tudásod."
+
+#: lms/templates/courseware/courseware.html
+msgid "Go to studio"
+msgstr "Irány a stúdió"
+
+#: cms/templates/index.html
+msgid "No training campaign has been set"
+msgstr "Nincs folyamatban lévõ tréning kampány"
+
+#: cms/templates/index.html
+msgid "To create a training campaign"
+msgstr "Tréning kampány létrehozásához"
+
+#: cms/templates/index.html
+msgid "select a training module in"
+msgstr "válassz egy tréning modult a"
+
+#: cms/templates/index.html
+msgid "then click on"
+msgstr "aztán kattints"
+
+#: cms/templates/index.html
+msgid "Create my campaign"
+msgstr "Saját kampány létrehozása"
+
+#: cms/templates/index.html
+msgid "My Modules"
+msgstr "Moduljaim"
+
+#: cms/templates/index.html
+msgid "Welcome to your training modules management interface"
+msgstr "Üdvözlünk a tréning modul menedzsment felületen"
+
+#: cms/templates/index.html
+msgid "You can browse within two separate universes"
+msgstr "Két külön palettán tudsz böngészni"
+
+#: cms/templates/index.html
+msgid "MY CAMPAIGNS"
+msgstr "KAMPÁNYAIM"
+
+#: cms/templates/index.html
+msgid "MY MODULES"
+msgstr "MODULJAIM"
+
+#: cms/templates/index.html
+msgid "MICRO SITES"
+msgstr "MIKRO SITE-ok"
+
+#: cms/templates/index.html
+msgid "SCHEDULED TRAINING CAMPAIGNS"
+msgstr "ÜTEMEZETT TRÉNING KAMPÁNYOK"
+
+#: cms/templates/index.html
+msgid "Manage my campaign"
+msgstr "A kampányaim kezelése"
+
+#: cms/templates/index.html
+msgid "To add new participants, please click on"
+msgstr "Új résztvevõk hozzáadásához, kattints"
+
+#: cms/templates/index.html
+msgid "Invite participants"
+msgstr "Résztvevõk meghívása"
+
+#: cms/templates/index.html
+msgid "In progress training campaigns"
+msgstr "Folyamatban lévõ tréning kampányok"
+
+#: cms/templates/index.html
+msgid "To access statistics, please click on"
+msgstr "A statisztikák eléréséhez kérlek, hogy kattints"
+
+#: cms/templates/index.html
+msgid "COMPLETED TRAINING CAMPAIGNS"
+msgstr "LEZÁRULT TRÉNING KAMPÁNYOK"
+
+#: cms/templates/index.html
+msgid "The following training campaigns have not been launched yet (starting date not exceeded).To modify starting/ending date, please click on"
+msgstr "Az alábbi tréning kampányok nem kerültek még élesítésre (a kezdõdátumot még nem múlt el). A kezdõ/befejezõ dátumok módosításához, kattints"
+
+#: cms/templates/index.html
+msgid "The following training campaigns have not been launched yet (starting date not exceeded). To modify ending date, please click on"
+msgstr "Az alábbi tréning kampányok nem kerültek még élesítésre (a kezdõdátum még nem múlt el). A befejezõ dátumok módosításához, kattints"
+
+#: cms/templates/index.html
+msgid "The following training campaigns are completed (ending date is exceeded).To access statistics, please click on"
+msgstr "Az alábbi tréning kampányok lezárultak (a befejezõ dátum elmúlt). A statisztikák megtekintéséhez, kattints"
+
+#: cms/templates/index.html
+msgid "The following training campaigns have not been launched yet (starting date not exceeded)."
+msgstr "Az alábbi tréning kampányok nem kerültek még élesítésre (a kezdõdátum még nem múlt el)."
+
+#: cms/templates/index.html
+msgid "To launch your campaign, please click on "
+msgstr "A kampány elindításához, kattints"
+
+#: cms/templates/index.html
+msgid "and set up starting date at today."
+msgstr "és a mai kezdõdátum beállításához."
+
+#: cms/templates/index.html
+msgid "To modify starting/ending date, please click on"
+msgstr "A kezdõ/befejezõ dátum módosításához kattints"
+
+#: cms/templates/index.html
+msgid "To modify ending date, please click on"
+msgstr "A befejezõ dátum módosításához kattints a"
+
+#: cms/templates/index.html
+msgid "To access statistics, please click on."
+msgstr "A statisztikák eléréséhez, kattints a"
+
+#: cms/templates/index.html
+msgid "The following training campaigns are completed (ending date is exceeded)."
+msgstr "Az alábbi tréning kampányok lezárultak (befejezõ dátum elmúlt)."
+
+#: cms/templates/index.html
+#lms stat.html
+msgid "Statistics"
+msgstr "Statisztikák"
+
+#: cms/templates/index.html
+msgid "About the training module"
+msgstr "A tréning modulról"
+
+#: cms/templates/index.html
+msgid "My campaigns"
+msgstr "Kampányaim"
+
+#: cms/templates/index.html
+msgid "You have at your disposal a library of training modules made available by Amundi. Select the module of your choice and launch the associated training campaign."
+msgstr "A rendelkezésedre áll az Amundi által készített teljes tréning modul könyvtár. Válaszd ki a megfelelõt és indíts el egy kapcsolódó kampányt."
+
+#: cms/templates/manage_course.html
+msgid "Provide all the information required to launch your training campaign: starting/ending date, minimum percentage of success required, and campaign type."
+msgstr "A tréning kampány indításához add meg az alábbi szükséges információkat: kezdõ / befejezõ dátum, teljesítés minimum szükséges szintje és a kampány típusa."
+
+#: cms/templates/manage_course.html
+msgid "campaign id"
+msgstr "kampányazonosító"
+
+#: cms/templates/manage_course.html
+msgid "Create your campagne id"
+msgstr "Hozd létre a kampányazonosítód"
+
+#: cms/templates/manage_course.html
+msgid "This id is indicated in statistic reports."
+msgstr "Ez az azonosító jelenik meg a statisztikai jelentésekben."
+
+#: cms/templates/manage_course.html
+msgid "Precise your target and/or campaign period."
+msgstr "Határozd meg a kurzus célközönségét és az idõzítését."
+
+#: cms/templates/manage_course.html
+msgid "Your id"
+msgstr "Az azonosítód"
+
+#: cms/templates/manage_course.html
+msgid "Rules to create your campaign id: no space, no  punctuation mark"
+msgstr "A kampány azonosító szabályai: szóköz és írásjelek nem megengedettek"
+
+#: cms/templates/manage_course.html
+msgid "PERIOD OF THE TRAINING CAMPAIGN"
+msgstr "TRÉNING KAMPÁNY IDÕSZAK"
+
+#: cms/templates/manage_course.html
+msgid "Schedule your training campaign"
+msgstr "Idõzítsd a tréning kampányod"
+
+#: cms/templates/manage_course.html
+msgid "Time for email invitation dispatch UTC"
+msgstr "E-mail meghívók kiküldési ideje (GMT)"
+
+#: cms/templates/manage_course.html
+msgid "The day the first invitations are dispatched when launching the training campaign"
+msgstr "Az elsõ meghívások kiküldésének napja a tréning kampány indulásakor"
+
+#: cms/templates/manage_course.html
+msgid "Ending time UTC"
+msgstr "Befejezési idõ (GMT)"
+
+#: cms/templates/manage_course.html
+msgid "Starting and ending dates of the training campaign"
+msgstr "Tréning kampány kezdõ és zárónapja"
+
+#: cms/templates/manage_course.html
+msgid "Closing day of the training campaign"
+msgstr "A tréning kampány zárónapja"
+
+#: cms/templates/manage_course.html
+msgid "MINIMUM PERCENTAGE OF SUCCESS REQUIRED"
+msgstr "ELVÁRT TELJESÍTMÉNYSZINT"
+
+#: cms/templates/manage_course.html
+msgid "Define the minimum score required to validate the training module"
+msgstr "Határozd meg az elvárt minimum pontot a modul teljesítéséhez"
+
+#: cms/templates/manage_course.html
+msgid "Minimum score required to validate the training module and receive the certificate of achievement"
+msgstr "Minimum elvárt pont a tréning modul teljesítéséhez és az oklevél megszerzéséhez"
+
+#: cms/templates/manage_course.html
+msgid "CAMPAIGN TYPE"
+msgstr "KAMPÁNY TÍPUS"
+
+#: cms/templates/manage_course.html
+msgid "Specify whether the training campaign is mandatory or optional"
+msgstr "Határozd meg, hogy a tréning kampány kötelezõ vagy opcionális"
+
+#: cms/templates/manage_course.html
+msgid "mandatory"
+msgstr "kötelezõ"
+
+#: cms/templates/manage_course.html
+msgid "optional"
+msgstr "opcionális"
+
+#: cms/templates/manage_course.html
+msgid "Add participants to your training campaign and customize the invitation email"
+msgstr "Adj résztvevõket a kampányhoz és szerkeszd a meghívó e-mailt"
+
+#: cms/templates/manage_course.html
+msgid "PARTICIPANTS"
+msgstr "RÉSZTVEVÕK"
+
+#: cms/templates/manage_course.html
+msgid "Invite participants to your training campaign"
+msgstr "Résztvevõk meghívása a kampányba"
+
+#: cms/templates/manage_course.html
+msgid "Upload participants list"
+msgstr "Részvevõk listájának feltöltése"
+
+#: cms/templates/manage_course.html
+msgid "EMAIL TO PARTICIPANTS"
+msgstr "E-MAIL KÜLDÉSE A RÉSZTVEVÕKNEK"
+
+#: cms/templates/manage_course.html
+msgid "Edit and send the invitation email to participants of your choice."
+msgstr "Meghívó e-mail szerkesztése és kiküldése a kiválasztott résztvevõknek"
+
+#: cms/templates/manage_course.html
+msgid "Send the invitation email to :"
+msgstr "Meghívás küldése az alábbiaknak:"
+
+#: cms/templates/manage_course.html
+msgid "Admin Team"
+msgstr "Adminisztrátorok"
+
+#: cms/templates/manage_course.html
+msgid "Every participants"
+msgstr "Minden résztvevõ"
+
+#: cms/templates/manage_course.html
+msgid "Customized list of participants"
+msgstr "Személyre szabott résztvevõ lista"
+
+#: cms/templates/manage_course.html
+msgid "If you want to send the invitation email to the training campaign to a customized list of participants, please copy/paste the email recipients above. Remember that invitation emails can be sent only to the participants who have been invited to participate to the training campaign in the section 1/2 PARTICIPANTS."
+msgstr "Ha egy egyedi listára szeretnél meghívó e-mailt küldeni, kérjük másold és illeszd be a meghívottakat fentre. Ne feledd, hogy meghívó e-mail csak olyan résztvevõknek küldhetõ, akik az 1/2-es szekcióban meghívásra kerültek."
+
+#: cms/templates/manage_course.html
+msgid "Object"
+msgstr "Tárgy"
+
+#: cms/templates/manage_course.html
+msgid "128 characters maximum"
+msgstr "legfeljebb 128 karakter"
+
+#: cms/templates/manage_course.html
+msgid "Contenu du mail"
+msgstr "Az e-mail tartalma"
+
+#: cms/templates/manage_course.html
+msgid "WARNING : Don’t hesitate to validate the email invitation by sending a test invitation to yourself. It will allow you to validate content and links included in the email invitation."
+msgstr "FIGYELEM : Ellenõrizd az e-mailes meghívást úgy, hogy magadnak küldesz egy teszt meghívót. Ez lehetõvé teszi, hogy ellenõrizd a tartalmat és linkeket a meghívóban."
+
+#: cms/templates/manage_course.html
+msgid "CTA : Send"
+msgstr "Küldés"
+
+#: cms/templates/manage_course.html
+msgid "Don't hesitate to validate the email invitation by sending a test invitation to yourself. It will allow you to validate content and links included in the email invitation."
+msgstr "Ellenõrizd az e-mailes meghívást úgy, hogy magadnak küldesz egy teszt meghívót. Ez lehetõvé teszi, hogy ellenõrizd a tartalmat és linkeket a meghívóban."
+
+#: cms/templates/index.html
+msgid "WHAT YOU CAN DO"
+msgstr "AMIT CSINÁLHATSZ"
+
+#: cms/templates/index.html
+msgid "Schedules training campaigns:"
+msgstr "Ütemezett tréning kampányok"
+
+#: cms/templates/index.html
+msgid "Update your settings: starting/ending dates, minimum percentage of success"
+msgstr "Beállításaid frissítése: kezdõ / végsõ dátum, minimális teljesítési szint"
+
+#: cms/templates/index.html
+msgid "Add new participants"
+msgstr "Új résztvevõk hozzáadása"
+
+#: cms/templates/index.html
+msgid "Update the text of the email invitation and test your email invitation"
+msgstr "Írd át az e-mailes meghívó szövegét és teszteld a meghívót"
+
+#: cms/templates/index.html
+msgid "In progress training campaigns:"
+msgstr "Folyamatban lévõ kampányok:"
+
+#: cms/templates/index.html
+msgid "Update ending date"
+msgstr "Frissítsd a befejezõ dátumot"
+
+#: cms/templates/index.html
+msgid "Access statistics: participation rate, success by participant, etc."
+msgstr "Statisztika elérése: részvételi ráta, sikeres vizsgák, stb."
+
+#: cms/templates/index.html
+msgid "Completed training campaigns:"
+msgstr "Befejezett tréning kampányok:"
+
+#: cms/templates/index.html
+msgid "Completed training campaigns"
+msgstr "Befejezett tréning kampányok"
+
+#: cms/templates/index.html
+msgid "Access a training modules library provided by Amundi"
+msgstr "Az Amundi tréning modul könyvtárának elérése"
+
+#: cms/templates/index.html
+msgid "Launch a training campaign"
+msgstr "Tréning kampány indítása"
+
+#: cms/templates/index.html
+msgid "My modules:"
+msgstr "Saját moduljaim:"
+
+#log
+msgid "logout"
+msgstr "kijelentkezés"
+
+#log
+msgid "login"
+msgstr "bejelentkezés"
+
+#cms index.html
+
+msgid "No training campaign has been launched yet."
+msgstr "Még nem indult egy tréning kampány sem."
+
+# lms dashboard.html
+
+msgid "No training modules available in this section."
+msgstr "Egy tréning modul sem érhetõ el ebben a szekcióban."
+
+# lms dashboard.html
+
+msgid "Welcome on Amundi Academy platform"
+msgstr "Üdvözlünk az Amundi Akadémián"
+
+# lms dashboard.html
+
+msgid "You successfully registered"
+msgstr "Sikeresen regisztráltál"
+
+# lms dashboard.html
+
+msgid "The training module"
+msgstr "A tréning modul"
+
+# lms dashboard.html
+
+msgid "is available in the section"
+msgstr "az alábbi szekcióban érhetõ el"
+
+# cms index.html
+
+msgid "Send email to participants"
+msgstr "E-mail küldése a résztvevõknek"
+
+#cms send email
+
+msgid "Send"
+msgstr "Küldés"
+
+msgid "You can send a new email or go back to the page MY CAMPAIGNS"
+msgstr "Küldhetsz egy új e-mailt vagy visszaléphetsz a KAMPÁNYAIM oldalra"
+
+msgid "Your email was sent"
+msgstr "Az e-mailedet elküldtük"
+
+#cms index.html
+msgid "Access Trainee interface"
+msgstr "Tesztíró felület elérése"
+
+#lms dashboard.html
+msgid "Access Admin interface"
+msgstr "Adminisztrátor felület elérése"
+
+#lms stat.html
+msgid "editor"
+msgstr "editor"
+
+#lms stat.html
+msgid "Results on "
+msgstr "Eredmények a"
+
+#lms stat.html
+msgid "Statistical training campaign"
+msgstr ""
+
+#lms stat.html
+msgid "training campaign info"
+msgstr "kampány infó"
+
+#lms stat.html
+msgid "Download participants' list"
+msgstr "Résztvevõk listájának letöltése"
+
+#lms stat.html
+msgid "starting date"
+msgstr "kezdõ dátum"
+
+#lms stat.html
+msgid "ending date"
+msgstr "záró dátum"
+
+#lms stat.html
+msgid "Number of questions"
+msgstr "Kérdések száma"
+
+#lms stat.html
+msgid "Percentage for success"
+msgstr "Elérendõ szint"
+
+#lms stat.html
+msgid "users stats"
+msgstr "felhasználói statisztika"
+
+#lms stat.html
+msgid "Network"
+msgstr "Hálózat"
+
+#lms stat.html
+msgid "Target"
+msgstr "Célközönség"
+
+#lms stat.html
+msgid "Guests"
+msgstr "Vendég"
+
+#lms stat.html
+msgid "Certified"
+msgstr "Tanusított"
+
+#lms stat.html
+msgid "Average result"
+msgstr "Átlagos eredmény"
+
+#lms stat.html
+msgid "Average score"
+msgstr "Átlagos pont"
+
+#lms stat.html
+msgid "per question"
+msgstr "kérdésenként"
+
+#lms stat.html
+msgid "per participant"
+msgstr "résztvevõnként"
+
+#lms stat.html
+msgid "Download all participants' detailled results"
+msgstr "Összes résztvevõ részletes eredményének letöltése"
+
+#lms stat.html
+msgid "First name"
+msgstr "Keresztnév"
+
+#lms stat.html
+msgid "Last name"
+msgstr "Vezetéknév"
+
+#cms create_course.html
+msgid "create my campaign"
+msgstr "saját kampány létrehozása"
+
+#cms create_course.html
+msgid "To launch your training campaign, you have to specify an unique ID and the target of your training campaign. Please, note that the target wording will be indicated in the statistics of this training campaign."
+msgstr "A saját kampány elindításához, meg kell adnod egy egyedi (kampány) azonosítót és a kampányod célközönségét. A megadott célközönség lesz látható a kampány statisztikájában."
+
+#cms create_course.html
+msgid "Specify unique ID and target"
+msgstr "Adj meg egy egyedi azonosító kódot és célközönséget"
+
+#cms create_course.html
+msgid "Specify an unique campaign title as long as a target for your training campaign"
+msgstr "Adj meg egy egyedi kampány címet"
+
+#cms create_course.html
+msgid "Unique ID"
+msgstr "Egyedi azonosító kód"
+
+#cms create_course.html
+msgid "Campaign title (unique id)"
+msgstr "Kampány cím (egyedi azonosító kód)"
+
+#cms create_course.html
+msgid "Rules for unique ID and target : no space, no punctuation, no special characters"
+msgstr "Az egyedi azonosító kód és célközönség szabályai: nem lehet szóköz, írásjel vagy speciális karakter"
+
+#cms create_course.html
+msgid "Create an identifier"
+msgstr "Hozz létre egy azonosítót"
+
+#cms create_course.html
+msgid "This identifier is reflected in the statistical dashboards"
+msgstr "Ez az azonosító jelenik meg a statisztikai elemzésekben"
+
+#cms create_course.html
+msgid "This allows you to specify the target and / or training period"
+msgstr "Ez lehetõvé teszi, hogy meghatározd a tréning célközönségét és az idõzítését"
+
+#cms create_course.html
+msgid "identifying your campaign"
+msgstr "a kampányod azonosítása"
+
+#cms create_course.html
+msgid "Rules for unique ID and target"
+msgstr "Az egyedi azonosító kód és a célközönség szabályai"
+
+#cms create_course.html
+msgid "no space, no punctuation, no special characters"
+msgstr "nem lehet szóköz, írásjel és speciális karakter"
+
+#cms invite.html
+msgid "INVITE PARTICIPANTS"
+msgstr "RÉSZTVEVÕK MEGHÍVÁSA"
+
+#cms invite.html
+msgid "In order to invite participants to your training campaign, it is imperative that starting date of the training session is set before the current date."
+msgstr "A résztvevõk meghívásához szükséges, hogy a tréning kezdõdátuma a mai napnál korábbi legyen."
+
+#cms mail.html
+msgid "SEND EMAIL TO PARTICIPANTS"
+msgstr "E-MAIL KÜLDÉSE A RÉSZTVEVÕKNEK"
+
+#cms mail.html
+msgid "During the training campaign, you can send a personalized e-mail to your participants or to targeted receivers."
+msgstr "A tréning kampány során, küldhetsz személyre szabott e-mailt minden résztvevõnek, csak egy szûkebb körüknek is."
+
+#cms mail.html
+msgid "It can be an email to remind them the training campaign will end soon, the training campaign is mandatory, etc"
+msgstr "Ez lehet egy e-mail, hogy emlékeztesd õket a lejáró határidõre, vagy hogy kötelezõ a tréning, stb."
+
+#cms mail.html
+msgid "Send email to:"
+msgstr "E-mail küldése:"
+
+#cms mail.html
+msgid "Team and administrator"
+msgstr "Adminisztrátorok"
+
+#cms mail.html
+msgid "All participants (invited and accepted)"
+msgstr "Minden résztvevõ (meghívottak és regisztráltak)"
+
+#cms mail.html
+msgid "Customized mailing list"
+msgstr "Egyedi e-mail lista"
+
+#cms mail.html
+msgid "If you want to send an email to a customized mailing list, please copy/paste email addresses above. Emails will only be sent to receivers that have been invited to participate to the training campaign in the section 'Invite participants'."
+msgstr "Ha e-mailt szeretnél küldeni egy egyedi levelezési listára, másold be az e-mail listát fentre. Csak azok fognak e-mailt kapni, akik meghívottakként lettek megjelölve a 'résztvevõk meghívása' szekcióban."
+
+#cms mail.html
+msgid "Object of the email"
+msgstr "Az e-mail tárgya"
+
+#cms mail.html
+msgid "WARNING : Before clicking on 'Send', please read your text carefully and send an email to yourself. This will allow you to validate text and links are correct."
+msgstr "FIGYELEM: Mielõtt rányomsz a 'Küldés' gombra, olvasd el figyelmesen a szöveget és küldj egy e-mail önmagadnak. Ez segít a szöveg és a linkek ellenõrzésében."
+
+msgid "Body of the email"
+msgstr "E-mail szövege"
+
+msgid "We recommend sending only one message per week to learners. Before sending your e-mail, read your text carefully and send it to your email address. You will be able to verify that all the links work and that the content is good."
+msgstr "Azt javasoljuk, hogy hetente csak egy e-mailt küldj a képzésben résztvevõknek. Mielõtt elküldöd az e-mailt, olvasd el a szöveget figyelmesen és küldd el a saját e-mail címedre is. Így ellenõrizheted a tartalmat és a linkeket is."
+
+msgid "legal notices"
+msgstr "jogi információk"
+
+msgid "File preview"
+msgstr "Fájl elõnézete"
+
+msgid "Access Trainee Interface"
+msgstr "Tesztíró felület megnyitása"
+
+msgid "The participants' list is successfully uploaded."
+msgstr "A résztvevõ lista sikeresen feltöltve."
+
+msgid "An email invitation to participate to the training module has been sent to the participants."
+msgstr "A résztvevõknek kiküldésre került egy meghívás e-mailben."
+
+msgid "OUR SOLUTIONS"
+msgstr "MEGOLDÁSAINK"
+
+msgid "Our solutions"
+msgstr "Megoldásaink"
+
+msgid "our solutions"
+msgstr "megoldásaink"
+
+msgid "OUR SOLUTION"
+msgstr "A MI MEGOLDÁSUNK"
+
+msgid "Our solution"
+msgstr "A mi megoldásunk"
+
+msgid "our solution"
+msgstr "a mi megoldásunk"
+
+msgid "To create your training campaign, you have to specify an unique ID and the target of your training campaign. Please, note that the target wording will be indicated in the statistics of this training campaign."
+msgstr "A tréning kampányod létrehozásához meg kell adnod egy egyedi azonosító kódot és a kampányod célközönségét. Fontos, hogy a megadott cél fog szerepelni a statisztikákban."
+
+msgid "To create your training campaign, you have to specify an unique campaign title as long as a target for your training campaign."
+msgstr "A tréning kampányod létrehozásához meg kell adnod egy egyedi kampány címet."
+
+msgid "Please, note that these will be indicated in the statistics dashboard of this training campaign."
+msgstr "Fontos lehet, hogy ez szereplni fog a kampány statisztikai jelentésében is."
+
+msgid "Created training campaigns"
+msgstr "Létrehozott kampányok"
+
+msgid "The training campaign is over."
+msgstr "A kampány véget ért."
+
+msgid "Starting time UTC"
+msgstr "Kezdés ideje (GMT)"
+
+msgid "Define the minimum score required to validate the training module and receive the certificate of achievement"
+msgstr "Add meg a sikeres teszthez szükséget elvárt pontszámot."
+
+#cms:index.html
+msgid "To launch a training campaign"
+msgstr "Egy kampány indításához"
+
+#validate translate
+msgid "Validated"
+msgstr "Ellenõrizve"
+
+msgid "Not validated"
+msgstr "Nincs ellenõrizve"
+
+msgid "SEARCH IN MY MODULES"
+msgstr "KERESÉS A MODULJAIM KÖZÖTT"
+
+msgid "Search in a module"
+msgstr "Keresés egy modulban"
+
+msgid "SEARCH IN MY CAMPAIGNS"
+msgstr "KERESÉS A KAMPÁNYAIM KÖZÖTT"
+
+msgid "Search for a campaign"
+msgstr "Kampány keresése"
+
+msgid "No match! Please, try a new search"
+msgstr "Nincs találat! Indíts új keresést!"
+
+msgid "New search"
+msgstr "Új keresés"
+
+msgid "results found in your modules"
+msgstr "találatok a saját moduljaidban"
+
+msgid "results found in your campaigns"
+msgstr "találatok a kampányaidban"
+
+#fail cms invite.html
+msgid "The structure of the file loaded is incorrect. Please, modify your file and load it again"
+msgstr "A betöltött fájl strukturája nem megfelelõ. Kérjük, hogy módosítsd a fájlt és töltsd fel újra"
+
+#cms manage.html
+msgid "You already have invited participants to this training campaign. Starting date can no longer be edited."
+msgstr "Már meghívtad a kampányra a résztvevõket. A kampány kezdõdátumát már nem lehet módosítani."
+
+msgid "Unfortunately, you haven't achieved the minimum score ({score}%) required to validate the training module."
+msgstr "Sajnos nem érted el a tréning sikeres teljesítéséhez szükséges minimum ({score}%) pontszámot."
+
+msgid "Start again"
+msgstr "Újra próbálkozás"
+
+#: lms/templates/dashboard.html
+msgid "Welcome to the Academy platform"
+msgstr "Üdvözlünk az Amundi Akadémián"
+
+#: lms/templates/dashboard.html
+msgid "Your registration has been successful"
+msgstr "A regisztrációd sikeres volt"
+
+#: lms/templates/dashboard.html
+msgid ""
+"Below are training modules you have started but not yet completed. Click "
+"\"Proceed\" to continue."
+msgstr ""
+"Alább találod azon modulokat, amiket elkezdtél, de még nem fejeztél be. Kattints a "
+"\"folytatás\" gombra a megnyitáshoz."
+
+#: lms/templates/dashboard.html
+msgid "Below, access training modules you have yet to complete. Click"
+msgstr "Alább találod a befejezendo tréning moduljaid. Kattints az"
+
+#: lms/templates/dashboard.html
+msgid "Click"
+msgstr "Kattints a"
+
+#: lms/templates/dashboard.html
+msgid ""
+"to access the result of modules you passed. Below you can also find training"
+" modules you have not passed, and are no longer accessible"
+msgstr ""
+"pentru a accesa rezultatele modulelor parcurse. Mai jos poti gasi totodata si modulele de training"
+" pe care nu le-ai finalizat cu succes si care nu mai sunt disponibile"
+
+#: lms/templates/dashboard.html
+msgid "to continue"
+msgstr "gombra a megnyitáshoz"
+
+msgid "You have completed the training module"
+msgstr "Teljesítetted a kurzust"
+
+msgid ""
+"Unfortunately, you haven't achieved the minimum score required to validate "
+"the training module."
+msgstr "Sajnos nem érted el a tréning sikeres teljesítéséhez szükséges minimum pontszámot."
+
+
