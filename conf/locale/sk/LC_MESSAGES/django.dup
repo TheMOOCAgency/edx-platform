@@ -1,0 +1,65 @@
+Multiple translations found for single string.
+	String "Verified"
+	Present in files [u'common/djangoapps/course_modes/helpers.py', u'lms/templates/instructor/instructor_dashboard_2/course_info.html']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+Overených
+#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
+Overený
+
+Multiple translations found for single string.
+	String "Show Answer"
+	Present in files [u'common/lib/xmodule/xmodule/capa_base.py', u'common/lib/xmodule/xmodule/modulestore/inheritance.py', u'lms/templates/problem.html']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+Zobraziť odpoveď
+#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
+Ukáž odpoveď
+
+Multiple translations found for single string.
+	String "Submit"
+	Present in files [u'common/lib/xmodule/xmodule/capa_base.py', u'lms/templates/admin/user_api/accounts/cancel_retirement_action.html', u'cms/templates/index.html', u'cms/templates/videos_index_pagination.html', u'lms/templates/manage_user_standing.html', u'lms/templates/dashboard/_entitlement_reason_survey.html', u'lms/templates/dashboard/_reason_survey.html', u'lms/templates/peer_grading/peer_grading_problem.html', u'lms/templates/survey/survey.html', u'lms/templates/widgets/footer-language-selector.html', u'openedx/core/djangoapps/dark_lang/templates/dark_lang/preview-language-fragment.html', u'openedx/core/djangoapps/theming/templates/theming/theming-admin-fragment.html', u'themes/stanford-style/lms/templates/register-shib.html']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+Odoslať
+#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
+Poslať
+
+Multiple translations found for single string.
+	String "Terms of Service"
+	Present in files [u'lms/djangoapps/branding/api.py', u'openedx/core/djangoapps/user_authn/views/registration_form.py', u'cms/templates/widgets/footer.html', u'lms/templates/static_templates/tos.html', u'themes/red-theme/lms/templates/footer.html', u'themes/stanford-style/lms/templates/footer.html', u'themes/stanford-style/lms/templates/static_templates/tos.html']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+Podmienky používania služby
+#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
+podmienky služby
+
+Multiple translations found for single string.
+	String "Preview"
+	Present in files [u'lms/templates/wiki/edit.html', u'cms/templates/container.html', u'wiki/templates/wiki/edit.html']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+Zobrazenie náhľadu
+#-#-#-#-#  mako-studio.po (edx-platform)  #-#-#-#-#
+Zobrazenie náhľadu
+#-#-#-#-#  wiki.po (edx-platform)  #-#-#-#-#
+Náhľad
+
+Multiple translations found for single string.
+	String "Uploading"
+	Present in files [u'cms/djangoapps/contentstore/views/videos.py', u'cms/templates/import.html']
+Translations found were:
+	#-#-#-#-#  django-studio.po (edx-platform)  #-#-#-#-#
+Odovzdáva sa
+#-#-#-#-#  mako-studio.po (edx-platform)  #-#-#-#-#
+Presúvanie údajov
+
+Multiple translations found for single string.
+	String "Help"
+	Present in files [u'cms/templates/widgets/header.html', u'lms/templates/header/navbar-authenticated.html', u'lms/templates/navigation/navbar-authenticated.html', u'lms/templates/navigation/bootstrap/navbar-authenticated.html', u'lms/templates/static_templates/help.html', u'themes/edx.org/lms/templates/header/navbar-authenticated.html', u'wiki/plugins/help/wiki_plugin.py']
+Translations found were:
+	#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
+Pomoc
+#-#-#-#-#  wiki.po (edx-platform)  #-#-#-#-#
+Pomocník
+

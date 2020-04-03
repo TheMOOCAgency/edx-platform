@@ -159,6 +159,20 @@ def generate_html(user,score,course_img_path,template_path,course_title,categori
         "phrase2":u"tréninget teljesítette",
         "soft skills":u"soft skills",
         "expert":u"expert",
+    },
+    "sk":{
+        "date_title":"Date",
+        "score_title":"Score",
+        "category_label":"Category",
+        "fundamentals":"fundamentals",
+        "fundamental":"fundamental",
+        "sales approach":"sales approach",
+        "our solutions":"our solutions",
+        "regulatory":"regulatory",
+        "phrase":"The certificate of achievement for",
+        "phrase2":"is attributed to",
+        "soft skills":"soft skills",
+        "expert":"expert",
     }
     }
 

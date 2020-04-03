@@ -1903,7 +1903,23 @@ language_setup={
             'expert':'expert',
             'soft skills':'soft skills'
         }
-    }
+    },
+    "sk":{
+        'platform_lang' :'sk',
+        'sem_lang' :'sk',
+        'msg':'Once you’ve passed this step, you will be able to access the training module {0}.',
+        'obj':'Invitation to access {0} training module',
+        'title_mail' : ['Category','Duration','Mode','End date'],
+        'required':'mandatory',
+        'optional':'optional',
+        'categories':{
+            'fundamentals':'fundamentals',
+            'our solutions':'our solutions',
+            'sales approach' :'sales approach',
+            'regulatory' : 'regulatory',
+            'expert':'expert',
+            'soft skills':'soft skills'
+        }
 }
 
 

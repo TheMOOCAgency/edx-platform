@@ -1,0 +1,18 @@
+Multiple translations found for single string.
+	String "Preview"
+	Present in files [u'common/lib/xmodule/xmodule/js/src/html/edit.js', u'lms/static/js/customwmd.js', u'cms/templates/js/asset-library.underscore']
+Translations found were:
+	#-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
+Náhľad
+#-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#
+Zobrazenie náhľadu
+
+Multiple translations found for single string.
+	String "Loading"
+	Present in files [u'lms/static/js/instructor_dashboard/data_download.js', u'openedx/features/course_bookmarks/static/course_bookmarks/js/views/bookmarks_list.js', u'cms/templates/js/move-xblock-modal.underscore', u'openedx/features/course_search/static/course_search/templates/search_loading.underscore']
+Translations found were:
+	#-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
+Načítavanie
+#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+Načíta sa
+
