@@ -6,6 +6,7 @@ from django.core.urlresolvers import reverse
 from django.utils.translation import ugettext as _
 import third_party_auth
 from third_party_auth import provider, pipeline
+from openedx.core.djangoapps.site_configuration import helpers as configuration_helpers
 %>
 
 <%block name="pagetitle">${_("Log into your {platform_name} Account").format(platform_name=platform_name)}</%block>
@@ -322,17 +323,19 @@ from third_party_auth import provider, pipeline
         }
     }
   };
+
 <% 
-django_language_code = request.LANGUAGE_CODE
+django_language_code = configuration_helpers.get_value('language_code', "fr")
+
 sem_language_code = "fr"
 
 translation_lang_code = {"cs":"cz"}
+
 if django_language_code in translation_lang_code.keys():
-  sem_language_code = translation_lang_code[request.LANGUAGE_CODE]
+  sem_language_code = translation_lang_code[django_language_code]
 else:
   sem_language_code = django_language_code[:2].lower()
 %>
-
     var redirect_base="/auth/login/amundi/?auth_entry=register&lang=${sem_language_code}&next="
     var next_redirect = encodeURIComponent(getUrlParameter('next'));
     var redirect_final = redirect_base+next_redirect;

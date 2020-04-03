@@ -21291,11 +21291,11 @@ msgstr "Modulele mele:"
 
 #log
 msgid "logout"
-msgstr "deconectați-vă"
+msgstr "Deconectați-vă"
 
 #log
 msgid "login"
-msgstr "Autentificare"
+msgstr "Logheaza-te!"
 
 #cms index.html
 

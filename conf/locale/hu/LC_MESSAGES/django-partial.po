@@ -11699,7 +11699,7 @@ msgstr "kijelentkezés"
 
 #log
 msgid "login"
-msgstr "bejelentkezés"
+msgstr "Login"
 
 #cms index.html
 

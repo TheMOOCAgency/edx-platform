@@ -11674,7 +11674,7 @@ msgstr "logout"
 
 #log
 msgid "login"
-msgstr "login"
+msgstr "Logheaza-te!"
 
 #cms index.html
 
