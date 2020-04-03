@@ -1907,18 +1907,18 @@ language_setup={
     "sk":{
         'platform_lang' :'sk',
         'sem_lang' :'sk',
-        'msg':'Once you’ve passed this step, you will be able to access the training module {0}.',
-        'obj':'Invitation to access {0} training module',
-        'title_mail' : ['Category','Duration','Mode','End date'],
-        'required':'mandatory',
-        'optional':'optional',
+        'msg':'Po dokonèení tohto kroku budete ma prístup k vzdelavaciemu modulu {0}.',
+        'obj':'Pozvánka na prístup k {0} vzdelávaciemu modulu',
+        'title_mail' : ['Kategória','Durácia','Režim','Dátum ukonèenia'],
+        'required':'povinná',
+        'optional':'voliteľná',
         'categories':{
-            'fundamentals':'fundamentals',
-            'our solutions':'our solutions',
-            'sales approach' :'sales approach',
-            'regulatory' : 'regulatory',
-            'expert':'expert',
-            'soft skills':'soft skills'
+            'fundamentals':'Všeobecné základy',
+            'our solutions':'Zakladné riešenia',
+            'sales approach' :'Predajný prístup',
+            'regulatory' : 'Regulácia',
+            'expert':'Doplnkové riešenia',
+            'soft skills':'Predajné zručnosti'
         }
 }
 
