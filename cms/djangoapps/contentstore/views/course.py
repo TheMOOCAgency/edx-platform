@@ -1920,8 +1920,8 @@ language_setup={
             'expert':'Doplnkové riešenia',
             'soft skills':'Predajné zručnosti'
         }
+    }
 }
-
 
 
 
