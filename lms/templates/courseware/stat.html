@@ -352,12 +352,15 @@ course_key_id_cleared=str(course_id).replace('+','').replace(':','')
             <span style="display:block;clear:left;"></span>
             <div id="pop_up_grades">
               <span>
+              <!--TODO: use po-->
                 % if LANGUAGE_CODE == "fr":
                 Le rapport avec les résultats de tous les participants est en cours d’exécution. Il vous sera envoyé par mail. Cette tâche peut prendre jusqu’à 15 minutes.
                 % elif LANGUAGE_CODE == "en":
                 The report with all participants’ results is in progress. It will be sent to you by email. This task may last maximum 15 minutes.
                 % elif LANGUAGE_CODE == "de-de":
                 Der Bericht mit den Ergebnissen aller Teilnehmer ist in Bearbeitung. Es wird Ihnen per E-Mail gesendet werden. Diese Aufgabe kann maximal 15 Minuten dauern.
+                % else:
+                The report with all participants’ results is in progress. It will be sent to you by email. This task may last maximum 15 minutes.
                 % endif
               </span>
             </div>
