@@ -171,7 +171,7 @@ msgstr "Video azonosító"
 #: lms/djangoapps/shoppingcart/reports.py
 #: lms/templates/shoppingcart/receipt.html
 msgid "Status"
-msgstr "Állapot"
+msgstr "Státusz"
 
 #. #-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
 #. Translators: This is listed as the duration for a video that has not
@@ -5350,7 +5350,7 @@ msgstr "Tanulók aránya"
 #: lms/djangoapps/class_dashboard/dashboard_data.py
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html
 msgid "Score"
-msgstr "Pont"
+msgstr "Pontszámok"
 
 #: lms/djangoapps/class_dashboard/dashboard_data.py
 msgid "problems"
@@ -12980,7 +12980,6 @@ msgstr "Elózó"
 
 #. Translators: A button for showing the Next Unit
 #: lms/templates/seq_module.html
-msgctxt "unit"
 msgid "Next"
 msgstr "Következő"
 
@@ -24486,7 +24485,7 @@ msgid "You have acomplished the course "
 msgstr "Teljesítetted a kurzust"
 
 msgid "Your total score :"
-msgstr "Az összpontszámod:"
+msgstr "A teszted eredménye:"
 
 #: lms/templates/dashboard.html
 msgid "TO DO TRAINING MODULES"
@@ -24499,7 +24498,7 @@ msgstr "Még nem kezdtél bele az alábbi tréning modulokba. Kattints"
 #: lms/templates/dashboard.html
 #: lms/templates/dashboard/_dashboard_course_listing.html
 msgid "More information"
-msgstr "Bõvebb információ"
+msgstr "Megnyitás"
 
 #: lms/templates/dashboard.html
 msgid "to access the training module description"
@@ -25207,7 +25206,7 @@ msgstr "Egy kampány indításához"
 
 #validate translate
 msgid "Validated"
-msgstr "Ellenõrizve"
+msgstr "Sikeres teszt"
 
 msgid "Not validated"
 msgstr "Nincs ellenõrizve"
@@ -25268,7 +25267,7 @@ msgstr ""
 
 #: lms/templates/dashboard.html
 msgid "Below, access training modules you have yet to complete. Click"
-msgstr "Alább találod a befejezendo tréning moduljaid. Kattints az"
+msgstr "Alább találod a befejezendő tréning moduljaid. Kattints a"
 
 #: lms/templates/dashboard.html
 msgid "Click"
@@ -25279,15 +25278,23 @@ msgid ""
 "to access the result of modules you passed. Below you can also find training"
 " modules you have not passed, and are no longer accessible"
 msgstr ""
-"pentru a accesa rezultatele modulelor parcurse. Mai jos poti gasi totodata si modulele de training"
-" pe care nu le-ai finalizat cu succes si care nu mai sunt disponibile"
+"gombra a sikeres modulok eredményeinek megtekintéséhez. Alább alább látod azokat is,"
+" amik nem sikerültek, vagy már nem érhetőek el"
 
 #: lms/templates/dashboard.html
 msgid "to continue"
 msgstr "gombra a megnyitáshoz"
 
 msgid "You have completed the training module"
-msgstr "Teljesítetted a kurzust"
+msgstr "Eredményesen teljesítetted a tréninget"
 
 msgid "Congratulations"
-msgstr "Gratuláció"
+msgstr "Gratulálunk"
+
+msgid "Download certificate"
+msgstr "Oklevél letöltése"
+
+msgid "Results"
+msgstr "Eredmény"
+
+# Use this file for new translations
