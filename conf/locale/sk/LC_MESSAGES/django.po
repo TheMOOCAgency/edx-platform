@@ -12268,7 +12268,7 @@ msgstr ""
 #: cms/templates/maintenance/_announcement_index.html
 #: lms/templates/sysadmin_dashboard_gitlogs.html
 msgid "next"
-msgstr ""
+msgstr "Ďalej"
 
 #: cms/templates/maintenance/_force_publish_course.html
 #: lms/templates/problem.html lms/templates/shoppingcart/shopping_cart.html
@@ -13055,7 +13055,6 @@ msgstr "Predchádzajúci "
 
 #. Translators: A button for showing the Next Unit
 #: lms/templates/seq_module.html
-msgctxt "unit"
 msgid "Next"
 msgstr "Ďalej"
 
