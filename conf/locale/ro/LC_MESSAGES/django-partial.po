@@ -12068,3 +12068,19 @@ msgstr "minute"
 msgid "minute"
 msgstr "minute"
 
+msgid "Participants"
+msgstr "Participanti"
+
+msgid "Number of certified partipants"
+msgstr "Numarul participantilor certificati"
+
+msgid "Average result for all certified"
+msgstr "Scorul mediu pentru toti participantii certificati"
+
+msgid "Average result for all quiz participants"
+msgstr "Scorul mediu pentru toti participantii la testare"
+
+msgid "Back to"
+msgstr "Inapoi la"
+
+# DO NOT Use this file to change translations
