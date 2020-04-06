@@ -49,7 +49,7 @@ class microsite_manager():
         self.primary_color = None
         self.secondary_color = None
         self.third_color = None
-        self.third_bg_color = None
+        self.third_text_color = None
         self.white_or_color_logo = None
         self.language = None
         self.contact_address = None
@@ -73,7 +73,7 @@ class microsite_manager():
         microsite_details['color'] = '#000000'
         microsite_details['secondary_color'] = request.POST['secondary_color']
         microsite_details['third_color'] = request.POST['third_color']
-        microsite_details['third_bg_color'] = request.POST['third_bg_color']
+        microsite_details['third_text_color'] = request.POST['third_text_color']
         microsite_details['white_or_color_logo'] = request.POST['white_or_color_logo']
         microsite_details['logo'] = 'logo_couleur.'+logo_couleur_ext
         microsite_details['language_code'] = request.POST['language']
@@ -87,7 +87,7 @@ class microsite_manager():
         }
         require_keys = [
             'display_name','logo','primary_color',
-            'secondary_color','third_color','third_bg_color','white_or_color_logo','language',
+            'secondary_color','third_color','third_text_color','white_or_color_logo','language',
             'logo_couleur', 'contact_address', 'amundi_brand'
         ]
         if request.method == 'POST':
@@ -115,7 +115,7 @@ class microsite_manager():
                     primary_color=request.POST.get('primary_color'),
                     secondary_color=request.POST.get('secondary_color'),
                     third_color=request.POST.get('third_color'),
-                    third_bg_color=request.POST.get('third_bg_color'),
+                    third_text_color=request.POST.get('third_text_color'),
                     white_or_color_logo=request.POST.get('white_or_color_logo'),
                     language = request.POST.get('language'),
                     contact_address = request.POST.get('contact_address'),
@@ -165,7 +165,7 @@ class microsite_manager():
                      "primary_color":self.primary_color,
                      "secondary_color":self.secondary_color,
                      "third_color":self.third_color,
-                     "third_bg_color":self.third_bg_color,
+                     "third_text_color":self.third_text_color,
                      "white_or_color_logo":self.white_or_color_logo,
                      "show_partners":False,
                      "show_homepage_promo_video":False,
@@ -206,7 +206,7 @@ class microsite_manager():
         return JsonResponse(context)
 
     #CHECK FORMAT ADD MICROSITE ATTRIBUTES (colors etc...) to self attributes
-    def add(self,microsite_name=None,logo=None,logo_couleur=None,bg_img=None,primary_color=None,secondary_color=None,third_color=None,third_bg_color=None,white_or_color_logo=None,language=None,contact_address=None, amundi_brand=None, disclaimer=None, trademark=None):
+    def add(self,microsite_name=None,logo=None,logo_couleur=None,bg_img=None,primary_color=None,secondary_color=None,third_color=None,third_text_color=None,white_or_color_logo=None,language=None,contact_address=None, amundi_brand=None, disclaimer=None, trademark=None):
         log.info(u'microsite_manager.add start')
 
         valid_ext = ['jpg','jpeg','png']
@@ -247,8 +247,8 @@ class microsite_manager():
             self.secondary_color = secondary_color
         if third_color!='':
             self.third_color = third_color
-        if third_bg_color!='':
-            self.third_bg_color = third_bg_color
+        if third_text_color!='':
+            self.third_text_color = third_text_color
         if white_or_color_logo!='':
             self.white_or_color_logo = white_or_color_logo
         if contact_address!='':
@@ -292,7 +292,7 @@ class microsite_manager():
                 secondary_key = i
             if n == 'third_color':
                 third_key = i
-            if n == 'third_bg_color':
+            if n == 'third_text_color':
                 third_bg_key = i
             if n == 'white_or_color_logo':
                 white_or_color_logo_key = i
@@ -313,7 +313,7 @@ class microsite_manager():
         context['primary_color'] = microsite_value.values()[primary_key]
         context['secondary_color'] = microsite_value.values()[secondary_key]
         context['third_color'] = microsite_value.values()[third_key]
-        context['third_bg_color'] = microsite_value.values()[third_bg_key]
+        context['third_text_color'] = microsite_value.values()[third_bg_key]
         context['white_or_color_logo'] = microsite_value.values()[white_or_color_logo_key]
         context['logo_site'] = microsite_value.values()[logo_key]
         try:
@@ -360,7 +360,7 @@ class microsite_manager():
                 primary_color=request.POST.get('primary_color'),
                 secondary_color=request.POST.get('secondary_color'),
                 third_color=request.POST.get('third_color'),
-                third_bg_color=request.POST.get('third_bg_color'),
+                third_text_color=request.POST.get('third_text_color'),
                 white_or_color_logo=request.POST.get('white_or_color_logo'),
                 language = request.POST.get('language'),
                 contact_address = request.POST.get('contact_address'),
@@ -381,7 +381,7 @@ class microsite_manager():
             microsite_details.primary_color=self.primary_color
             microsite_details.secondary_color=self.secondary_color
             microsite_details.third_color=self.third_color
-            microsite_details.third_bg_color=self.third_bg_color
+            microsite_details.third_text_color=self.third_text_color
             microsite_details.white_or_color_logo=self.white_or_color_logo
 
             details_status = microsite_details.save()
@@ -455,8 +455,8 @@ class microsite_manager():
                 self.secondary_color = microsite_value['secondary_color'].encode('utf-8')
             if self.third_color is None :
                 self.third_color = microsite_value['third_color'].encode('utf-8')
-            if self.third_bg_color is None :
-                self.third_bg_color = microsite_value['third_bg_color'].encode('utf-8')
+            if self.third_text_color is None :
+                self.third_text_color = microsite_value['third_text_color'].encode('utf-8')
             if self.white_or_color_logo is None :
                 self.white_or_color_logo = microsite_value['white_or_color_logo'].encode('utf-8')
             if self.language is None :
@@ -471,12 +471,12 @@ class microsite_manager():
                 self.trademark = microsite_value['trademark'].encode('utf-8')
 
         #REPLACE COLORS IN CSS FILES
-        if self.primary_color is not None and self.secondary_color is not None and self.third_color is not None and self.third_bg_color is not None:
+        if self.primary_color is not None and self.secondary_color is not None and self.third_color is not None and self.third_text_color is not None:
             dict_change = {
                 '!atp_primary_color': self.primary_color,
                 '!atp_secondary_color': self.secondary_color,
                 '!atp_third_color': self.third_color,
-                '!atp_third_bg_color': self.third_bg_color,
+                '!atp_third_text_color': self.third_text_color,
                 '!font_family_atp': 'mywebfont'
             }
 
@@ -509,7 +509,7 @@ class microsite_manager():
                 'primary_color':self.primary_color,
                 'secondary_color':self.secondary_color,
                 'third_color':self.third_color,
-                'third_bg_color':self.third_bg_color,
+                'third_text_color':self.third_text_color,
                 'white_or_color_logo':self.white_or_color_logo,
                 'contact_address':self.contact_address,
                 'amundi_brand':self.amundi_brand,
