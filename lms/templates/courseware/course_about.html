@@ -300,11 +300,15 @@ $('#certiticate').click(function(e){
   page_name = 'page_course_about';
 
   $(document).ready(function(){
+    $('.start_module').each(function(){
+      $(this).attr('onclick',"catalogenroll('${course_about_id}');");
+    });
+  })
+</script>
+<script>
+  $(document).ready(function(){
     $('.more_info').each(function(){
       $(this).attr('onclick','followClickEvents(this,\'courseware\',\'action\')');
-    });
-    $('.start_module').each(function(){
-      $(this).attr('onclick',"followClickEvents(this,'start','action');catalogenroll('${course_about_id}');");
     });
     $('.proceed').each(function(){
       $(this).attr('onclick','followClickEvents(this,\'courseware\',\'action\')');
