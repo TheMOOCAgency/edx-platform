@@ -106,7 +106,7 @@ class StudentSerializer(serializers.Serializer):
                 if passed :
                     compteur_certified+=1
                     certified_courses.append(q)
-                if course_progression > 0 and course_progression < 100 and passed and _progress:
+                if course_progression > 0 and course_progression < 100 and not passed and _progress:
                     compteur_progress+=1
                     progress_courses.append(q)
                 elif ( course_progression == 100 or not _progress ) and passed:
