@@ -25209,7 +25209,7 @@ msgid "Validated"
 msgstr "Sikeres teszt"
 
 msgid "Not validated"
-msgstr "Nincs ellenõrizve"
+msgstr "Sikertelen teszt:"
 
 msgid "SEARCH IN MY MODULES"
 msgstr "KERESÉS A MODULJAIM KÖZÖTT"
@@ -25244,7 +25244,7 @@ msgid "You already have invited participants to this training campaign. Starting
 msgstr "Már meghívtad a kampányra a résztvevõket. A kampány kezdõdátumát már nem lehet módosítani."
 
 msgid "Unfortunately, you haven't achieved the minimum score ({score}%) required to validate the training module."
-msgstr "Sajnos nem érted el a tréning sikeres teljesítéséhez szükséges minimum ({score}%) pontszámot."
+msgstr "Sajnos nem érted el a tréning sikeres teljesítéséhez szükséges minimum {score}%-ot."
 
 msgid "Start again"
 msgstr "Újra próbálkozás"
@@ -25286,7 +25286,7 @@ msgid "to continue"
 msgstr "gombra a megnyitáshoz"
 
 msgid "You have completed the training module"
-msgstr "Eredményesen teljesítetted a tréninget"
+msgstr "A modul és a teszt végére értél"
 
 msgid "Congratulations"
 msgstr "Gratulálunk"
@@ -25295,6 +25295,9 @@ msgid "Download certificate"
 msgstr "Oklevél letöltése"
 
 msgid "Results"
+msgstr "Eredmény"
+
+msgid "results"
 msgstr "Eredmény"
 
 # Use this file for new translations

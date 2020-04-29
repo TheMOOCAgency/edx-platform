@@ -1890,7 +1890,7 @@ language_setup={
     "hu":{
         'platform_lang' :'hu',
         'sem_lang' :'hu',
-        'msg':'Miután teljesítetted ezt a lépést, eléred a tréning modult {0}.',
+        'msg':'A regisztráció befejezése után eléred az alábbi tréninget: {0}.',
         'obj':'Meghívás a {0} tréning modulra',
         'title_mail' : ['Kategória','Idõigény','Mód','Határidõ'],
         'required':'kötelezõ',
