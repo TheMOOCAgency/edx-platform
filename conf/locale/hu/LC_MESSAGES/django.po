@@ -25286,7 +25286,7 @@ msgid "to continue"
 msgstr "gombra a megnyitáshoz"
 
 msgid "You have completed the training module"
-msgstr "A modul és a teszt végére értél"
+msgstr "Teljesítetted a tréninget"
 
 msgid "Congratulations"
 msgstr "Gratulálunk"
