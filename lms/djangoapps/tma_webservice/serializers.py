@@ -103,16 +103,19 @@ class StudentSerializer(serializers.Serializer):
                 q['display_name_with_default'] = enrollment.course_overview.display_name_with_default
                 q['course_progression'] = course_progression
 
-                if passed == True :
+                if passed :
                     compteur_certified+=1
                     certified_courses.append(q)
-                if course_progression > 0 and course_progression < 100 and passed == False and _progress == True:
+                if course_progression > 0 and course_progression < 100 and passed and _progress:
                     compteur_progress+=1
                     progress_courses.append(q)
-                elif course_progression == 100 or passed or _progress == False:
+                elif ( course_progression == 100 or not _progress ) and passed:
                     compteur_finish+=1
                     finish_courses.append(q)
-                elif course_progression == 0 and _progress == True:
+                elif ( course_progression == 100 or not _progress ) and not passed:
+                    compteur_progress+=1
+                    progress_courses.append(q)
+                elif course_progression == 0 and _progress:
                     compteur_start+=1
                     start_courses.append(q)
 
