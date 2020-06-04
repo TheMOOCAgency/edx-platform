@@ -25278,7 +25278,7 @@ msgid ""
 "to access the result of modules you passed. Below you can also find training"
 " modules you have not passed, and are no longer accessible"
 msgstr ""
-"gombra a sikeres modulok eredményeinek megtekintéséhez. Alább alább látod azokat is,"
+"gombra a sikeres modulok eredményeinek megtekintéséhez. Alább látod azokat is,"
 " amik nem sikerültek, vagy már nem érhetőek el"
 
 #: lms/templates/dashboard.html
