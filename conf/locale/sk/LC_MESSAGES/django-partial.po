@@ -12122,3 +12122,5 @@ msgstr "Už ste pozval účastníkov k tejto tréningovej kampani. Začiatočný
 
 msgid "Congratulations"
 msgstr "Blahoželanie"
+
+## Do not use this file, use django.po for SK

@@ -2232,11 +2232,11 @@ msgstr ""
 #: openedx/core/djangoapps/theming/templates/theming/theming-admin-fragment.html
 #: themes/stanford-style/lms/templates/register-shib.html
 msgid "Submit"
-msgstr "Odoslať"
+msgstr "Potvrdiť"
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Submitting"
-msgstr ""
+msgstr "Potvrdiť"
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Warning: The problem has been reset to its initial state!"
@@ -4108,7 +4108,7 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/tabs.py lms/djangoapps/courseware/tabs.py
 msgid "Home"
-msgstr ""
+msgstr "Domov"
 
 #: common/lib/xmodule/xmodule/tabs.py lms/djangoapps/courseware/tabs.py
 #: lms/djangoapps/courseware/views/views.py
@@ -23951,28 +23951,28 @@ msgid "my account"
 msgstr "môj účet"
 
 msgid "my modules"
-msgstr "môj modul"
+msgstr "moje moduly"
 
 msgid "My modules"
-msgstr "Môj modul"
+msgstr "Moje moduly"
 
 msgid "IN PROGRESS"
-msgstr "V PROCESE"
+msgstr "ROZPRACOVANÉ"
 
 msgid "in progress"
-msgstr "v procese"
+msgstr "rozpracované"
 
 msgid "In progress"
-msgstr "V procese"
+msgstr "Rozpracované"
 
 msgid "TO DO"
-msgstr "ÚLOHA"
+msgstr "OTVORENÉ"
 
 msgid "to do"
-msgstr "úloha"
+msgstr "otvorené"
 
 msgid "To do"
-msgstr "Úloha"
+msgstr "Otvorené"
 
 msgid "MY CATEGORIES"
 msgstr "MOJE KATEGÓRIE"
@@ -23984,43 +23984,43 @@ msgid "categories"
 msgstr "kategórie"
 
 msgid "FUNDAMENTALS"
-msgstr "FUNDAMENTY"
+msgstr "VŠEOBECNÉ ZÁKLADY"
 
 msgid "Fundamentals"
-msgstr "Fundamenty"
+msgstr "Všeobecné základy"
 
 msgid "fundamentals"
-msgstr "fundamenty"
+msgstr "všeobecné základy"
 
 msgid "FUNDAMENTAL"
-msgstr "FUNDAMENTY"
+msgstr "VŠEOBECNÉ ZÁKLADY"
 
 msgid "Fundamental"
-msgstr "Fundamenty"
+msgstr "Všeobecné základy"
 
 msgid "fundamental"
-msgstr "fundamenty"
+msgstr "všeobecné základy"
 
 msgid "BUSINESS APPROACH"
-msgstr "OBCHODNÝ PRÍSTUP"
+msgstr "PREDAJNÉ ZRUČNOSTI"
 
 msgid "Business approach"
-msgstr "Obchodný prístup"
+msgstr "Predajné zručnosti"
 
 msgid "SALES APPROACH"
-msgstr "PREDAJNÝ PRÍSTUP"
+msgstr "PREDAJNÉ ZRUČNOSTI"
 
 msgid "Sales approach"
-msgstr "Predajný prístup"
+msgstr "Predajné zručnosti"
 
 msgid "REGULATORY"
-msgstr "REGULÁCIA"
+msgstr "DOPLNKOVÉ RIEŠENIA"
 
 msgid "Regulatory"
-msgstr "Regulácia"
+msgstr "Doplnkové riešenia"
 
 msgid "regulatory"
-msgstr "regulácia"
+msgstr "doplnkové riešenia"
 
 msgid "Develop your knowledge and skills on asset management: financial culture and products and offers marketed"
 msgstr "Rozvjíjaj svoje znalosti a zručnosti správy majetku: finančná kultúra, produkty a ponuky"
@@ -24127,7 +24127,7 @@ msgid "Course covers completed"
 msgstr "Dokončenie kurzu"
 
 msgid "Completed"
-msgstr "Kompletné"
+msgstr "Ukončené"
 
 msgid "You have completed the training course cover"
 msgstr "Práve ste dokončili výcvikový kurz"
@@ -24154,7 +24154,10 @@ msgid "Ending date"
 msgstr "Konečný dátum"
 
 msgid "Disclaimer"
-msgstr "Disclaimer"
+msgstr "Upozornenie"
+
+msgid "disclaimer"
+msgstr "upozornenie"
 
 msgid "Results"
 msgstr "Výsledky"
@@ -24188,7 +24191,7 @@ msgstr "Ešte ste nezačali následujúci výcvikový modul. Kliknite prosím na
 #: lms/templates/dashboard.html
 #: lms/templates/dashboard/_dashboard_course_listing.html
 msgid "More information"
-msgstr "Mai multe informatii"
+msgstr "Viac informácií"
 
 #: lms/templates/dashboard.html
 msgid "to access the training module description"
@@ -24245,7 +24248,7 @@ msgstr "Stiahnúť certifikát"
 
 #: lms/templates/courseware/courseware.html
 msgid "Back to training module description"
-msgstr "Späť na popis modulu"
+msgstr "Späť na popis vzdelávacieho kurzu"
 
 #: lms/templates/courseware/courseware.html
 msgid "The training campaign is over. You can access the training module content. However, you can't do the test to validate your knowledge."
@@ -24590,7 +24593,7 @@ msgstr "Moje moduly:"
 
 #log
 msgid "logout"
-msgstr "Odhlásiť sa"
+msgstr "Odhlásiť"
 
 #log
 msgid "login"
@@ -24604,7 +24607,7 @@ msgstr "Zatiaľ nemáte žiadne spustené kampane."
 # lms dashboard.html
 
 msgid "No training modules available in this section."
-msgstr "V tejto sekcii nie sú dostupné žiadne tréningové moduly."
+msgstr "V tejto časti nie sú k dispozícii žiadne vzdelávacie moduly."
 
 # lms dashboard.html
 
@@ -24648,7 +24651,7 @@ msgstr "Prejsť do tréningového rozhrania"
 
 #lms dashboard.html
 msgid "Access Admin interface"
-msgstr "Prejsť do administrácie"
+msgstr "Prístup pre administrátora"
 
 #lms stat.html
 msgid "editor"
@@ -24959,28 +24962,28 @@ msgid ""
 "Below are training modules you have started but not yet completed. Click "
 "\"Proceed\" to continue."
 msgstr ""
-"Nižšie sú uvedené školiace moduly, ktoré ste začali, ale neukončili ste ich."
+"Nižšie sú uvedené vzdelávacie moduly, s ktorými ste začali, ale ešte ste ich neukončili."
 "Pokračujte kliknutím na tlačidlo \"Pokračovať\"."
 
 #: lms/templates/dashboard.html
 msgid "Below, access training modules you have yet to complete. Click"
-msgstr "Nižšie nájdete dostupné školiace moduly, ktoré ešte musíte dokončiť. Pokračujte kliknutím na "
+msgstr "Nižšie nájdete prístup k vzdelávacím modulom, ktoré musíte ešte dokončiť. Kliknutím na "
 
 #: lms/templates/dashboard.html
 msgid "Click"
-msgstr "Pokračujte kliknutím na"
+msgstr "Kliknutím na"
 
 #: lms/templates/dashboard.html
 msgid ""
 "to access the result of modules you passed. Below you can also find training"
 " modules you have not passed, and are no longer accessible"
 msgstr ""
-"pentru a accesa rezultatele modulelor parcurse. Mai jos poti gasi totodata si modulele de training"
-" pe care nu le-ai finalizat cu succes si care nu mai sunt disponibile"
+"získate prístup k výsledkom z modulov, ktoré ste absolvovali. Nižšie nájdete tiež vzdelávacie moduly," 
+" ktoré ste ešte neabsolvovali a už nie sú prístupné"
 
 #: lms/templates/dashboard.html
 msgid "to continue"
-msgstr " "
+msgstr "budete pokračovať ďalej"
 
 msgid "You have completed the training module"
 msgstr "Teljesítetted a kurzust"
@@ -25006,3 +25009,4 @@ msgstr "DOPLNKOVÉ RIEŠENIA"
 msgid "Start"
 msgstr "Štart"
 
+## Use this file
