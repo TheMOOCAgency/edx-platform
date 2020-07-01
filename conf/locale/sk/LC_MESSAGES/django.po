@@ -11865,7 +11865,7 @@ msgstr ""
 
 #: cms/djangoapps/contentstore/views/transcripts_ajax.py
 msgid "Transcripts are supported only for \"video\" modules."
-msgstr "Textové prepisy sú podporované len pre \"video\" moduly."
+msgstr "Textové prepisy sú podporované len pre \"video\" kurzy."
 
 #: cms/djangoapps/contentstore/views/transcripts_ajax.py
 msgid "Cannot find item by locator."
@@ -22832,7 +22832,7 @@ msgid ""
 "articles etc..."
 msgstr ""
 "Toto je len počiatočný obsah vášho článku. Potom ako ho vytvoríte, je možné "
-"využiť zložitejšie funkcie, ako napríklad pridávanie zásuvných modulov, "
+"využiť zložitejšie funkcie, ako napríklad pridávanie zásuvných kurzov, "
 "metadát, súvisiacich článkov atď..."
 
 #: wiki/forms.py
@@ -23118,14 +23118,14 @@ msgstr "Povolenia sa prevezmú z tohto článku"
 
 #: wiki/models/pluginbase.py
 msgid "A plugin was changed"
-msgstr "Zásuvný modul bol zmenený"
+msgstr "Zásuvný kurz bol zmenený"
 
 #: wiki/models/pluginbase.py
 msgid ""
 "The revision being displayed for this plugin.If you need to do a roll-back, "
 "simply change the value of this field."
 msgstr ""
-"Revízia, ktorá sa zobrazí pre tento zásuvný modul. V prípade, že sa chcete "
+"Revízia, ktorá sa zobrazí pre tento zásuvný kurz. V prípade, že sa chcete "
 "vrátiť k niektorej z predchádzajúcich verzií, jednoducho zmeňte hodnotu "
 "tohto poľa."
 
@@ -23951,10 +23951,10 @@ msgid "my account"
 msgstr "môj účet"
 
 msgid "my modules"
-msgstr "moje moduly"
+msgstr "moje kurzy"
 
 msgid "My modules"
-msgstr "Moje moduly"
+msgstr "Moje kurzy"
 
 msgid "IN PROGRESS"
 msgstr "ROZPRACOVANÉ"
@@ -24027,33 +24027,33 @@ msgstr "Rozvjíjaj svoje znalosti a zručnosti správy majetku: finančná kult�
 
 #: lms/templates/dashboard.html
 msgid "To follow a training module, select the thumbnail of your choice!"
-msgstr "Pre výber výcvikového modulu prosím kliknite na vybraný náhľad!"
+msgstr "Pre výber výcvikového kurzu prosím kliknite na vybraný náhľad!"
 
 #: lms/templates/dashboard.html
 msgid "Each training module belongs to a category and can take"
-msgstr "Každý výcvikový modul patrí do kategórie a môže obsahovať"
+msgstr "Každý výcvikový kurz patrí do kategórie a môže obsahovať"
 
 msgid "different formats"
 msgstr "rôznorodé formáty"
 
 msgid "Training modules"
-msgstr "Výcvikové moduly"
+msgstr "Výcvikové kurzy"
 
 msgid "Find all the information related to the training on the thumbnails below"
 msgstr "Najdite všetky informácie súvisiace s výcvikom na náhľade nižšie"
 
 msgid "timing of the module"
-msgstr "načasovanie modulu"
+msgstr "načasovanie kurzu"
 
 msgid "if the module is mandatory or not and formats of the module"
-msgstr "pokiaľ je tento modul povinný a jeho formáty"
+msgstr "pokiaľ je tento kurz povinný a jeho formáty"
 
 msgid "TRAINING MODULES CATEGORIES"
-msgstr "KATEGÓRIE VÝCVIKOVÝCH MODULOV"
+msgstr "KATEGÓRIE VÝCVIKOVÝCH kurzov"
 
 #: lms/templates/dashboard.html
 msgid "Your training modules are classified into 4 categories"
-msgstr "Vaše výcvikové moduly sú zaradené do 4 kategórií"
+msgstr "Vaše výcvikové kurzy sú zaradené do 4 kategórií"
 
 #: lms/templates/dashboard.html
 msgid "Know the essentials of financial markets"
@@ -24077,7 +24077,7 @@ msgstr "FORMÁTY"
 
 #: lms/templates/dashboard.html
 msgid "Each module is composed of different interactive formats:"
-msgstr "Každý modul je zložený z niekoľkých interaktívnych formátov:"
+msgstr "Každý kurz je zložený z niekoľkých interaktívnych formátov:"
 
 #: lms/templates/dashboard.html
 msgid "texts & images"
@@ -24166,7 +24166,7 @@ msgid "Back to course about page"
 msgstr "Späť na stránku s výberom kurzov"
 
 msgid "To end this training module, you have to access every chapters and finish the validation knowledge test."
-msgstr "Pre ukončenie tohto výcvikového modulu musíte prejsť všetky kapitoly a dokončiť vedomostný test."
+msgstr "Pre ukončenie tohto výcvikového kurzu musíte prejsť všetky kapitoly a dokončiť vedomostný test."
 
 msgid "You started the training module "
 msgstr "Práve ste spustili výcvikový modul"
@@ -24182,11 +24182,11 @@ msgstr "Vaše celkové skóre:"
 
 #: lms/templates/dashboard.html
 msgid "TO DO TRAINING MODULES"
-msgstr "NEDOKONČENÉ VÝCVIKOVÉ MODULY"
+msgstr "NEDOKONČENÉ VÝCVIKOVÉ kurzy"
 
 #: lms/templates/dashboard.html
 msgid "You haven't started yet the following training modules. Click on"
-msgstr "Ešte ste nezačali následujúci výcvikový modul. Kliknite prosím na"
+msgstr "Ešte ste nezačali následujúci výcvikový kurz. Kliknite prosím na"
 
 #: lms/templates/dashboard.html
 #: lms/templates/dashboard/_dashboard_course_listing.html
@@ -24195,15 +24195,15 @@ msgstr "Viac informácií"
 
 #: lms/templates/dashboard.html
 msgid "to access the training module description"
-msgstr "pre zobrazenie popisu tréningových modulov"
+msgstr "pre zobrazenie popisu tréningových kurzov"
 
 #: lms/templates/dashboard.html
 msgid "IN PROGRESS TRAINING MODULES"
-msgstr "PREBIEHAJÚCE TRÉNINGOVÉ MODULY"
+msgstr "PREBIEHAJÚCE TRÉNINGOVÉ kurzy"
 
 #: lms/templates/dashboard.html
 msgid "You have started but haven't completed yet the following training modules. To go on, please click on"
-msgstr "Máte rozpracované následujúce tréningové moduly. Pre pokračovanie kliknite na"
+msgstr "Máte rozpracované následujúce tréningové kurzy. Pre pokračovanie kliknite na"
 
 #: lms/templates/dashboard.html
 #: lms/templates/dashboard/_dashboard_course_listing.html
@@ -24212,11 +24212,11 @@ msgstr "Pokračovať"
 
 #: lms/templates/dashboard.html
 msgid "COMPLETED TRAINING MODULES"
-msgstr "Absolvované tréningové moduly"
+msgstr "Absolvované tréningové kurzy"
 
 #: lms/templates/dashboard.html
 msgid "You have completed the following training modules. Click on"
-msgstr "Dokončili ste nasledujúce tréningové moduly. Kliknite na"
+msgstr "Dokončili ste nasledujúce tréningové kurzy. Kliknite na"
 
 #: lms/templates/dashboard.html
 msgid "to access your results and scores"
@@ -24224,7 +24224,7 @@ msgstr "pre zobrazenie vašich výsledkov"
 
 #: lms/templates/dashboard.html
 msgid "More modules"
-msgstr "Viac modulov"
+msgstr "Viac kurzov"
 
 #: lms/templates/dashboard.html
 msgid "Welcome on"
@@ -24252,7 +24252,7 @@ msgstr "Späť na popis vzdelávacieho kurzu"
 
 #: lms/templates/courseware/courseware.html
 msgid "The training campaign is over. You can access the training module content. However, you can't do the test to validate your knowledge."
-msgstr "Tréningová kampaň už skončila. Môžete si zobraziť obsah tréningového modulu, avšak nie je možné vyplniť test pre overenie vaších znalostí."
+msgstr "Tréningová kampaň už skončila. Môžete si zobraziť obsah tréningového kurzu, avšak nie je možné vyplniť test pre overenie vaších znalostí."
 
 #: lms/templates/courseware/courseware.html
 msgid "Go to studio"
@@ -24268,7 +24268,7 @@ msgstr "Pre vytvorenie tréningovej kampane"
 
 #: cms/templates/index.html
 msgid "select a training module in"
-msgstr "Vyberte tréningový modul v"
+msgstr "Vyberte tréningový kurz v"
 
 #: cms/templates/index.html
 msgid "then click on"
@@ -24280,11 +24280,11 @@ msgstr "Vytvoriť vlastnú kampaň"
 
 #: cms/templates/index.html
 msgid "My Modules"
-msgstr "Moje moduly"
+msgstr "Moje kurzy"
 
 #: cms/templates/index.html
 msgid "Welcome to your training modules management interface"
-msgstr "Vítajte vo svojom rozhraní pre správu tréningových modulov"
+msgstr "Vítajte vo svojom rozhraní pre správu tréningových kurzov"
 
 #: cms/templates/index.html
 msgid "You can browse within two separate universes"
@@ -24296,7 +24296,7 @@ msgstr "MOJE KAMPANE"
 
 #: cms/templates/index.html
 msgid "MY MODULES"
-msgstr "MOJE MODULY"
+msgstr "MOJE kurzy"
 
 #: cms/templates/index.html
 msgid "MICRO SITES"
@@ -24377,7 +24377,7 @@ msgstr "Štatistiky"
 
 #: cms/templates/index.html
 msgid "About the training module"
-msgstr "Informácie o tréningovom module"
+msgstr "Informácie o tréningovom kurze"
 
 #: cms/templates/index.html
 msgid "My campaigns"
@@ -24385,7 +24385,7 @@ msgstr "Moje kampane"
 
 #: cms/templates/index.html
 msgid "You have at your disposal a library of training modules made available by Amundi. Select the module of your choice and launch the associated training campaign."
-msgstr "Máte k dispozícii knižnicu tréningových modulov od Amundi. Vyberte si modul a spusťte príslušnú tréningovú kampaň."
+msgstr "Máte k dispozícii knižnicu tréningových kurzov od Amundi. Vyberte si kurz a spusťte príslušnú tréningovú kampaň."
 
 #: cms/templates/manage_course.html
 msgid "Provide all the information required to launch your training campaign: starting/ending date, minimum percentage of success required, and campaign type."
@@ -24449,11 +24449,11 @@ msgstr "MINIMÁLNA POŽADOVANÁ MIERA ÚSPEŠNOSTI"
 
 #: cms/templates/manage_course.html
 msgid "Define the minimum score required to validate the training module"
-msgstr "Zadajte minimálnu hranicu úspešnosti pre úspešné absolvovanie tréningového modulu"
+msgstr "Zadajte minimálnu hranicu úspešnosti pre úspešné absolvovanie tréningového kurzu"
 
 #: cms/templates/manage_course.html
 msgid "Minimum score required to validate the training module and receive the certificate of achievement"
-msgstr "Minimálne skóre požadované pre úspešné absolvovanie tréningového modulu a jeho následné získanie"
+msgstr "Minimálne skóre požadované pre úspešné absolvovanie tréningového kurzu a jeho následné získanie"
 
 #: cms/templates/manage_course.html
 msgid "CAMPAIGN TYPE"
@@ -24581,7 +24581,7 @@ msgstr "Dokončené tréningové kampane"
 
 #: cms/templates/index.html
 msgid "Access a training modules library provided by Amundi"
-msgstr "Prejdite do knižnice tréningových modulov od Amundi"
+msgstr "Prejdite do knižnice tréningových kurzov od Amundi"
 
 #: cms/templates/index.html
 msgid "Launch a training campaign"
@@ -24589,7 +24589,7 @@ msgstr "Spustiť tréningovú kampaň"
 
 #: cms/templates/index.html
 msgid "My modules:"
-msgstr "Moje moduly:"
+msgstr "Moje kurzy:"
 
 #log
 msgid "logout"
@@ -24607,7 +24607,7 @@ msgstr "Zatiaľ nemáte žiadne spustené kampane."
 # lms dashboard.html
 
 msgid "No training modules available in this section."
-msgstr "V tejto časti nie sú k dispozícii žiadne vzdelávacie moduly."
+msgstr "V tejto časti nie sú k dispozícii žiadne vzdelávacie kurzy."
 
 # lms dashboard.html
 
@@ -24856,7 +24856,7 @@ msgid "The participants' list is successfully uploaded."
 msgstr "Zoznam účastníkov bol úspešne nahraný."
 
 msgid "An email invitation to participate to the training module has been sent to the participants."
-msgstr "Emailová pozvánka k tréningovému modulu bola odoslaná, účastníkom."
+msgstr "Emailová pozvánka k tréningovému kurzu bola odoslaná, účastníkom."
 
 msgid "OUR SOLUTIONS"
 msgstr "NAŠE RIEŠENIE"
@@ -24909,7 +24909,7 @@ msgid "Not validated"
 msgstr "Neschválené"
 
 msgid "SEARCH IN MY MODULES"
-msgstr "PREHĽADAŤ MOJE MODULY"
+msgstr "PREHĽADAŤ MOJE kurzy"
 
 msgid "Search in a module"
 msgstr "prehľadať modul"
@@ -24927,7 +24927,7 @@ msgid "New search"
 msgstr "nové hľadanie"
 
 msgid "results found in your modules"
-msgstr "výsledky najdené vo vašich moduloch"
+msgstr "výsledky najdené vo vašich kurzoch"
 
 msgid "results found in your campaigns"
 msgstr "výsledky najdené vo vašich kampaniach"
@@ -24944,7 +24944,7 @@ msgid "Congratulations"
 msgstr "Blahoželanie"
 
 msgid "Unfortunately, you haven't achieved the minimum score ({score}%) required to validate the training module."
-msgstr "Bohužiaľ, nedosiahli ste minimálny počet bodov ({score}%) potrebný na zvládnutie tréningového modulu"
+msgstr "Bohužiaľ, nedosiahli ste minimálny počet bodov ({score}%) potrebný na zvládnutie tréningového kurzu"
 
 msgid "Start again"
 msgstr "Začnite ešte raz"
@@ -24962,12 +24962,12 @@ msgid ""
 "Below are training modules you have started but not yet completed. Click "
 "\"Proceed\" to continue."
 msgstr ""
-"Nižšie sú uvedené vzdelávacie moduly, s ktorými ste začali, ale ešte ste ich neukončili."
-"Pokračujte kliknutím na tlačidlo \"Pokračovať\"."
+"Nižšie sú uvedené vzdelávacie kurzy, s ktorými ste začali, ale ešte ste ich neukončili."
+" Pokračujte kliknutím na tlačidlo \"Pokračovať\"."
 
 #: lms/templates/dashboard.html
 msgid "Below, access training modules you have yet to complete. Click"
-msgstr "Nižšie nájdete prístup k vzdelávacím modulom, ktoré musíte ešte dokončiť. Kliknutím na "
+msgstr "Nižšie nájdete prístup k vzdelávacím kurzom, ktoré musíte ešte dokončiť. Kliknutím na "
 
 #: lms/templates/dashboard.html
 msgid "Click"
@@ -24978,7 +24978,7 @@ msgid ""
 "to access the result of modules you passed. Below you can also find training"
 " modules you have not passed, and are no longer accessible"
 msgstr ""
-"získate prístup k výsledkom z modulov, ktoré ste absolvovali. Nižšie nájdete tiež vzdelávacie moduly," 
+"získate prístup k výsledkom z kurzov, ktoré ste absolvovali. Nižšie nájdete tiež vzdelávacie kurzy," 
 " ktoré ste ešte neabsolvovali a už nie sú prístupné"
 
 #: lms/templates/dashboard.html
