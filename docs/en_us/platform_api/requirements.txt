@@ -10,7 +10,7 @@ lazy
 sphinxcontrib-napoleon==0.2.6
 sphinx_rtd_theme
 stevedore==0.14.1
-djangorestframework==3.2.3
+djangorestframework==3.11.2
 PyYAML>=3.10
 mock
 django-model-utils==2.3.1
